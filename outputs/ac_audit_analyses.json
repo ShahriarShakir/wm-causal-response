@@ -1,0 +1,357 @@
+{
+ "taxonomy": {
+  "DIAMOND": {
+   "tracked": 11,
+   "aligned-then-forgotten": 6,
+   "never-aligned": 7,
+   "partial": 2
+  },
+  "IRIS": {
+   "tracked": 5,
+   "aligned-then-forgotten": 8,
+   "never-aligned": 11,
+   "partial": 2
+  }
+ },
+ "modes": {
+  "DIAMOND/Alien": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.1798202946470733,
+   "d20": 0.0029425028865328446
+  },
+  "DIAMOND/Amidar": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 4.794443257650999e-05,
+   "d20": 5.706676453126628e-05
+  },
+  "DIAMOND/Assault": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 12,
+   "peak": 0.6069737343679383,
+   "d20": 0.12473857015408038
+  },
+  "DIAMOND/Asterix": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 1.1110216888470748,
+   "d20": 0.8307476550028751
+  },
+  "DIAMOND/BankHeist": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.00841686510512995,
+   "d20": 1.956123053737727e-05
+  },
+  "DIAMOND/BattleZone": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 0.6752655978308487,
+   "d20": 0.6248307815469186
+  },
+  "DIAMOND/Boxing": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 12,
+   "peak": 0.6473959178683949,
+   "d20": 0.07367210368197817
+  },
+  "DIAMOND/Breakout": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 0.9968909579158224,
+   "d20": 0.9275265068771283
+  },
+  "DIAMOND/ChopperCommand": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 0.6762768979735008,
+   "d20": 0.4149193762134132
+  },
+  "DIAMOND/CrazyClimber": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 16,
+   "peak": 0.514234977415687,
+   "d20": 0.0662194567725106
+  },
+  "DIAMOND/DemonAttack": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 1.16608392147485,
+   "d20": 0.637146169447746
+  },
+  "DIAMOND/Freeway": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.16639963541083716,
+   "d20": 0.00023580670806931238
+  },
+  "DIAMOND/Frostbite": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 0.8965526243198797,
+   "d20": 0.6157569199989471
+  },
+  "DIAMOND/Gopher": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 1.0551252600488625,
+   "d20": 1.0331520439248705
+  },
+  "DIAMOND/Hero": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 16,
+   "peak": 0.8755242859847991,
+   "d20": 0.1800189696146455
+  },
+  "DIAMOND/Jamesbond": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 8,
+   "peak": 1.0573563136361577,
+   "d20": 0.1049837090340298
+  },
+  "DIAMOND/Kangaroo": {
+   "mode": "partial",
+   "horizon": 0,
+   "peak": NaN,
+   "d20": 0.028853699804586606
+  },
+  "DIAMOND/Krull": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 16,
+   "peak": 0.8801117768924931,
+   "d20": 0.20983025888153328
+  },
+  "DIAMOND/KungFuMaster": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 0.9499192950998747,
+   "d20": 0.5182622278931567
+  },
+  "DIAMOND/MsPacman": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.00018796699478298902,
+   "d20": 3.5618542339457554e-05
+  },
+  "DIAMOND/Pong": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 0.8283790507948356,
+   "d20": 0.8478862044452333
+  },
+  "DIAMOND/PrivateEye": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 0.7397645480814603,
+   "d20": 0.7355282964627705
+  },
+  "DIAMOND/Qbert": {
+   "mode": "partial",
+   "horizon": 0,
+   "peak": NaN,
+   "d20": 0.12973764134159202
+  },
+  "DIAMOND/RoadRunner": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.04272288521353551,
+   "d20": 0.009395765738719518
+  },
+  "DIAMOND/Seaquest": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 1.0482654483052762,
+   "d20": 0.9236994949188814
+  },
+  "DIAMOND/UpNDown": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.06300916583159218,
+   "d20": 0.005032235678917209
+  },
+  "IRIS/Alien": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.007016126439143512,
+   "d20": 0.0022014023744717577
+  },
+  "IRIS/Amidar": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.0,
+   "d20": 0.0
+  },
+  "IRIS/Assault": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.07652621145054661,
+   "d20": 0.02641064251800165
+  },
+  "IRIS/Asterix": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.05110672061104327,
+   "d20": 0.037503549607629964
+  },
+  "IRIS/BankHeist": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.01053956278099195,
+   "d20": -3.818548334871292e-06
+  },
+  "IRIS/BattleZone": {
+   "mode": "tracked",
+   "horizon": 2,
+   "peak": 0.5555078331570255,
+   "d20": 0.42489983487962096
+  },
+  "IRIS/Boxing": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 12,
+   "peak": 0.29297152343656546,
+   "d20": 0.05635487444096202
+  },
+  "IRIS/Breakout": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 0.3214115558425811,
+   "d20": 0.26773240667263687
+  },
+  "IRIS/ChopperCommand": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 2,
+   "peak": 0.26701400541258197,
+   "d20": 0.12722802444669046
+  },
+  "IRIS/CrazyClimber": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 2,
+   "peak": 0.14304131462409758,
+   "d20": 0.06799949050508562
+  },
+  "IRIS/DemonAttack": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 8,
+   "peak": 0.11198347716266807,
+   "d20": 0.02582266418355244
+  },
+  "IRIS/Freeway": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 2,
+   "peak": 0.3983255756607823,
+   "d20": 0.06554251018984848
+  },
+  "IRIS/Frostbite": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 16,
+   "peak": 0.15416293583604884,
+   "d20": 0.03177351365594579
+  },
+  "IRIS/Gopher": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 0.5950430315462152,
+   "d20": 0.5985882916183113
+  },
+  "IRIS/Hero": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 2,
+   "peak": 0.2497348039592851,
+   "d20": 0.08713656774249243
+  },
+  "IRIS/Jamesbond": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.05289469139124546,
+   "d20": 0.001143089789815245
+  },
+  "IRIS/Kangaroo": {
+   "mode": "partial",
+   "horizon": 0,
+   "peak": NaN,
+   "d20": 0.09328408338647008
+  },
+  "IRIS/Krull": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.00365268992505328,
+   "d20": 0.0024498231620944397
+  },
+  "IRIS/KungFuMaster": {
+   "mode": "tracked",
+   "horizon": 99,
+   "peak": 0.3363440082125187,
+   "d20": 0.23023574549639886
+  },
+  "IRIS/MsPacman": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.0,
+   "d20": 0.0
+  },
+  "IRIS/Pong": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.07881037877220817,
+   "d20": 0.08245419170759047
+  },
+  "IRIS/PrivateEye": {
+   "mode": "tracked",
+   "horizon": 2,
+   "peak": 0.22749779022386077,
+   "d20": 0.17134906021101787
+  },
+  "IRIS/Qbert": {
+   "mode": "partial",
+   "horizon": 0,
+   "peak": NaN,
+   "d20": 0.082711303195496
+  },
+  "IRIS/RoadRunner": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.0021908484629375776,
+   "d20": 0.0
+  },
+  "IRIS/Seaquest": {
+   "mode": "aligned-then-forgotten",
+   "horizon": 16,
+   "peak": 0.3447877376125036,
+   "d20": 0.08937053864146913
+  },
+  "IRIS/UpNDown": {
+   "mode": "never-aligned",
+   "horizon": 0,
+   "peak": 0.04854265407976861,
+   "d20": 0.0022713465941556327
+  }
+ },
+ "mode_agreement": 16,
+ "crossarch_ci": [
+  0.3921196581196581,
+  0.8728205128205128
+ ],
+ "holm": {
+  "crossarch_cons": 0.0,
+  "crossarch_align": 0.001,
+  "crossarch_psnr": 0.001,
+  "I_psnr_cons": 0.1616,
+  "D_psnr_align": 0.38220000000000004,
+  "D_lat_all": 0.7764,
+  "I_lat_all": 0.7764,
+  "D_psnr_cons": 0.804,
+  "I_psnr_align": 0.804,
+  "I_lat_well": 0.804,
+  "D_lat_well": 0.804
+ },
+ "per_seed_rho": [
+  0.7148717948717949,
+  0.6177777777777778,
+  0.7791452991452991,
+  0.5617094017094016,
+  0.6663247863247863,
+  0.6902564102564103,
+  0.7059829059829059
+ ]
+}

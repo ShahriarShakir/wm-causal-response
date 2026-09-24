@@ -1,0 +1,562 @@
+{
+ "experiment": "object_audit_v23",
+ "arch": "diamond",
+ "game": "ALE/Assault-v5",
+ "n_episodes": 6,
+ "delays": [
+  8,
+  20
+ ],
+ "template_threshold": 0.6,
+ "raw": [
+  {
+   "episode": 0,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.0,
+      -14.0
+     ],
+     "true_disp_norm": 14.0,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.6632513403892517,
+      "score_b": 0.6139875650405884,
+      "present": true,
+      "template_shape": [
+       [
+        8,
+        12
+       ],
+       [
+        8,
+        12
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       6.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 0.42857142857142855,
+      "dir_err_deg": 180.0,
+      "self_score": 0.9999998807907104
+     }
+    },
+    "20": {
+     "true_disp": [
+      0.5416666666666572,
+      -12.166666666666671
+     ],
+     "true_disp_norm": 12.178718346178947,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.625,
+       0.5625
+      ],
+      "model_disp": [
+       0.0,
+       7.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 0.5747731248088382,
+      "dir_err_deg": 177.45084382166027
+     },
+     "template": {
+      "score_a": 0.6609066724777222,
+      "score_b": 0.7927721738815308,
+      "present": true,
+      "template_shape": [
+       [
+        8,
+        12
+       ],
+       [
+        7,
+        10
+       ]
+      ],
+      "model_disp": [
+       0.5,
+       3.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 0.24972917335783024,
+      "dir_err_deg": 167.98852161363462,
+      "self_score": 0.9999997019767761
+     }
+    }
+   }
+  },
+  {
+   "episode": 1,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.0,
+      8.0
+     ],
+     "true_disp_norm": 8.0,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.7843817472457886,
+      "score_b": 0.839479386806488,
+      "present": true,
+      "template_shape": [
+       [
+        7,
+        10
+       ],
+       [
+        7,
+        10
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       -22.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 2.75,
+      "dir_err_deg": 180.0,
+      "self_score": 0.9999997019767761
+     }
+    },
+    "20": {
+     "true_disp": [
+      -0.8666666666666458,
+      8.0
+     ],
+     "true_disp_norm": 8.046807510504465,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.8156012296676636,
+      "score_b": 0.7036103010177612,
+      "present": true,
+      "template_shape": [
+       [
+        7,
+        10
+       ],
+       [
+        8,
+        12
+       ]
+      ],
+      "model_disp": [
+       -0.5,
+       0.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 0.06213644347118903,
+      "dir_err_deg": 83.81706983405189,
+      "self_score": 0.9999998807907104
+     }
+    }
+   }
+  },
+  {
+   "episode": 3,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.0,
+      14.0
+     ],
+     "true_disp_norm": 14.0,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.7800365686416626,
+      "score_b": 0.814702033996582,
+      "present": true,
+      "template_shape": [
+       [
+        7,
+        10
+       ],
+       [
+        7,
+        10
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       10.0
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.7142857142857143,
+      "dir_err_deg": 0.0,
+      "self_score": 0.9999997019767761
+     }
+    },
+    "20": {
+     "true_disp": [
+      -0.5416666666666572,
+      24.5
+     ],
+     "true_disp_norm": 24.505987080258116,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.7973951697349548,
+      "score_b": 0.793114423751831,
+      "present": true,
+      "template_shape": [
+       [
+        7,
+        10
+       ],
+       [
+        7,
+        10
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       22.0
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.8977398024388528,
+      "dir_err_deg": 1.2665370899842432,
+      "self_score": 0.9999998807907104
+     }
+    }
+   }
+  },
+  {
+   "episode": 4,
+   "d0": 3,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.0,
+      6.0
+     ],
+     "true_disp_norm": 6.0,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.6616696715354919,
+      "score_b": 0.6601480841636658,
+      "present": true,
+      "template_shape": [
+       [
+        8,
+        12
+       ],
+       [
+        8,
+        12
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       -10.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 1.6666666666666667,
+      "dir_err_deg": 180.0,
+      "self_score": 0.9999998807907104
+     }
+    },
+    "20": {
+     "true_disp": [
+      -0.8666666666666458,
+      16.0
+     ],
+     "true_disp_norm": 16.02345503039563,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       1.5,
+       0.9
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 0.0,
+      "dir_err_deg": null
+     },
+     "template": {
+      "score_a": 0.8155759572982788,
+      "score_b": 0.6125829219818115,
+      "present": true,
+      "template_shape": [
+       [
+        7,
+        10
+       ],
+       [
+        8,
+        12
+       ]
+      ],
+      "model_disp": [
+       -0.5,
+       58.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 3.6198282469259726,
+      "dir_err_deg": 2.6065745511889324,
+      "self_score": 0.9999998807907104
+     }
+    }
+   }
+  },
+  {
+   "episode": 5,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.5416666666666572,
+      -7.75
+     ],
+     "true_disp_norm": 7.768906150660965,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.7854823470115662,
+      "score_b": 0.7950658202171326,
+      "present": true,
+      "template_shape": [
+       [
+        7,
+        10
+       ],
+       [
+        7,
+        10
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       8.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 1.029745995749913,
+      "dir_err_deg": 176.00195790079664,
+      "self_score": 0.9999998807907104
+     }
+    },
+    "20": {
+     "true_disp": [
+      0.0,
+      6.399999999999999
+     ],
+     "true_disp_norm": 6.399999999999999,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.8111365437507629,
+      "score_b": 0.8503678441047668,
+      "present": true,
+      "template_shape": [
+       [
+        7,
+        10
+       ],
+       [
+        7,
+        10
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       8.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 1.2500000000000002,
+      "dir_err_deg": 0.0,
+      "self_score": 0.9999997019767761
+     }
+    }
+   }
+  }
+ ],
+ "panel_key": {
+  "8709af25be": {
+   "arch": "diamond",
+   "game": "Assault",
+   "episode": 0,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "18f0d7df35": {
+   "arch": "diamond",
+   "game": "Assault",
+   "episode": 1,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "dc4d57c83b": {
+   "arch": "diamond",
+   "game": "Assault",
+   "episode": 3,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "d2ff5ef1bd": {
+   "arch": "diamond",
+   "game": "Assault",
+   "episode": 4,
+   "d0": 3,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "9b91b8efc7": {
+   "arch": "diamond",
+   "game": "Assault",
+   "episode": 5,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  }
+ }
+}

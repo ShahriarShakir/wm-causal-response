@@ -1,0 +1,86 @@
+{
+ "DIAMOND/Alien/d1": {
+  "n": 420,
+  "true_exactly_zero": 277,
+  "true_max": 3.03800892829895,
+  "model_median": 1.2532453536987305,
+  "model_gt_0": 420
+ },
+ "DIAMOND/Alien/d3": {
+  "n": 420,
+  "true_exactly_zero": 276,
+  "true_max": 3.5338363647460938,
+  "model_median": 3.2550594806671143,
+  "model_gt_0": 420
+ },
+ "DIAMOND/Alien/d5": {
+  "n": 420,
+  "true_exactly_zero": 264,
+  "true_max": 3.03800892829895,
+  "model_median": 3.0545239448547363,
+  "model_gt_0": 420
+ },
+ "DIAMOND/BankHeist/d1": {
+  "n": 420,
+  "true_exactly_zero": 297,
+  "true_max": 44.32469177246094,
+  "model_median": 0.2940903306007385,
+  "model_gt_0": 420
+ },
+ "DIAMOND/BankHeist/d3": {
+  "n": 420,
+  "true_exactly_zero": 156,
+  "true_max": 57.80493927001953,
+  "model_median": 1.12979257106781,
+  "model_gt_0": 420
+ },
+ "DIAMOND/BankHeist/d5": {
+  "n": 420,
+  "true_exactly_zero": 84,
+  "true_max": 51.15053176879883,
+  "model_median": 1.6525805592536926,
+  "model_gt_0": 420
+ },
+ "IRIS/Alien/d1": {
+  "n": 420,
+  "true_exactly_zero": 277,
+  "true_max": 3.03800892829895,
+  "model_median": 1.5216466188430786,
+  "model_gt_0": 303
+ },
+ "IRIS/Alien/d3": {
+  "n": 420,
+  "true_exactly_zero": 276,
+  "true_max": 3.5338363647460938,
+  "model_median": 3.0971946716308594,
+  "model_gt_0": 376
+ },
+ "IRIS/Alien/d5": {
+  "n": 420,
+  "true_exactly_zero": 264,
+  "true_max": 3.03800892829895,
+  "model_median": 3.2827823162078857,
+  "model_gt_0": 400
+ },
+ "IRIS/BankHeist/d1": {
+  "n": 420,
+  "true_exactly_zero": 297,
+  "true_max": 44.32469177246094,
+  "model_median": 0.5095327794551849,
+  "model_gt_0": 308
+ },
+ "IRIS/BankHeist/d3": {
+  "n": 420,
+  "true_exactly_zero": 156,
+  "true_max": 57.80493927001953,
+  "model_median": 20.216527938842773,
+  "model_gt_0": 371
+ },
+ "IRIS/BankHeist/d5": {
+  "n": 420,
+  "true_exactly_zero": 84,
+  "true_max": 51.15053176879883,
+  "model_median": 20.287363052368164,
+  "model_gt_0": 384
+ }
+}

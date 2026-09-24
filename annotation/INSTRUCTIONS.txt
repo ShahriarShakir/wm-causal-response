@@ -1,0 +1,20 @@
+BLINDED ANNOTATION (about 30 minutes)
+
+1. Unzip human_panels_60.zip. You get 60 pictures with random names.
+2. Open human_sample.xlsx. Column A lists the same 60 names. For each row, open that picture.
+3. Each picture shows five game screens, left to right:
+   1 = what really happened after action a
+   2 = what really happened after action b
+   3 = what the AI model imagined after action a
+   4 = what the AI model imagined after action b
+   5 = the real game with a YELLOW BOX around the object to look at
+4. Answer from the drop-downs:
+   B: can you see the boxed object in screen 3?  yes / no / unsure
+   C: can you see it in screen 4?                 yes / no / unsure
+   D: screens 1 to 2 show which way it really moved; did it move the same way from screen 3 to 4?
+      yes / no / unsure   (write no if B or C is no)
+   E: did it move about the same distance in 3 to 4 as in 1 to 2?
+      yes / no - too little / no - too much / unsure   (leave blank if D is no)
+5. Blurry but recognisable = yes. Did not move in 1-2 and did not move in 3-4 = yes for D.
+   Cannot decide in ten seconds = unsure. Do not skip rows. Do not look at the paper or results while doing it.
+6. Save the sheet and send it back.

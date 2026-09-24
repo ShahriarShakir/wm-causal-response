@@ -1,0 +1,21 @@
+{
+ "experiment": "positive_control_real_model",
+ "delay": 10,
+ "tasks": {
+  "cartpole_swingup": {
+   "single_mean": -2.671696431950083e-05,
+   "single_std": 7.606087519863695e-05,
+   "sustained_mean": 0.000929696588377868,
+   "sustained_std": 0.0005921440604904887,
+   "n": 10
+  },
+  "cheetah_run": {
+   "single_mean": -5.149879951364806e-06,
+   "single_std": 0.00017311448522829438,
+   "sustained_mean": -0.0018730821062440544,
+   "sustained_std": 0.0015631449660090068,
+   "n": 10
+  }
+ },
+ "metric_registers_sustained": false
+}

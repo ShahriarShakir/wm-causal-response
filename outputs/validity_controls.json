@@ -1,0 +1,23 @@
+{
+ "experiment": "validity_controls",
+ "note": "Run BEFORE interpreting the pilot. Confirms the checkpoints are not degenerate: with SUSTAINED opposite actions the models track ~30% of the true effect, so they do respond to actions. The pilot's near-zero causal response therefore reflects a DELAYED single-cause effect being lost, not a dead model.",
+ "tasks": {
+  "cartpole_swingup": {
+   "action_dim": 1,
+   "ckpt_epoch": 87,
+   "pixel_mse_mean": 179.4,
+   "sustained_sim_diff": 2.473,
+   "sustained_model_diff": 0.742,
+   "sustained_ratio": 0.3001
+  },
+  "cheetah_run": {
+   "action_dim": 6,
+   "ckpt_epoch": 96,
+   "pixel_mse_mean": 369.2,
+   "sustained_sim_diff": 6.864,
+   "sustained_model_diff": 2.277,
+   "sustained_ratio": 0.3317
+  }
+ },
+ "caveat": "PREDICTION QUALITY IS MEDIOCRE (pixel MSE 179-369 on a 0-255 scale). The obvious a reader objection -- 'your world models are weak, that is why they lose causes' -- is NOT yet answered. Any claim must either use a better-trained model or show the effect is independent of prediction quality."
+}

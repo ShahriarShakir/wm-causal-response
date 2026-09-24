@@ -1,0 +1,205 @@
+{
+ "experiment": "object_audit_v23",
+ "arch": "diamond",
+ "game": "ALE/Jamesbond-v5",
+ "n_episodes": 6,
+ "delays": [
+  8,
+  20
+ ],
+ "template_threshold": 0.6,
+ "raw": [
+  {
+   "episode": 0,
+   "d0": 1,
+   "delays": {
+    "20": {
+     "true_disp": [
+      -22.0,
+      14.0
+     ],
+     "true_disp_norm": 26.076809620810597,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.6267502307891846,
+      "score_b": 0.6268909573554993,
+      "present": true,
+      "template_shape": [
+       [
+        8,
+        5
+       ],
+       [
+        8,
+        5
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       -35.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 1.342188730482898,
+      "dir_err_deg": 122.47119229084849,
+      "self_score": 0.9999998807907104
+     }
+    }
+   }
+  },
+  {
+   "episode": 1,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -0.151057160938592,
+      0.6723747875961124
+     ],
+     "true_disp_norm": 0.6891343271567197,
+     "zero_disp_passes": {
+      "2": true,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.5598194130925508,
+       0.5540838852097131
+      ],
+      "model_disp": [
+       -0.2788764297648356,
+       -0.17949974296362825
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.48125704696046995,
+      "dir_err_deg": 110.10553601392812
+     },
+     "template": {
+      "score_a": 0.5851729512214661,
+      "score_b": 0.8059708476066589,
+      "present": false,
+      "template_shape": [
+       [
+        31,
+        33
+       ],
+       [
+        50,
+        33
+       ]
+      ],
+      "self_score": 0.9999998211860657
+     }
+    },
+    "20": {
+     "true_disp": [
+      0.6232988396428709,
+      -2.2858871421011173
+     ],
+     "true_disp_norm": 2.369341990917175,
+     "zero_disp_passes": {
+      "2": false,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.5522552255225522,
+       0.5763490241102182
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.0,
+      "dir_err_deg": null
+     },
+     "template": {
+      "score_a": 0.7808416485786438,
+      "score_b": 0.656431257724762,
+      "present": true,
+      "template_shape": [
+       [
+        50,
+        33
+       ],
+       [
+        31,
+        33
+       ]
+      ],
+      "model_disp": [
+       -9.5,
+       6.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 4.742288183890502,
+      "dir_err_deg": 137.5278484773527,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 2,
+   "d0": 1,
+   "delays": {}
+  },
+  {
+   "episode": 3,
+   "d0": 1,
+   "delays": {}
+  },
+  {
+   "episode": 5,
+   "d0": 1,
+   "delays": {}
+  }
+ ],
+ "panel_key": {
+  "a78580cbbf": {
+   "arch": "diamond",
+   "game": "Jamesbond",
+   "episode": 0,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "aa019821a6": {
+   "arch": "diamond",
+   "game": "Jamesbond",
+   "episode": 1,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  }
+ }
+}

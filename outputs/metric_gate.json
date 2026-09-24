@@ -1,0 +1,22 @@
+{
+ "experiment": "metric_gate",
+ "n_episodes": 200,
+ "consistency": {
+  "causal_mean": 0.6977161392022896,
+  "causal_std": 0.007437238532250131,
+  "blind_mean": 0.6974102275176528,
+  "blind_std": 0.007484591178354105,
+  "separation_sigma": 0.04100189448181309
+ },
+ "causal_response": {
+  "causal_mean": 0.9994141303698986,
+  "causal_std": 0.006609006444120444,
+  "blind_mean": 0.00044680645873520846,
+  "blind_std": 0.0065704621780380895,
+  "separation_sigma": 151.59445360902555
+ },
+ "pass_causal_separates": true,
+ "pass_consistency_blind": true,
+ "verdict": "METRICS COME APART - proceed.",
+ "caveat": "Synthetic controls. The blind predictor was CONSTRUCTED to be consistent-but-acausal, so this validates the METRIC only. It is NOT evidence that real models are acausal."
+}

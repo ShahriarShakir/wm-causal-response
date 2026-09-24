@@ -1,0 +1,634 @@
+{
+ "experiment": "object_audit_v23",
+ "arch": "iris",
+ "game": "ALE/BankHeist-v5",
+ "n_episodes": 6,
+ "delays": [
+  8,
+  20
+ ],
+ "template_threshold": 0.6,
+ "raw": [
+  {
+   "episode": 0,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -6.521335807050093,
+      3.5404452690167005
+     ],
+     "true_disp_norm": 7.420415986399713,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.5102040816326531,
+       0.6363636363636364
+      ],
+      "model_disp": [
+       1.1999999999999886,
+       1.5428571428571445
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.2634065861818924,
+      "dir_err_deg": 99.37736662096513
+     },
+     "template": {
+      "score_a": 0.8215925693511963,
+      "score_b": 0.4006054401397705,
+      "present": false,
+      "template_shape": [
+       [
+        13,
+        8
+       ],
+       [
+        11,
+        12
+       ]
+      ],
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      -3.8682745825603035,
+      2.7222634508348733
+     ],
+     "true_disp_norm": 4.730144452533504,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.7142857142857143,
+       0.6363636363636364
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.0,
+      "dir_err_deg": null
+     },
+     "template": {
+      "score_a": 0.9514001607894897,
+      "score_b": 0.47303634881973267,
+      "present": false,
+      "template_shape": [
+       [
+        13,
+        8
+       ],
+       [
+        11,
+        12
+       ]
+      ],
+      "self_score": 0.9999977350234985
+     }
+    }
+   }
+  },
+  {
+   "episode": 1,
+   "d0": 2,
+   "delays": {
+    "8": {
+     "true_disp": [
+      7.051948051948045,
+      7.90408163265306
+     ],
+     "true_disp_norm": 10.592661506109657,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.44545454545454544,
+       0.5
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 0.0,
+      "dir_err_deg": null
+     },
+     "template": {
+      "score_a": 0.2762536108493805,
+      "score_b": 0.8995368480682373,
+      "present": false,
+      "template_shape": [
+       [
+        11,
+        12
+       ],
+       [
+        13,
+        8
+       ]
+      ],
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      1.7298456260720343,
+      -35.808919382504286
+     ],
+     "true_disp_norm": 35.85067744454394,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.2636363636363636,
+       0.27358490566037735
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 0.0,
+      "dir_err_deg": null
+     },
+     "template": {
+      "score_a": 0.35458096861839294,
+      "score_b": 0.7948601245880127,
+      "present": false,
+      "template_shape": [
+       [
+        11,
+        12
+       ],
+       [
+        13,
+        8
+       ]
+      ],
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 2,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      8.909090909090907,
+      5.831354359925783
+     ],
+     "true_disp_norm": 10.647844593976364,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.5636363636363636,
+       0.5102040816326531
+      ],
+      "model_disp": [
+       -0.8129032258064512,
+       -11.303225806451621
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 1.0642923190639486,
+      "dir_err_deg": 127.31984722694777
+     },
+     "template": {
+      "score_a": 0.5337368249893188,
+      "score_b": 0.8711698651313782,
+      "present": false,
+      "template_shape": [
+       [
+        11,
+        12
+       ],
+       [
+        13,
+        8
+       ]
+      ],
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      10.500927643784792,
+      -34.114100185528756
+     ],
+     "true_disp_norm": 35.693715313039306,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.6363636363636364,
+       0.5102040816326531
+      ],
+      "model_disp": [
+       -1.1999999999999886,
+       -1.5428571428571445
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 0.05475996056686921,
+      "dir_err_deg": 54.98428129104428
+     },
+     "template": {
+      "score_a": 0.3755229413509369,
+      "score_b": 0.9758344292640686,
+      "present": false,
+      "template_shape": [
+       [
+        11,
+        12
+       ],
+       [
+        13,
+        8
+       ]
+      ],
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 3,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.0,
+      0.09904153354632683
+     ],
+     "true_disp_norm": 0.09904153354632683,
+     "zero_disp_passes": {
+      "2": true,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.2747603833865815,
+       0.2747603833865815
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.0,
+      "dir_err_deg": null
+     },
+     "template": {
+      "score_a": 0.4973163306713104,
+      "score_b": 0.5185518264770508,
+      "present": false,
+      "template_shape": [
+       [
+        13,
+        140
+       ],
+       [
+        13,
+        140
+       ]
+      ],
+      "self_score": 0.6783276200294495
+     }
+    },
+    "20": {
+     "true_disp": [
+      -1.5728528166009426,
+      -0.486335869124062
+     ],
+     "true_disp_norm": 1.6463257758676364,
+     "zero_disp_passes": {
+      "2": true,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.247557003257329,
+       0.2747603833865815
+      ]
+     },
+     "template": {
+      "score_a": 0.424206018447876,
+      "score_b": 0.5133925676345825,
+      "present": false,
+      "template_shape": [
+       [
+        13,
+        140
+       ],
+       [
+        13,
+        140
+       ]
+      ],
+      "self_score": 0.673909068107605
+     }
+    }
+   }
+  },
+  {
+   "episode": 4,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.0,
+      -0.38658146964856144
+     ],
+     "true_disp_norm": 0.38658146964856144,
+     "zero_disp_passes": {
+      "2": true,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.24281150159744408,
+       0.2747603833865815
+      ]
+     },
+     "template": {
+      "score_a": 0.42419373989105225,
+      "score_b": 0.5194427371025085,
+      "present": false,
+      "template_shape": [
+       [
+        13,
+        140
+       ],
+       [
+        13,
+        140
+       ]
+      ],
+      "self_score": 0.6783276200294495
+     }
+    },
+    "20": {
+     "true_disp": [
+      -0.612488828164345,
+      -0.13200743761748868
+     ],
+     "true_disp_norm": 0.6265528933876754,
+     "zero_disp_passes": {
+      "2": true,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.24437299035369775,
+       0.24281150159744408
+      ]
+     },
+     "template": {
+      "score_a": 0.4583545923233032,
+      "score_b": 0.4260064363479614,
+      "present": false,
+      "template_shape": [
+       [
+        13,
+        140
+       ],
+       [
+        13,
+        140
+       ]
+      ],
+      "self_score": 0.7495357394218445
+     }
+    }
+   }
+  },
+  {
+   "episode": 5,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.0,
+      -0.7764705882352985
+     ],
+     "true_disp_norm": 0.7764705882352985,
+     "zero_disp_passes": {
+      "2": true,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.39477124183006534,
+       0.3686274509803922
+      ],
+      "model_disp": [
+       -0.18247146681696336,
+       -0.5570428819688971
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.7549129865521302,
+      "dir_err_deg": 18.137329941397432
+     },
+     "template": {
+      "score_a": 0.8459061980247498,
+      "score_b": 0.8446360230445862,
+      "present": true,
+      "template_shape": [
+       [
+        13,
+        140
+       ],
+       [
+        13,
+        140
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.0,
+      "dir_err_deg": null,
+      "self_score": 0.9999999403953552
+     }
+    },
+    "20": {
+     "true_disp": [
+      -1.111197777108913,
+      4.3173455978975
+     ],
+     "true_disp_norm": 4.4580526591255865,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.3968462549277267,
+       0.39385474860335196
+      ],
+      "model_disp": [
+       -0.18247146681696336,
+       -0.5570428819688971
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.13148515182626194,
+      "dir_err_deg": 147.42916095547673
+     },
+     "template": {
+      "score_a": 0.8422312140464783,
+      "score_b": 0.6554513573646545,
+      "present": true,
+      "template_shape": [
+       [
+        13,
+        140
+       ],
+       [
+        13,
+        140
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.0,
+      "dir_err_deg": null,
+      "self_score": 0.9999997615814209
+     }
+    }
+   }
+  }
+ ],
+ "panel_key": {
+  "766dd396e1": {
+   "arch": "iris",
+   "game": "BankHeist",
+   "episode": 0,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "cde326416d": {
+   "arch": "iris",
+   "game": "BankHeist",
+   "episode": 1,
+   "d0": 2,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "7544a26684": {
+   "arch": "iris",
+   "game": "BankHeist",
+   "episode": 2,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "e59ea8c639": {
+   "arch": "iris",
+   "game": "BankHeist",
+   "episode": 3,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "418199b708": {
+   "arch": "iris",
+   "game": "BankHeist",
+   "episode": 4,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "2eb309f68e": {
+   "arch": "iris",
+   "game": "BankHeist",
+   "episode": 5,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  }
+ }
+}

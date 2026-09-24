@@ -1,0 +1,513 @@
+{
+ "experiment": "object_audit_v23",
+ "arch": "iris",
+ "game": "ALE/Hero-v5",
+ "n_episodes": 6,
+ "delays": [
+  8,
+  20
+ ],
+ "template_threshold": 0.6,
+ "raw": [
+  {
+   "episode": 0,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -0.038461538461532996,
+      -8.923076923076923
+     ],
+     "true_disp_norm": 8.9231598139386,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.6523366570472717,
+      "score_b": 0.5956411957740784,
+      "present": false,
+      "template_shape": [
+       [
+        10,
+        10
+       ],
+       [
+        10,
+        10
+       ]
+      ],
+      "self_score": 0.9999997019767761
+     }
+    },
+    "20": {
+     "true_disp": [
+      0.0,
+      0.0
+     ],
+     "true_disp_norm": 0.0,
+     "zero_disp_passes": {
+      "2": true,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.5551385879516602,
+      "score_b": 0.5879055857658386,
+      "present": false,
+      "template_shape": [
+       [
+        10,
+        10
+       ],
+       [
+        10,
+        10
+       ]
+      ],
+      "self_score": 0.9999997615814209
+     }
+    }
+   }
+  },
+  {
+   "episode": 1,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.461538461538467,
+      -10.807692307692307
+     ],
+     "true_disp_norm": 10.817542732489239,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.383041650056839,
+      "score_b": 0.38986992835998535,
+      "present": false,
+      "template_shape": [
+       [
+        10,
+        10
+       ],
+       [
+        10,
+        11
+       ]
+      ],
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      0.5,
+      -6.653846153846153
+     ],
+     "true_disp_norm": 6.672605835732638,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.5089107155799866,
+      "score_b": 0.5384690165519714,
+      "present": false,
+      "template_shape": [
+       [
+        10,
+        10
+       ],
+       [
+        10,
+        11
+       ]
+      ],
+      "self_score": 0.9999997615814209
+     }
+    }
+   }
+  },
+  {
+   "episode": 2,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.0,
+      12.625
+     ],
+     "true_disp_norm": 12.625,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.5175797343254089,
+      "score_b": 0.5927602648735046,
+      "present": false,
+      "template_shape": [
+       [
+        14,
+        7
+       ],
+       [
+        14,
+        7
+       ]
+      ],
+      "self_score": 0.9999998807907104
+     }
+    },
+    "20": {
+     "true_disp": [
+      11.217261904761898,
+      14.473214285714285
+     ],
+     "true_disp_norm": 18.311223236043695,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.27767515182495117,
+      "score_b": 0.6045874357223511,
+      "present": false,
+      "template_shape": [
+       [
+        14,
+        7
+       ],
+       [
+        12,
+        8
+       ]
+      ],
+      "self_score": 0.9999998807907104
+     }
+    }
+   }
+  },
+  {
+   "episode": 3,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.0,
+      -18.375
+     ],
+     "true_disp_norm": 18.375,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.6211351156234741,
+      "score_b": 0.5303189158439636,
+      "present": false,
+      "template_shape": [
+       [
+        14,
+        7
+       ],
+       [
+        14,
+        7
+       ]
+      ],
+      "self_score": 0.9999998807907104
+     }
+    },
+    "20": {
+     "true_disp": [
+      -1.1692307692307793,
+      -8.569230769230764
+     ],
+     "true_disp_norm": 8.64863090714636,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.5838501453399658,
+      "score_b": 0.5539126992225647,
+      "present": false,
+      "template_shape": [
+       [
+        13,
+        11
+       ],
+       [
+        9,
+        12
+       ]
+      ],
+      "self_score": 0.9999998211860657
+     }
+    }
+   }
+  },
+  {
+   "episode": 4,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -2.0899209486165944,
+      -5.3784584980237184
+     ],
+     "true_disp_norm": 5.770232697771386,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.46017539501190186,
+      "score_b": 0.5112105011940002,
+      "present": false,
+      "template_shape": [
+       [
+        12,
+        10
+       ],
+       [
+        12,
+        10
+       ]
+      ],
+      "self_score": 0.9999986886978149
+     }
+    },
+    "20": {
+     "true_disp": [
+      -8.000236183278219,
+      -11.72366556447804
+     ],
+     "true_disp_norm": 14.193241816299835,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.4579870104789734,
+      "score_b": 0.5110648274421692,
+      "present": false,
+      "template_shape": [
+       [
+        12,
+        10
+       ],
+       [
+        12,
+        10
+       ]
+      ],
+      "self_score": 0.9999986886978149
+     }
+    }
+   }
+  },
+  {
+   "episode": 5,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.4473684210526301,
+      -15.868421052631582
+     ],
+     "true_disp_norm": 15.874725988430678,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.4781450033187866,
+      "score_b": 0.6468595266342163,
+      "present": false,
+      "template_shape": [
+       [
+        14,
+        8
+       ],
+       [
+        11,
+        6
+       ]
+      ],
+      "self_score": 0.9999998807907104
+     }
+    },
+    "20": {
+     "true_disp": [
+      -0.3076923076923066,
+      -1.5
+     ],
+     "true_disp_norm": 1.531233018261106,
+     "zero_disp_passes": {
+      "2": true,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.7942517399787903,
+      "score_b": 0.5288441777229309,
+      "present": false,
+      "template_shape": [
+       [
+        14,
+        8
+       ],
+       [
+        14,
+        9
+       ]
+      ],
+      "self_score": 0.9999998211860657
+     }
+    }
+   }
+  }
+ ],
+ "panel_key": {
+  "9b15bbf749": {
+   "arch": "iris",
+   "game": "Hero",
+   "episode": 0,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "1cfc1f830c": {
+   "arch": "iris",
+   "game": "Hero",
+   "episode": 1,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "f1384a1a06": {
+   "arch": "iris",
+   "game": "Hero",
+   "episode": 2,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "84497a9801": {
+   "arch": "iris",
+   "game": "Hero",
+   "episode": 3,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "0f859ab37d": {
+   "arch": "iris",
+   "game": "Hero",
+   "episode": 4,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "cd348a9cbb": {
+   "arch": "iris",
+   "game": "Hero",
+   "episode": 5,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  }
+ }
+}

@@ -1,0 +1,1 @@
+{"experiment": "fixed_scorer_ranking_v14", "arch": "diamond", "game": "ALE/Breakout-v5", "seeds": [42, 7, 128], "n_ctx": 20, "K": 8, "horizon": 40, "warmup": 0, "scorer": {"n_pairs": 8800, "classes": [0, 8767, 33], "held_out_acc": 0.9988636374473572, "majority": 0.99625, "balanced_acc": 0.5, "gate": false}, "results": {}}

@@ -1,0 +1,456 @@
+{
+ "DIAMOND": {
+  "n_games": 26,
+  "n_live": 26,
+  "games": {
+   "Alien": {
+    "true_div": 4.864612238747733,
+    "consistency": 0.8526888417703627,
+    "alignment": 0.0029425028865328446,
+    "psnr": 30.19285970914306
+   },
+   "Amidar": {
+    "true_div": 4.208427701677595,
+    "consistency": 0.9818933619782877,
+    "alignment": 5.706676453126628e-05,
+    "psnr": 30.764126279225373
+   },
+   "Assault": {
+    "true_div": 8.447940417698451,
+    "consistency": 0.2630211875618408,
+    "alignment": 0.12473857015408038,
+    "psnr": 26.708153636153554
+   },
+   "Asterix": {
+    "true_div": 9.114460604531425,
+    "consistency": 0.4026474842422962,
+    "alignment": 0.8307476550028751,
+    "psnr": 32.873302461620774
+   },
+   "BankHeist": {
+    "true_div": 27.194852828979492,
+    "consistency": 0.9470554218478285,
+    "alignment": 1.956123053737727e-05,
+    "psnr": 11.439994457625204
+   },
+   "BattleZone": {
+    "true_div": 8.946624551500593,
+    "consistency": 0.8506581993409112,
+    "alignment": 0.6248307815469186,
+    "psnr": 31.95002071508606
+   },
+   "Boxing": {
+    "true_div": 16.913457461765834,
+    "consistency": 0.5453858262662898,
+    "alignment": 0.07367210368197817,
+    "psnr": 22.920762936884405
+   },
+   "Breakout": {
+    "true_div": 4.7006866080420355,
+    "consistency": 0.841753255518757,
+    "alignment": 0.9275265068771283,
+    "psnr": 37.996576303589904
+   },
+   "ChopperCommand": {
+    "true_div": 8.203508683613368,
+    "consistency": 0.8612804664959972,
+    "alignment": 0.4149193762134132,
+    "psnr": 31.17148445260406
+   },
+   "CrazyClimber": {
+    "true_div": 2.5030849405697415,
+    "consistency": 0.7975114797953494,
+    "alignment": 0.0662194567725106,
+    "psnr": 35.91298720434246
+   },
+   "DemonAttack": {
+    "true_div": 5.520338637488229,
+    "consistency": 0.5236153061600665,
+    "alignment": 0.637146169447746,
+    "psnr": 29.89954437621719
+   },
+   "Freeway": {
+    "true_div": 2.0611628464290073,
+    "consistency": 0.7880511801587631,
+    "alignment": 0.00023580670806931238,
+    "psnr": 38.075777608305245
+   },
+   "Frostbite": {
+    "true_div": 4.692266191755023,
+    "consistency": 0.8904789075934555,
+    "alignment": 0.6157569199989471,
+    "psnr": 37.03280139979289
+   },
+   "Gopher": {
+    "true_div": 13.50415815625872,
+    "consistency": 0.7624823795338784,
+    "alignment": 1.0331520439248705,
+    "psnr": 29.911905498804952
+   },
+   "Hero": {
+    "true_div": 7.034406014851162,
+    "consistency": 0.7759682089601804,
+    "alignment": 0.1800189696146455,
+    "psnr": 28.903163455071002
+   },
+   "Jamesbond": {
+    "true_div": 3.196527131966182,
+    "consistency": 0.6950295765378433,
+    "alignment": 0.1049837090340298,
+    "psnr": 29.588213692192028
+   },
+   "Kangaroo": {
+    "true_div": 2.109436409814017,
+    "consistency": 0.9335865535914596,
+    "alignment": 0.028853699804586606,
+    "psnr": 31.90775828629209
+   },
+   "Krull": {
+    "true_div": 5.297072376523699,
+    "consistency": 0.7644301474577159,
+    "alignment": 0.20983025888153328,
+    "psnr": 28.503853643227348
+   },
+   "KungFuMaster": {
+    "true_div": 7.472174882888794,
+    "consistency": 0.7674060043070545,
+    "alignment": 0.5182622278931567,
+    "psnr": 29.45421265581178
+   },
+   "MsPacman": {
+    "true_div": 5.372150046484811,
+    "consistency": 0.8517992895814486,
+    "alignment": 3.5618542339457554e-05,
+    "psnr": 28.32346912845164
+   },
+   "Pong": {
+    "true_div": 3.1268487317221507,
+    "consistency": 0.8426853479465597,
+    "alignment": 0.8478862044452333,
+    "psnr": 35.20199070038962
+   },
+   "PrivateEye": {
+    "true_div": 13.958945614950997,
+    "consistency": 0.7394133638483212,
+    "alignment": 0.7355282964627705,
+    "psnr": 30.563858283909887
+   },
+   "Qbert": {
+    "true_div": 9.792335850851876,
+    "consistency": 0.8128366713993495,
+    "alignment": 0.12973764134159202,
+    "psnr": 27.457952924109716
+   },
+   "RoadRunner": {
+    "true_div": 11.591859340667725,
+    "consistency": 0.8352346748272781,
+    "alignment": 0.009395765738719518,
+    "psnr": 26.536956550902598
+   },
+   "Seaquest": {
+    "true_div": 3.0534081938011304,
+    "consistency": 0.7984614672513962,
+    "alignment": 0.9236994949188814,
+    "psnr": 30.243991534093738
+   },
+   "UpNDown": {
+    "true_div": 3.95416830267225,
+    "consistency": 0.7307871049629499,
+    "alignment": 0.005032235678917209,
+    "psnr": 28.31667268716527
+   }
+  },
+  "dataset_gates": [
+   "[PASS] units carry a real intervention: 26/26 above true-divergence 0.1; degenerate: []",
+   "[PASS] majority of the suite survives: 100% survive \u2014 below 50% means the intervention design, not the models, is limiting what can be measured"
+  ],
+  "psnr_vs_alignment": {
+   "rho": 0.3791452991452991,
+   "p": 0.0546,
+   "test": "permutation(20000)",
+   "n": 26,
+   "detectable": 0.4096614074981223,
+   "supported": false,
+   "gates": [
+    "[PASS] enough units for a correlation: n=26 (need >=10 before a rank correlation is worth quoting)",
+    "[FAIL] test is powered for this effect: |rho|=0.379 vs smallest detectable 0.410 at n=26; a null here is NOT evidence of absence"
+   ]
+  },
+  "psnr_vs_consistency": {
+   "rho": 0.2594871794871795,
+   "p": 0.201,
+   "test": "permutation(20000)",
+   "n": 26,
+   "detectable": 0.4096614074981223,
+   "supported": false,
+   "gates": [
+    "[PASS] enough units for a correlation: n=26 (need >=10 before a rank correlation is worth quoting)",
+    "[FAIL] test is powered for this effect: |rho|=0.259 vs smallest detectable 0.410 at n=26; a null here is NOT evidence of absence"
+   ]
+  },
+  "bankheist_psnr_rank": [
+   26,
+   26
+  ]
+ },
+ "IRIS": {
+  "n_games": 26,
+  "n_live": 26,
+  "games": {
+   "Alien": {
+    "true_div": 4.864612238747733,
+    "consistency": 0.8396829741308373,
+    "alignment": 0.0007170565615394047,
+    "psnr": 29.835915670920098
+   },
+   "Amidar": {
+    "true_div": 4.208427701677595,
+    "consistency": 0.7982070937606194,
+    "alignment": 0.0,
+    "psnr": 30.24994321796471
+   },
+   "Assault": {
+    "true_div": 8.447940417698451,
+    "consistency": 0.3310049035844617,
+    "alignment": 0.03211885549110592,
+    "psnr": 24.159996068822434
+   },
+   "Asterix": {
+    "true_div": 9.114460604531425,
+    "consistency": 0.44554772995935765,
+    "alignment": 0.04390924517636975,
+    "psnr": 26.96612510651428
+   },
+   "BankHeist": {
+    "true_div": 27.194852828979492,
+    "consistency": 0.5058611388857609,
+    "alignment": 0.00025769900640011597,
+    "psnr": 15.268256461174788
+   },
+   "BattleZone": {
+    "true_div": 8.946624551500593,
+    "consistency": 0.8425558742481163,
+    "alignment": 0.3296997757127791,
+    "psnr": 30.206356870306085
+   },
+   "Boxing": {
+    "true_div": 16.913457461765834,
+    "consistency": 0.5484155230797387,
+    "alignment": 0.06022698967399485,
+    "psnr": 22.843222099352854
+   },
+   "Breakout": {
+    "true_div": 4.7006866080420355,
+    "consistency": 0.8361653529382569,
+    "alignment": 0.6812376066838274,
+    "psnr": 36.160012234888725
+   },
+   "ChopperCommand": {
+    "true_div": 8.203508683613368,
+    "consistency": 0.8568712608007222,
+    "alignment": 0.18872587145110792,
+    "psnr": 29.311989804752972
+   },
+   "CrazyClimber": {
+    "true_div": 2.5030849405697415,
+    "consistency": 0.7658539976419078,
+    "alignment": 0.2423788688597221,
+    "psnr": 35.29393614699924
+   },
+   "DemonAttack": {
+    "true_div": 5.520338637488229,
+    "consistency": 0.6208290019154008,
+    "alignment": 0.059037231480799555,
+    "psnr": 30.483990387491453
+   },
+   "Freeway": {
+    "true_div": 2.0611628464290073,
+    "consistency": 0.7916024935260021,
+    "alignment": 0.16831612341654814,
+    "psnr": 33.33918561234198
+   },
+   "Frostbite": {
+    "true_div": 4.692266191755023,
+    "consistency": 0.8538856188917227,
+    "alignment": 0.021755598207214417,
+    "psnr": 29.45429005554244
+   },
+   "Gopher": {
+    "true_div": 13.50415815625872,
+    "consistency": 0.760351651511158,
+    "alignment": 0.8779184692856917,
+    "psnr": 34.32730775940641
+   },
+   "Hero": {
+    "true_div": 7.034406014851162,
+    "consistency": 0.7288249765082899,
+    "alignment": 0.1372404890167484,
+    "psnr": 30.1150968949209
+   },
+   "Jamesbond": {
+    "true_div": 3.196527131966182,
+    "consistency": 0.7080651797331038,
+    "alignment": 0.0010838639688722602,
+    "psnr": 28.851352883609927
+   },
+   "Kangaroo": {
+    "true_div": 2.109436409814017,
+    "consistency": 0.8675396363662745,
+    "alignment": 0.03482273470161694,
+    "psnr": 31.281341320859916
+   },
+   "Krull": {
+    "true_div": 5.297072376523699,
+    "consistency": 0.7817837756004832,
+    "alignment": 0.0019028736480692543,
+    "psnr": 30.448679726947045
+   },
+   "KungFuMaster": {
+    "true_div": 7.472174882888794,
+    "consistency": 0.7604318789492109,
+    "alignment": 0.3711683532718189,
+    "psnr": 27.568155381939413
+   },
+   "MsPacman": {
+    "true_div": 5.372150046484811,
+    "consistency": 0.8042797901010589,
+    "alignment": 0.0,
+    "psnr": 26.945232396012575
+   },
+   "Pong": {
+    "true_div": 3.1268487317221507,
+    "consistency": 0.8666265270849756,
+    "alignment": 0.21669697800168627,
+    "psnr": 34.44876446459411
+   },
+   "PrivateEye": {
+    "true_div": 13.958945614950997,
+    "consistency": 0.7301007837299016,
+    "alignment": 0.32130772513914485,
+    "psnr": 25.952968531619593
+   },
+   "Qbert": {
+    "true_div": 9.792335850851876,
+    "consistency": 0.7922979738921503,
+    "alignment": 0.28031079127716035,
+    "psnr": 28.335871924419102
+   },
+   "RoadRunner": {
+    "true_div": 11.591859340667725,
+    "consistency": 0.869480490136279,
+    "alignment": 0.004647571507252429,
+    "psnr": 26.696643796086757
+   },
+   "Seaquest": {
+    "true_div": 3.0534081938011304,
+    "consistency": 0.813418498378777,
+    "alignment": 0.23454419253227937,
+    "psnr": 28.202355754087076
+   },
+   "UpNDown": {
+    "true_div": 3.95416830267225,
+    "consistency": 0.7567774457183923,
+    "alignment": 0.012893347979687168,
+    "psnr": 27.142303284667367
+   }
+  },
+  "dataset_gates": [
+   "[PASS] units carry a real intervention: 26/26 above true-divergence 0.1; degenerate: []",
+   "[PASS] majority of the suite survives: 100% survive \u2014 below 50% means the intervention design, not the models, is limiting what can be measured"
+  ],
+  "psnr_vs_alignment": {
+   "rho": 0.3429646143474485,
+   "p": 0.08475,
+   "test": "permutation(20000)",
+   "n": 26,
+   "detectable": 0.4096614074981223,
+   "supported": false,
+   "gates": [
+    "[PASS] enough units for a correlation: n=26 (need >=10 before a rank correlation is worth quoting)",
+    "[FAIL] test is powered for this effect: |rho|=0.343 vs smallest detectable 0.410 at n=26; a null here is NOT evidence of absence"
+   ]
+  },
+  "psnr_vs_consistency": {
+   "rho": 0.40034188034188034,
+   "p": 0.047,
+   "test": "permutation(20000)",
+   "n": 26,
+   "detectable": 0.4096614074981223,
+   "supported": false,
+   "gates": [
+    "[PASS] enough units for a correlation: n=26 (need >=10 before a rank correlation is worth quoting)",
+    "[FAIL] test is powered for this effect: |rho|=0.400 vs smallest detectable 0.410 at n=26; a null here is NOT evidence of absence"
+   ]
+  },
+  "bankheist_psnr_rank": [
+   26,
+   26
+  ]
+ },
+ "cross": {
+  "games": [
+   "Alien",
+   "Amidar",
+   "Assault",
+   "Asterix",
+   "BankHeist",
+   "BattleZone",
+   "Boxing",
+   "Breakout",
+   "ChopperCommand",
+   "CrazyClimber",
+   "DemonAttack",
+   "Freeway",
+   "Frostbite",
+   "Gopher",
+   "Hero",
+   "Jamesbond",
+   "Kangaroo",
+   "Krull",
+   "KungFuMaster",
+   "MsPacman",
+   "Pong",
+   "PrivateEye",
+   "Qbert",
+   "RoadRunner",
+   "Seaquest",
+   "UpNDown"
+  ],
+  "alignment": {
+   "rho": 0.7146520877229986,
+   "p": 0.00015,
+   "test": "permutation(20000)",
+   "n": 26,
+   "detectable": 0.4096614074981223,
+   "supported": true,
+   "gates": [
+    "[PASS] enough units for a correlation: n=26 (need >=10 before a rank correlation is worth quoting)",
+    "[PASS] test is powered for this effect: |rho|=0.715 vs smallest detectable 0.410 at n=26; a null here is NOT evidence of absence"
+   ]
+  },
+  "consistency": {
+   "rho": 0.7217094017094016,
+   "p": 0.0,
+   "test": "permutation(20000)",
+   "n": 26,
+   "detectable": 0.4096614074981223,
+   "supported": true,
+   "gates": [
+    "[PASS] enough units for a correlation: n=26 (need >=10 before a rank correlation is worth quoting)",
+    "[PASS] test is powered for this effect: |rho|=0.722 vs smallest detectable 0.410 at n=26; a null here is NOT evidence of absence"
+   ]
+  },
+  "psnr": {
+   "rho": 0.6882051282051281,
+   "p": 0.0002,
+   "test": "permutation(20000)",
+   "n": 26,
+   "detectable": 0.4096614074981223,
+   "supported": true,
+   "gates": [
+    "[PASS] enough units for a correlation: n=26 (need >=10 before a rank correlation is worth quoting)",
+    "[PASS] test is powered for this effect: |rho|=0.688 vs smallest detectable 0.410 at n=26; a null here is NOT evidence of absence"
+   ]
+  }
+ }
+}

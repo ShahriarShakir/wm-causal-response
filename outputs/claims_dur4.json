@@ -1,0 +1,82 @@
+{
+ "decorrelation": {
+  "supported": false,
+  "rho": -0.09090909090909088,
+  "p": 0.80985,
+  "n": 10,
+  "detectable": 0.6318961840354825,
+  "gates": [
+   "[PASS] enough units for a correlation: n=10 (need >=10 before a rank correlation is worth quoting)",
+   "[FAIL] test is powered for this effect: |rho|=0.091 vs smallest detectable 0.632 at n=10; a null here is NOT evidence of absence"
+  ]
+ },
+ "compression": {
+  "supported": true,
+  "consistency_span": 3.5584767204105803,
+  "alignment_span": 23728.761251995064,
+  "n": 10
+ },
+ "inversions": {
+  "supported": true,
+  "n_inversions": 16,
+  "examples": [
+   {
+    "consistency_prefers": "BankHeist",
+    "causality_prefers": "DemonAttack",
+    "c1": 0.9472315320755333,
+    "c2": 0.5877579616036368,
+    "a1": 4.525759987649445e-05,
+    "a2": 1.073906782307658
+   },
+   {
+    "consistency_prefers": "BankHeist",
+    "causality_prefers": "Breakout",
+    "c1": 0.9472315320755333,
+    "c2": 0.8416938956286714,
+    "a1": 4.525759987649445e-05,
+    "a2": 0.8930487346590379
+   },
+   {
+    "consistency_prefers": "BankHeist",
+    "causality_prefers": "Pong",
+    "c1": 0.9472315320755333,
+    "c2": 0.8424578851978912,
+    "a1": 4.525759987649445e-05,
+    "a2": 0.8431704895814031
+   },
+   {
+    "consistency_prefers": "BankHeist",
+    "causality_prefers": "Asterix",
+    "c1": 0.9472315320755333,
+    "c2": 0.40315845605398143,
+    "a1": 4.525759987649445e-05,
+    "a2": 0.8237821628976015
+   },
+   {
+    "consistency_prefers": "BankHeist",
+    "causality_prefers": "Jamesbond",
+    "c1": 0.9472315320755333,
+    "c2": 0.7082269164563293,
+    "a1": 4.525759987649445e-05,
+    "a2": 0.5842593736701185
+   },
+   {
+    "consistency_prefers": "BankHeist",
+    "causality_prefers": "PrivateEye",
+    "c1": 0.9472315320755333,
+    "c2": 0.7386663961228452,
+    "a1": 4.525759987649445e-05,
+    "a2": 0.541656166120147
+   }
+  ]
+ },
+ "_meta": {
+  "duration": 4,
+  "n_games": 26,
+  "n_live": 10,
+  "dataset_gates": [
+   "[PASS] units carry a real intervention: 10/26 above true-divergence 0.1; degenerate: ['Alien', 'Amidar', 'BattleZone', 'ChopperCommand', 'CrazyClimber', 'Frostbite', 'Gopher', 'Hero', 'Kangaroo', 'Krull', 'KungFuMaster', 'MsPacman', 'Qbert', 'RoadRunner', 'Seaquest', 'UpNDown']",
+   "[FAIL] majority of the suite survives: 38% survive \u2014 below 50% means the intervention design, not the models, is limiting what can be measured"
+  ]
+ }
+}

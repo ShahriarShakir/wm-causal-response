@@ -1,0 +1,94 @@
+{
+ "DIAMOND/Pong": {
+  "n": 420,
+  "frac_world_moved": 0.9476190476190476,
+  "ratio_median": 0.7723545236045146,
+  "ratio_iqr": [
+   0.6978959856411425,
+   0.8612924376410989
+  ],
+  "model_moved_when_world_did_not": 22,
+  "n_world_did_not": 22
+ },
+ "DIAMOND/Alien": {
+  "n": 420,
+  "frac_world_moved": 0.3404761904761905,
+  "ratio_median": 0.9690691649637472,
+  "ratio_iqr": [
+   0.9261822383703204,
+   1.0851218140351535
+  ],
+  "model_moved_when_world_did_not": 277,
+  "n_world_did_not": 277
+ },
+ "DIAMOND/BankHeist": {
+  "n": 420,
+  "frac_world_moved": 0.29285714285714287,
+  "ratio_median": 0.9662816548077078,
+  "ratio_iqr": [
+   0.34048236822292244,
+   1.7733467113494654
+  ],
+  "model_moved_when_world_did_not": 297,
+  "n_world_did_not": 297
+ },
+ "IRIS/Pong": {
+  "n": 420,
+  "frac_world_moved": 0.9476190476190476,
+  "ratio_median": 1.027561123934471,
+  "ratio_iqr": [
+   0.9040208672286781,
+   1.1715151155815349
+  ],
+  "model_moved_when_world_did_not": 16,
+  "n_world_did_not": 22
+ },
+ "IRIS/Alien": {
+  "n": 420,
+  "frac_world_moved": 0.3404761904761905,
+  "ratio_median": 0.493607999414236,
+  "ratio_iqr": [
+   0.0,
+   0.9879834014697308
+  ],
+  "model_moved_when_world_did_not": 198,
+  "n_world_did_not": 277
+ },
+ "IRIS/BankHeist": {
+  "n": 420,
+  "frac_world_moved": 0.29285714285714287,
+  "ratio_median": 1.0958378503092614,
+  "ratio_iqr": [
+   0.07814353416567014,
+   50.296143262960214
+  ],
+  "model_moved_when_world_did_not": 209,
+  "n_world_did_not": 297
+ },
+ "DIAMOND/Freeway": {
+  "n": 420,
+  "frac_world_moved": 0.9238095238095239,
+  "ratio_median": 1.0329148516671762,
+  "ratio_iqr": [
+   0.7734884219253866,
+   1.1206232218004075
+  ],
+  "model_moved_when_world_did_not": 32,
+  "n_world_did_not": 32,
+  "align_d1": 0.7594568838710403,
+  "align_d20": 0.001794340706982743
+ },
+ "IRIS/Freeway": {
+  "n": 420,
+  "frac_world_moved": 0.9238095238095239,
+  "ratio_median": 0.9776156333480168,
+  "ratio_iqr": [
+   0.6535730174757478,
+   1.1375126471501957
+  ],
+  "model_moved_when_world_did_not": 29,
+  "n_world_did_not": 32,
+  "align_d1": 0.137297655175611,
+  "align_d20": 0.0830802542089664
+ }
+}

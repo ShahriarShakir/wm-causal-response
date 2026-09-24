@@ -1,0 +1,422 @@
+{
+ "08fcf5d307": {
+  "arch": "diamond",
+  "game": "Breakout",
+  "episode": 0,
+  "d0": 2,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "096cafc470": {
+  "arch": "iris",
+  "game": "KungFuMaster",
+  "episode": 3,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "0fea851e00": {
+  "arch": "storm",
+  "game": "BankHeist",
+  "episode": 0,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "10ad80c9dd": {
+  "arch": "diamond",
+  "game": "Alien",
+  "episode": 2,
+  "d0": 2,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "1347f85c07": {
+  "arch": "iris",
+  "game": "Breakout",
+  "episode": 3,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "13727af147": {
+  "arch": "diamond",
+  "game": "Qbert",
+  "episode": 0,
+  "d0": 4,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "1c59e7366a": {
+  "arch": "diamond",
+  "game": "Kangaroo",
+  "episode": 5,
+  "d0": 4,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "200d8c2b6c": {
+  "arch": "diamond",
+  "game": "BattleZone",
+  "episode": 1,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "32e71ea00b": {
+  "arch": "diamond",
+  "game": "Kangaroo",
+  "episode": 1,
+  "d0": 4,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "3a20550a45": {
+  "arch": "iris",
+  "game": "Asterix",
+  "episode": 0,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "3bafa95555": {
+  "arch": "iris",
+  "game": "Breakout",
+  "episode": 0,
+  "d0": 2,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "3bba5d6ca6": {
+  "arch": "iris",
+  "game": "Seaquest",
+  "episode": 5,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "413f2f848f": {
+  "arch": "diamond",
+  "game": "Freeway",
+  "episode": 2,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "41d5b305f2": {
+  "arch": "diamond",
+  "game": "Hero",
+  "episode": 5,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "491f80d79d": {
+  "arch": "diamond",
+  "game": "Boxing",
+  "episode": 5,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "4a134bb286": {
+  "arch": "iris",
+  "game": "Kangaroo",
+  "episode": 4,
+  "d0": 4,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "4b95e417ce": {
+  "arch": "iris",
+  "game": "Krull",
+  "episode": 0,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "4bb481e437": {
+  "arch": "storm",
+  "game": "Alien",
+  "episode": 0,
+  "d0": 2,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "574af1aeee": {
+  "arch": "storm",
+  "game": "PrivateEye",
+  "episode": 5,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "594d688285": {
+  "arch": "diamond",
+  "game": "Pong",
+  "episode": 0,
+  "d0": 2,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "5f9efa5fe7": {
+  "arch": "storm",
+  "game": "Kangaroo",
+  "episode": 3,
+  "d0": 4,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "6122ac79ad": {
+  "arch": "iris",
+  "game": "Frostbite",
+  "episode": 2,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "62a4e6d102": {
+  "arch": "storm",
+  "game": "Krull",
+  "episode": 3,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "67ce5ab2ac": {
+  "arch": "iris",
+  "game": "Kangaroo",
+  "episode": 0,
+  "d0": 4,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "6dfd3256c6": {
+  "arch": "iris",
+  "game": "Alien",
+  "episode": 0,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "766dd396e1": {
+  "arch": "iris",
+  "game": "BankHeist",
+  "episode": 0,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "7b9144cf1b": {
+  "arch": "iris",
+  "game": "UpNDown",
+  "episode": 1,
+  "d0": 2,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "7da86aa446": {
+  "arch": "iris",
+  "game": "Qbert",
+  "episode": 4,
+  "d0": 2,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "8132bb00bf": {
+  "arch": "storm",
+  "game": "Pong",
+  "episode": 5,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "84497a9801": {
+  "arch": "iris",
+  "game": "Hero",
+  "episode": 3,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "84825d8174": {
+  "arch": "iris",
+  "game": "PrivateEye",
+  "episode": 3,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "84835f2305": {
+  "arch": "storm",
+  "game": "ChopperCommand",
+  "episode": 3,
+  "d0": 2,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "8c0c488669": {
+  "arch": "iris",
+  "game": "Alien",
+  "episode": 3,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "8cc716b689": {
+  "arch": "storm",
+  "game": "KungFuMaster",
+  "episode": 3,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "91b3c5f5cf": {
+  "arch": "diamond",
+  "game": "Asterix",
+  "episode": 0,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "93880c43b7": {
+  "arch": "diamond",
+  "game": "Alien",
+  "episode": 0,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "93e152b947": {
+  "arch": "storm",
+  "game": "Breakout",
+  "episode": 0,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "995a1013c0": {
+  "arch": "iris",
+  "game": "Krull",
+  "episode": 3,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "99e8a89d92": {
+  "arch": "storm",
+  "game": "Kangaroo",
+  "episode": 0,
+  "d0": 4,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "9a798114e8": {
+  "arch": "storm",
+  "game": "Assault",
+  "episode": 3,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "9b91b8efc7": {
+  "arch": "diamond",
+  "game": "Assault",
+  "episode": 5,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "9ca8543db1": {
+  "arch": "iris",
+  "game": "Pong",
+  "episode": 0,
+  "d0": 2,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "a9ae105650": {
+  "arch": "diamond",
+  "game": "KungFuMaster",
+  "episode": 1,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "b19dd8deb4": {
+  "arch": "diamond",
+  "game": "Kangaroo",
+  "episode": 3,
+  "d0": 4,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "b5252d2610": {
+  "arch": "storm",
+  "game": "Alien",
+  "episode": 1,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "b9bd2b8d92": {
+  "arch": "iris",
+  "game": "ChopperCommand",
+  "episode": 5,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "bd8b04d808": {
+  "arch": "storm",
+  "game": "Asterix",
+  "episode": 0,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "bf647d7b23": {
+  "arch": "iris",
+  "game": "Kangaroo",
+  "episode": 1,
+  "d0": 4,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "c70c58cd41": {
+  "arch": "diamond",
+  "game": "Asterix",
+  "episode": 3,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "c8eb8c11a9": {
+  "arch": "diamond",
+  "game": "MsPacman",
+  "episode": 1,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "c9f3b5f01c": {
+  "arch": "diamond",
+  "game": "BankHeist",
+  "episode": 0,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "cd348a9cbb": {
+  "arch": "iris",
+  "game": "Hero",
+  "episode": 5,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "d1aeed7d3c": {
+  "arch": "storm",
+  "game": "KungFuMaster",
+  "episode": 1,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "d6e851617f": {
+  "arch": "storm",
+  "game": "Qbert",
+  "episode": 0,
+  "d0": 2,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "d84ba34ca2": {
+  "arch": "storm",
+  "game": "BattleZone",
+  "episode": 5,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "d9e2d36dd1": {
+  "arch": "diamond",
+  "game": "Breakout",
+  "episode": 1,
+  "d0": 5,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "e0bb154970": {
+  "arch": "storm",
+  "game": "Pong",
+  "episode": 0,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "e4263371c9": {
+  "arch": "storm",
+  "game": "Pong",
+  "episode": 1,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "e7e1c81876": {
+  "arch": "diamond",
+  "game": "CrazyClimber",
+  "episode": 3,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ },
+ "ec72b90ecc": {
+  "arch": "diamond",
+  "game": "MsPacman",
+  "episode": 4,
+  "d0": 1,
+  "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+ }
+}

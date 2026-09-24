@@ -1,0 +1,1 @@
+{"experiment": "fixed_scorer_ranking_v14", "arch": "diamond", "game": "ALE/Hero-v5", "seeds": [42, 7, 128], "n_ctx": 20, "K": 8, "horizon": 40, "warmup": 30, "scorer": {"n_pairs": 38400, "classes": [0, 38397, 3], "held_out_acc": 0.9934895634651184, "majority": 0.999921875, "balanced_acc": 0.9967443645000458, "gate": false}, "results": {}}

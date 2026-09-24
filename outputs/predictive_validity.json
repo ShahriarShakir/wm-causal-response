@@ -1,0 +1,158 @@
+{
+ "live_games": [
+  "Alien",
+  "Assault",
+  "Asterix",
+  "BankHeist",
+  "Boxing",
+  "Breakout",
+  "DemonAttack",
+  "Freeway",
+  "Jamesbond",
+  "Pong",
+  "PrivateEye",
+  "RoadRunner"
+ ],
+ "hns": {
+  "Alien": {
+   "DIAMOND": 0.07482717140828128,
+   "IRIS": 0.027855476166321252
+  },
+  "Assault": {
+   "DIAMOND": 2.5096227867590453,
+   "IRIS": 2.5057736720554273
+  },
+  "Asterix": {
+   "DIAMOND": 0.4206407582024044,
+   "IRIS": 0.07760481352417012
+  },
+  "BankHeist": {
+   "DIAMOND": 0.007443497090269319,
+   "IRIS": 0.052645824874813923
+  },
+  "Boxing": {
+   "DIAMOND": 7.233333333333334,
+   "IRIS": 5.833333333333333
+  },
+  "Breakout": {
+   "DIAMOND": 4.541666666666667,
+   "IRIS": 2.8472222222222223
+  },
+  "DemonAttack": {
+   "DIAMOND": 0.07477046566606192,
+   "IRIS": 1.0348562317884435
+  },
+  "Freeway": {
+   "DIAMOND": 1.1249999999999998,
+   "IRIS": 1.0506756756756757
+  },
+  "Jamesbond": {
+   "DIAMOND": 1.4550766983199415,
+   "IRIS": 1.5840029218407596
+  },
+  "Pong": {
+   "DIAMOND": 1.1643059490084986,
+   "IRIS": 1.0
+  },
+  "PrivateEye": {
+   "DIAMOND": 0.0012854727203708601,
+   "IRIS": 0.0010798546006694808
+  },
+  "RoadRunner": {
+   "DIAMOND": 2.6376077104742452,
+   "IRIS": 1.2259015765622008
+  }
+ },
+ "B1_DIAMOND": {
+  "align": {
+   "rho": 0.1188811188811189,
+   "p": 0.71435,
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "powered": false
+  },
+  "psnr": {
+   "rho": 0.1958041958041958,
+   "p": 0.54965,
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "powered": false
+  },
+  "cons": {
+   "rho": -0.2447552447552448,
+   "p": 0.4407,
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "powered": false
+  }
+ },
+ "B1_IRIS": {
+  "align": {
+   "rho": 0.31468531468531474,
+   "p": 0.32315,
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "powered": false
+  },
+  "psnr": {
+   "rho": 0.1398601398601399,
+   "p": 0.6616,
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "powered": false
+  },
+  "cons": {
+   "rho": -0.11188811188811189,
+   "p": 0.7325,
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "powered": false
+  }
+ },
+ "B2": {
+  "align": {
+   "rho": -0.18881118881118883,
+   "p": 0.55435,
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "powered": false
+  },
+  "psnr": {
+   "rho": 0.1958041958041958,
+   "p": 0.5446,
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "powered": false
+  },
+  "cons": {
+   "rho": 0.06293706293706294,
+   "p": 0.8587,
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "powered": false
+  }
+ },
+ "B3": {
+  "align": {
+   "rho": 0.19999999999999998,
+   "p": 0.35175,
+   "n": 24,
+   "detectable": 0.42465029006520066,
+   "powered": false
+  },
+  "psnr": {
+   "rho": 0.17652173913043476,
+   "p": 0.4072,
+   "n": 24,
+   "detectable": 0.42465029006520066,
+   "powered": false
+  },
+  "cons": {
+   "rho": -0.17217391304347823,
+   "p": 0.41965,
+   "n": 24,
+   "detectable": 0.42465029006520066,
+   "powered": false
+  }
+ }
+}

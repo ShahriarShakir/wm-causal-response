@@ -1,0 +1,1323 @@
+{
+ "DIAMOND": {
+  "cells": {
+   "Alien": {
+    "cls": "never-aligned",
+    "n": 40,
+    "present": 0.05,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.025,
+    "dir_err": 29.571057180803916,
+    "mag_ratio": 5.812959695680953,
+    "swap": 0.005885254402347356,
+    "true_disp": 0.874021148502246,
+    "true_present": 1.0
+   },
+   "Amidar": {
+    "cls": "never-aligned",
+    "n": 34,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.0010568849338425067,
+    "true_disp": 10.30428081168493,
+    "true_present": 0.85
+   },
+   "Assault": {
+    "cls": "aligned-then-forgotten",
+    "n": 34,
+    "present": 0.29411764705882354,
+    "hit2": 0.058823529411764705,
+    "hit4": 0.11764705882352941,
+    "hit8": 0.11764705882352941,
+    "dir_err": 29.248826336546966,
+    "mag_ratio": 0.0,
+    "swap": 0.305779816295347,
+    "true_disp": 16.0,
+    "true_present": 0.9714285714285714
+   },
+   "Asterix": {
+    "cls": "tracked",
+    "n": 40,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 1.5535107114850737,
+    "true_disp": 8.519316820623935,
+    "true_present": 1.0
+   },
+   "BankHeist": {
+    "cls": "never-aligned",
+    "n": 33,
+    "present": 0.9393939393939394,
+    "hit2": 0.2727272727272727,
+    "hit4": 0.3333333333333333,
+    "hit8": 0.7272727272727273,
+    "dir_err": 82.02015641396068,
+    "mag_ratio": 0.0,
+    "swap": -0.00023399681726889025,
+    "true_disp": 4.4580526591255865,
+    "true_present": 0.9705882352941176
+   },
+   "BattleZone": {
+    "cls": "tracked",
+    "n": 40,
+    "present": 0.975,
+    "hit2": 0.275,
+    "hit4": 0.525,
+    "hit8": 0.9,
+    "dir_err": 25.66793038039692,
+    "mag_ratio": 1.579743115787155,
+    "swap": 1.2841941037122953,
+    "true_disp": 2.828927043324321,
+    "true_present": 1.0
+   },
+   "Boxing": {
+    "cls": "aligned-then-forgotten",
+    "n": 40,
+    "present": 1.0,
+    "hit2": 0.025,
+    "hit4": 0.075,
+    "hit8": 0.25,
+    "dir_err": 31.981979334218927,
+    "mag_ratio": 0.8366696234863038,
+    "swap": 0.1587837379026424,
+    "true_disp": 24.057683382252797,
+    "true_present": 1.0
+   },
+   "Breakout": {
+    "cls": "tracked",
+    "n": 37,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 1.9560780900646748,
+    "true_disp": 24.351250560826266,
+    "true_present": 1.0
+   },
+   "ChopperCommand": {
+    "cls": "tracked",
+    "n": 34,
+    "present": 0.9705882352941176,
+    "hit2": 0.029411764705882353,
+    "hit4": 0.23529411764705882,
+    "hit8": 0.5,
+    "dir_err": 46.63828524548484,
+    "mag_ratio": 1.269844356510906,
+    "swap": 0.6055979632349646,
+    "true_disp": 6.805408879710914,
+    "true_present": 0.9714285714285714
+   },
+   "CrazyClimber": {
+    "cls": "aligned-then-forgotten",
+    "n": 39,
+    "present": 0.5897435897435898,
+    "hit2": 0.5384615384615384,
+    "hit4": 0.5641025641025641,
+    "hit8": 0.5897435897435898,
+    "dir_err": 28.91886374142618,
+    "mag_ratio": 1.3031429574972277,
+    "swap": 0.0009517011658339282,
+    "true_disp": 0.08971210951098531,
+    "true_present": 0.975
+   },
+   "DemonAttack": {
+    "cls": "tracked",
+    "n": 35,
+    "present": 0.7428571428571429,
+    "hit2": 0.42857142857142855,
+    "hit4": 0.6,
+    "hit8": 0.6285714285714286,
+    "dir_err": 6.299392861099088,
+    "mag_ratio": 1.001032524797511,
+    "swap": 1.553868877064891,
+    "true_disp": 8.0,
+    "true_present": 0.875
+   },
+   "Freeway": {
+    "cls": "never-aligned",
+    "n": 40,
+    "present": 0.3,
+    "hit2": 0.075,
+    "hit4": 0.125,
+    "hit8": 0.2,
+    "dir_err": 0.0,
+    "mag_ratio": 0.14583228713438334,
+    "swap": 0.00251200456057951,
+    "true_disp": 8.0,
+    "true_present": 1.0
+   },
+   "Frostbite": {
+    "cls": "tracked",
+    "n": 27,
+    "present": 0.7777777777777778,
+    "hit2": 0.3333333333333333,
+    "hit4": 0.37037037037037035,
+    "hit8": 0.4074074074074074,
+    "dir_err": 34.84953646736621,
+    "mag_ratio": 1.9274742222699692,
+    "swap": 1.1485085746194819,
+    "true_disp": 3.1296864653445065,
+    "true_present": 1.0
+   },
+   "Gopher": {
+    "cls": "tracked",
+    "n": 40,
+    "present": 0.9,
+    "hit2": 0.875,
+    "hit4": 0.9,
+    "hit8": 0.9,
+    "dir_err": 0.0,
+    "mag_ratio": 0.9927367225684508,
+    "swap": 2.055117117874054,
+    "true_disp": 8.0,
+    "true_present": 1.0
+   },
+   "Hero": {
+    "cls": "aligned-then-forgotten",
+    "n": 39,
+    "present": 0.15384615384615385,
+    "hit2": 0.0,
+    "hit4": 0.05128205128205128,
+    "hit8": 0.07692307692307693,
+    "dir_err": 93.4893249057964,
+    "mag_ratio": 1.6487888155225816,
+    "swap": 0.6178901673556951,
+    "true_disp": 9.026111066274641,
+    "true_present": 1.0
+   },
+   "Jamesbond": {
+    "cls": "aligned-then-forgotten",
+    "n": 11,
+    "present": 0.09090909090909091,
+    "hit2": 0.0,
+    "hit4": 0.09090909090909091,
+    "hit8": 0.09090909090909091,
+    "dir_err": null,
+    "mag_ratio": 0.0,
+    "swap": 0.0,
+    "true_disp": 4.043267702649683,
+    "true_present": 0.3548387096774194
+   },
+   "Kangaroo": {
+    "cls": "partial",
+    "n": 37,
+    "present": 0.21621621621621623,
+    "hit2": 0.05405405405405406,
+    "hit4": 0.05405405405405406,
+    "hit8": 0.10810810810810811,
+    "dir_err": 104.03624346792648,
+    "mag_ratio": 0.0,
+    "swap": 5.749284483579504e-05,
+    "true_disp": 9.113927684686667,
+    "true_present": 1.0
+   },
+   "Krull": {
+    "cls": "aligned-then-forgotten",
+    "n": 33,
+    "present": 0.15151515151515152,
+    "hit2": 0.06060606060606061,
+    "hit4": 0.15151515151515152,
+    "hit8": 0.15151515151515152,
+    "dir_err": 7.787017954632407,
+    "mag_ratio": 0.4920372896889468,
+    "swap": 0.38612426211744283,
+    "true_disp": 14.422205101855956,
+    "true_present": 0.825
+   },
+   "KungFuMaster": {
+    "cls": "tracked",
+    "n": 39,
+    "present": 0.41025641025641024,
+    "hit2": 0.23076923076923078,
+    "hit4": 0.28205128205128205,
+    "hit8": 0.358974358974359,
+    "dir_err": 35.23468372968537,
+    "mag_ratio": 0.8980076972111997,
+    "swap": 0.9913016277650388,
+    "true_disp": 2.1238938053097343,
+    "true_present": 1.0
+   },
+   "MsPacman": {
+    "cls": "never-aligned",
+    "n": 39,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.0001354839747784781,
+    "true_disp": 24.020824298928627,
+    "true_present": 0.975
+   },
+   "Pong": {
+    "cls": "tracked",
+    "n": 36,
+    "present": 1.0,
+    "hit2": 0.6111111111111112,
+    "hit4": 0.8611111111111112,
+    "hit8": 0.9722222222222222,
+    "dir_err": 0.0,
+    "mag_ratio": 1.0,
+    "swap": 1.7865074238949246,
+    "true_disp": 24.0,
+    "true_present": 0.9230769230769231
+   },
+   "PrivateEye": {
+    "cls": "tracked",
+    "n": 40,
+    "present": 0.75,
+    "hit2": 0.2,
+    "hit4": 0.25,
+    "hit8": 0.25,
+    "dir_err": 23.360195418572268,
+    "mag_ratio": 0.9145996918572297,
+    "swap": 1.339016270312831,
+    "true_disp": 19.761904761904766,
+    "true_present": 1.0
+   },
+   "Qbert": {
+    "cls": "partial",
+    "n": 40,
+    "present": 0.3,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": 57.41476645765113,
+    "mag_ratio": 0.598475625717967,
+    "swap": -0.0008080753360961384,
+    "true_disp": 34.73742581113301,
+    "true_present": 1.0
+   },
+   "RoadRunner": {
+    "cls": "never-aligned",
+    "n": 19,
+    "present": 0.5263157894736842,
+    "hit2": 0.21052631578947367,
+    "hit4": 0.3684210526315789,
+    "hit8": 0.5263157894736842,
+    "dir_err": 21.969264997811223,
+    "mag_ratio": 1.5882061057060044,
+    "swap": 0.25235053695828435,
+    "true_disp": 2.8284271247461903,
+    "true_present": 0.6129032258064516
+   },
+   "Seaquest": {
+    "cls": "tracked",
+    "n": 15,
+    "present": 0.8,
+    "hit2": 0.26666666666666666,
+    "hit4": 0.5333333333333333,
+    "hit8": 0.8,
+    "dir_err": 5.777162624986087,
+    "mag_ratio": 1.0712397296440088,
+    "swap": 1.7923498215389273,
+    "true_disp": 16.492422502470642,
+    "true_present": 0.6521739130434783
+   },
+   "UpNDown": {
+    "cls": "never-aligned",
+    "n": 25,
+    "present": 0.92,
+    "hit2": 0.28,
+    "hit4": 0.52,
+    "hit8": 0.64,
+    "dir_err": 69.07872283814292,
+    "mag_ratio": 0.9097530715455797,
+    "swap": 0.01596473976011476,
+    "true_disp": 3.229384221996763,
+    "true_present": 1.0
+   }
+  },
+  "by_class": {
+   "tracked": {
+    "n": 11,
+    "hit2": 0.26666666666666666,
+    "hit4": 0.37037037037037035,
+    "hit8": 0.5,
+    "present": 0.7777777777777778,
+    "swap": 1.5535107114850737,
+    "dir_err": 23.360195418572268
+   },
+   "aligned-then-forgotten": {
+    "n": 6,
+    "hit2": 0.04191176470588236,
+    "hit4": 0.10427807486631016,
+    "hit8": 0.13458110516934046,
+    "present": 0.2239819004524887,
+    "swap": 0.23228177709899472,
+    "dir_err": 29.248826336546966
+   },
+   "never-aligned": {
+    "n": 7,
+    "hit2": 0.075,
+    "hit4": 0.125,
+    "hit8": 0.2,
+    "present": 0.3,
+    "swap": 0.00251200456057951,
+    "dir_err": 29.571057180803916
+   },
+   "partial": {
+    "n": 2,
+    "hit2": 0.02702702702702703,
+    "hit4": 0.02702702702702703,
+    "hit8": 0.05405405405405406,
+    "present": 0.25810810810810814,
+    "swap": -0.00037529124563017173,
+    "dir_err": 80.7255049627888
+   }
+  },
+  "tests": {
+   "hit2": {
+    "tracked": 0.26666666666666666,
+    "blind": 0.075,
+    "p": 0.18129093545322733
+   },
+   "hit4": {
+    "tracked": 0.37037037037037035,
+    "blind": 0.125,
+    "p": 0.08349582520873956
+   },
+   "hit8": {
+    "tracked": 0.5,
+    "blind": 0.2,
+    "p": 0.14679266036698166
+   },
+   "present": {
+    "tracked": 0.7777777777777778,
+    "blind": 0.3,
+    "p": 0.10754462276886155
+   }
+  },
+  "blind_absent": [
+   "Alien",
+   "Amidar",
+   "Freeway",
+   "MsPacman"
+  ],
+  "blind_misplaced": [],
+  "blind_tolerant_hit": [
+   "BankHeist",
+   "RoadRunner",
+   "UpNDown"
+  ],
+  "verdict": "MIXED"
+ },
+ "IRIS": {
+  "cells": {
+   "Alien": {
+    "cls": "never-aligned",
+    "n": 40,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.0010502212966303614,
+    "true_disp": 0.874021148502246,
+    "true_present": 1.0
+   },
+   "Amidar": {
+    "cls": "never-aligned",
+    "n": 34,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.0,
+    "true_disp": 10.30428081168493,
+    "true_present": 0.85
+   },
+   "Assault": {
+    "cls": "aligned-then-forgotten",
+    "n": 34,
+    "present": 0.08823529411764706,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.029411764705882353,
+    "dir_err": 3.100491449807808,
+    "mag_ratio": 0.3125,
+    "swap": 0.07004606301294619,
+    "true_disp": 16.0,
+    "true_present": 0.9714285714285714
+   },
+   "Asterix": {
+    "cls": "aligned-then-forgotten",
+    "n": 40,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.14400111046472913,
+    "true_disp": 8.519316820623935,
+    "true_present": 1.0
+   },
+   "BankHeist": {
+    "cls": "never-aligned",
+    "n": 33,
+    "present": 0.7575757575757576,
+    "hit2": 0.12121212121212122,
+    "hit4": 0.2727272727272727,
+    "hit8": 0.5454545454545454,
+    "dir_err": 116.15169001808636,
+    "mag_ratio": 0.328675909131822,
+    "swap": 0.0026807181094725733,
+    "true_disp": 4.4580526591255865,
+    "true_present": 0.9705882352941176
+   },
+   "BattleZone": {
+    "cls": "tracked",
+    "n": 40,
+    "present": 1.0,
+    "hit2": 0.325,
+    "hit4": 0.65,
+    "hit8": 0.95,
+    "dir_err": 25.201853890838603,
+    "mag_ratio": 0.9195939946042485,
+    "swap": 0.6682860742911214,
+    "true_disp": 2.828927043324321,
+    "true_present": 1.0
+   },
+   "Boxing": {
+    "cls": "aligned-then-forgotten",
+    "n": 40,
+    "present": 0.925,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.05,
+    "dir_err": 63.76719614679724,
+    "mag_ratio": 0.5894783768952272,
+    "swap": 0.11817453138801763,
+    "true_disp": 24.057683382252797,
+    "true_present": 1.0
+   },
+   "Breakout": {
+    "cls": "tracked",
+    "n": 37,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.9315820985178263,
+    "true_disp": 24.351250560826266,
+    "true_present": 1.0
+   },
+   "ChopperCommand": {
+    "cls": "tracked",
+    "n": 34,
+    "present": 0.7941176470588235,
+    "hit2": 0.029411764705882353,
+    "hit4": 0.08823529411764706,
+    "hit8": 0.29411764705882354,
+    "dir_err": 46.25839307618437,
+    "mag_ratio": 1.0564910683029205,
+    "swap": 0.5400835006736002,
+    "true_disp": 6.805408879710914,
+    "true_present": 0.9714285714285714
+   },
+   "CrazyClimber": {
+    "cls": "tracked",
+    "n": 39,
+    "present": 0.5641025641025641,
+    "hit2": 0.46153846153846156,
+    "hit4": 0.48717948717948717,
+    "hit8": 0.5641025641025641,
+    "dir_err": 26.64726577177992,
+    "mag_ratio": 1.7944774433279773,
+    "swap": 0.06314803722233002,
+    "true_disp": 0.08971210951098531,
+    "true_present": 0.975
+   },
+   "DemonAttack": {
+    "cls": "aligned-then-forgotten",
+    "n": 35,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.1846047057245962,
+    "true_disp": 8.0,
+    "true_present": 0.875
+   },
+   "Freeway": {
+    "cls": "aligned-then-forgotten",
+    "n": 40,
+    "present": 0.05,
+    "hit2": 0.025,
+    "hit4": 0.05,
+    "hit8": 0.05,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.5632610991498064,
+    "true_disp": 8.0,
+    "true_present": 1.0
+   },
+   "Frostbite": {
+    "cls": "aligned-then-forgotten",
+    "n": 27,
+    "present": 0.5925925925925926,
+    "hit2": 0.25925925925925924,
+    "hit4": 0.3333333333333333,
+    "hit8": 0.4444444444444444,
+    "dir_err": 160.5448838471927,
+    "mag_ratio": 1.2206103376657909,
+    "swap": 0.33348898649316583,
+    "true_disp": 3.1296864653445065,
+    "true_present": 1.0
+   },
+   "Gopher": {
+    "cls": "tracked",
+    "n": 40,
+    "present": 0.35,
+    "hit2": 0.175,
+    "hit4": 0.275,
+    "hit8": 0.35,
+    "dir_err": 0.0,
+    "mag_ratio": 0.7291666666666661,
+    "swap": 1.7777871133329732,
+    "true_disp": 8.0,
+    "true_present": 1.0
+   },
+   "Hero": {
+    "cls": "aligned-then-forgotten",
+    "n": 39,
+    "present": 0.02564102564102564,
+    "hit2": 0.02564102564102564,
+    "hit4": 0.02564102564102564,
+    "hit8": 0.02564102564102564,
+    "dir_err": null,
+    "mag_ratio": 0.0,
+    "swap": 0.5854684140057613,
+    "true_disp": 9.026111066274641,
+    "true_present": 1.0
+   },
+   "Jamesbond": {
+    "cls": "never-aligned",
+    "n": 11,
+    "present": 0.09090909090909091,
+    "hit2": 0.0,
+    "hit4": 0.09090909090909091,
+    "hit8": 0.09090909090909091,
+    "dir_err": 105.25220416277504,
+    "mag_ratio": 0.5492962152464548,
+    "swap": -0.000618518840663748,
+    "true_disp": 4.043267702649683,
+    "true_present": 0.3548387096774194
+   },
+   "Kangaroo": {
+    "cls": "partial",
+    "n": 37,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.1597593839378743,
+    "true_disp": 9.113927684686667,
+    "true_present": 1.0
+   },
+   "Krull": {
+    "cls": "never-aligned",
+    "n": 33,
+    "present": 0.09090909090909091,
+    "hit2": 0.06060606060606061,
+    "hit4": 0.06060606060606061,
+    "hit8": 0.09090909090909091,
+    "dir_err": 171.65176341899715,
+    "mag_ratio": 0.9310130749996122,
+    "swap": -0.0035913987292304976,
+    "true_disp": 14.422205101855956,
+    "true_present": 0.825
+   },
+   "KungFuMaster": {
+    "cls": "tracked",
+    "n": 39,
+    "present": 0.05128205128205128,
+    "hit2": 0.05128205128205128,
+    "hit4": 0.05128205128205128,
+    "hit8": 0.05128205128205128,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.8086694720133197,
+    "true_disp": 2.1238938053097343,
+    "true_present": 1.0
+   },
+   "MsPacman": {
+    "cls": "never-aligned",
+    "n": 39,
+    "present": 0.1282051282051282,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": 0.0,
+    "swap": 0.0,
+    "true_disp": 24.020824298928627,
+    "true_present": 0.975
+   },
+   "Pong": {
+    "cls": "aligned-then-forgotten",
+    "n": 36,
+    "present": 0.8055555555555556,
+    "hit2": 0.16666666666666666,
+    "hit4": 0.2777777777777778,
+    "hit8": 0.3055555555555556,
+    "dir_err": 0.0,
+    "mag_ratio": 0.9946808510638298,
+    "swap": 0.6143676959178458,
+    "true_disp": 24.0,
+    "true_present": 0.9230769230769231
+   },
+   "PrivateEye": {
+    "cls": "tracked",
+    "n": 40,
+    "present": 0.45,
+    "hit2": 0.0,
+    "hit4": 0.025,
+    "hit8": 0.05,
+    "dir_err": 67.68512772050813,
+    "mag_ratio": 0.9572792348151399,
+    "swap": 0.05008504400236108,
+    "true_disp": 19.761904761904766,
+    "true_present": 1.0
+   },
+   "Qbert": {
+    "cls": "partial",
+    "n": 40,
+    "present": 0.2,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": 80.3683808852802,
+    "mag_ratio": 0.7514909528914663,
+    "swap": 0.7556467884274611,
+    "true_disp": 34.73742581113301,
+    "true_present": 1.0
+   },
+   "RoadRunner": {
+    "cls": "never-aligned",
+    "n": 19,
+    "present": 0.42105263157894735,
+    "hit2": 0.10526315789473684,
+    "hit4": 0.3684210526315789,
+    "hit8": 0.42105263157894735,
+    "dir_err": 69.70254622238816,
+    "mag_ratio": 2.409563534492861,
+    "swap": 0.04737413592024773,
+    "true_disp": 2.8284271247461903,
+    "true_present": 0.6129032258064516
+   },
+   "Seaquest": {
+    "cls": "aligned-then-forgotten",
+    "n": 15,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.30382677089929916,
+    "true_disp": 16.492422502470642,
+    "true_present": 0.6521739130434783
+   },
+   "UpNDown": {
+    "cls": "never-aligned",
+    "n": 25,
+    "present": 0.92,
+    "hit2": 0.2,
+    "hit4": 0.36,
+    "hit8": 0.64,
+    "dir_err": 47.23047392113776,
+    "mag_ratio": 0.8599542917746583,
+    "swap": -0.01418573410396161,
+    "true_disp": 3.229384221996763,
+    "true_present": 1.0
+   }
+  },
+  "by_class": {
+   "tracked": {
+    "n": 7,
+    "hit2": 0.05128205128205128,
+    "hit4": 0.08823529411764706,
+    "hit8": 0.29411764705882354,
+    "present": 0.45,
+    "swap": 0.6682860742911214,
+    "dir_err": 26.64726577177992
+   },
+   "aligned-then-forgotten": {
+    "n": 9,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.029411764705882353,
+    "present": 0.05,
+    "swap": 0.30382677089929916,
+    "dir_err": 33.433843798302526
+   },
+   "never-aligned": {
+    "n": 8,
+    "hit2": 0.030303030303030304,
+    "hit4": 0.07575757575757576,
+    "hit8": 0.09090909090909091,
+    "present": 0.10955710955710955,
+    "swap": 0.0,
+    "dir_err": 105.25220416277504
+   },
+   "partial": {
+    "n": 2,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "present": 0.1,
+    "swap": 0.45770308618266775,
+    "dir_err": 80.3683808852802
+   }
+  },
+  "tests": {
+   "hit2": {
+    "tracked": 0.05128205128205128,
+    "blind": 0.030303030303030304,
+    "p": 0.38908054597270136
+   },
+   "hit4": {
+    "tracked": 0.08823529411764706,
+    "blind": 0.07575757575757576,
+    "p": 0.5169241537923104
+   },
+   "hit8": {
+    "tracked": 0.29411764705882354,
+    "blind": 0.09090909090909091,
+    "p": 0.40662966851657417
+   },
+   "present": {
+    "tracked": 0.45,
+    "blind": 0.10955710955710955,
+    "p": 0.17334133293335333
+   }
+  },
+  "blind_absent": [
+   "Alien",
+   "Amidar",
+   "Jamesbond",
+   "Krull",
+   "MsPacman",
+   "RoadRunner"
+  ],
+  "blind_misplaced": [],
+  "blind_tolerant_hit": [
+   "BankHeist",
+   "UpNDown"
+  ],
+  "verdict": "NARROW"
+ },
+ "STORM": {
+  "cells": {
+   "Alien": {
+    "cls": "never-aligned",
+    "n": 38,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": -0.0023950081394903946,
+    "true_disp": 0.952380952380949,
+    "true_present": 0.95
+   },
+   "Amidar": {
+    "cls": "never-aligned",
+    "n": 36,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.0,
+    "true_disp": 6.158105901607538,
+    "true_present": 0.9
+   },
+   "Assault": {
+    "cls": "aligned-then-forgotten",
+    "n": 31,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.06516555507028596,
+    "true_disp": 8.0,
+    "true_present": 0.8611111111111112
+   },
+   "Asterix": {
+    "cls": "never-aligned",
+    "n": 40,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.0010870904496033873,
+    "true_disp": 8.30334488629056,
+    "true_present": 1.0
+   },
+   "BankHeist": {
+    "cls": "never-aligned",
+    "n": 20,
+    "present": 0.6,
+    "hit2": 0.0,
+    "hit4": 0.2,
+    "hit8": 0.45,
+    "dir_err": 66.8337729079905,
+    "mag_ratio": 0.0,
+    "swap": -0.014847008488478211,
+    "true_disp": 3.4995934686562076,
+    "true_present": 0.6896551724137931
+   },
+   "BattleZone": {
+    "cls": "tracked",
+    "n": 40,
+    "present": 0.975,
+    "hit2": 0.15,
+    "hit4": 0.4,
+    "hit8": 0.8,
+    "dir_err": 55.249560358056385,
+    "mag_ratio": 0.8351647146173046,
+    "swap": 0.6057645034891641,
+    "true_disp": 4.031768165471764,
+    "true_present": 1.0
+   },
+   "Boxing": {
+    "cls": "never-aligned",
+    "n": 40,
+    "present": 0.2,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": 90.54896048650494,
+    "mag_ratio": 0.6556106733921502,
+    "swap": 0.05943567930852201,
+    "true_disp": 18.046126214998104,
+    "true_present": 1.0
+   },
+   "Breakout": {
+    "cls": "tracked",
+    "n": 34,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.6868165638058813,
+    "true_disp": 19.92943361655294,
+    "true_present": 1.0
+   },
+   "ChopperCommand": {
+    "cls": "never-aligned",
+    "n": 34,
+    "present": 0.7941176470588235,
+    "hit2": 0.029411764705882353,
+    "hit4": 0.11764705882352941,
+    "hit8": 0.20588235294117646,
+    "dir_err": 107.97531120812997,
+    "mag_ratio": 0.8147532586326346,
+    "swap": 0.08990574699291631,
+    "true_disp": 11.21810270922229,
+    "true_present": 0.9444444444444444
+   },
+   "CrazyClimber": {
+    "cls": "never-aligned",
+    "n": 37,
+    "present": 0.6756756756756757,
+    "hit2": 0.4864864864864865,
+    "hit4": 0.6216216216216216,
+    "hit8": 0.6756756756756757,
+    "dir_err": 65.52951934961494,
+    "mag_ratio": 0.9287436113793175,
+    "swap": 0.007186732473665114,
+    "true_disp": 0.35500178293411855,
+    "true_present": 0.9736842105263158
+   },
+   "DemonAttack": {
+    "cls": "aligned-then-forgotten",
+    "n": 34,
+    "present": 0.08823529411764706,
+    "hit2": 0.0,
+    "hit4": 0.029411764705882353,
+    "hit8": 0.058823529411764705,
+    "dir_err": 3.382002723349445,
+    "mag_ratio": 0.8107206678511707,
+    "swap": 0.06763669770070868,
+    "true_disp": 12.0,
+    "true_present": 0.85
+   },
+   "Freeway": {
+    "cls": "tracked",
+    "n": 35,
+    "present": 0.05714285714285714,
+    "hit2": 0.05714285714285714,
+    "hit4": 0.05714285714285714,
+    "hit8": 0.05714285714285714,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.6945946227557457,
+    "true_disp": 8.0,
+    "true_present": 0.875
+   },
+   "Frostbite": {
+    "cls": "never-aligned",
+    "n": 25,
+    "present": 0.56,
+    "hit2": 0.36,
+    "hit4": 0.44,
+    "hit8": 0.48,
+    "dir_err": 104.62926388349773,
+    "mag_ratio": 1.82188318243709,
+    "swap": 0.033673991481946254,
+    "true_disp": 1.0,
+    "true_present": 0.8928571428571429
+   },
+   "Gopher": {
+    "cls": "tracked",
+    "n": 40,
+    "present": 0.725,
+    "hit2": 0.3,
+    "hit4": 0.475,
+    "hit8": 0.65,
+    "dir_err": 1.0788893342171815,
+    "mag_ratio": 1.0246583737695865,
+    "swap": 1.2933767542928747,
+    "true_disp": 12.0,
+    "true_present": 1.0
+   },
+   "Hero": {
+    "cls": "never-aligned",
+    "n": 40,
+    "present": 0.05,
+    "hit2": 0.05,
+    "hit4": 0.05,
+    "hit8": 0.05,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.055086557057229535,
+    "true_disp": 6.817793709988738,
+    "true_present": 1.0
+   },
+   "Jamesbond": {
+    "cls": "aligned-then-forgotten",
+    "n": 11,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.2808128576033381,
+    "true_disp": 9.3213190777439,
+    "true_present": 0.3235294117647059
+   },
+   "Kangaroo": {
+    "cls": "partial",
+    "n": 34,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 1.0050864046691959,
+    "true_disp": 3.1388888888888875,
+    "true_present": 0.9714285714285714
+   },
+   "Krull": {
+    "cls": "never-aligned",
+    "n": 29,
+    "present": 0.13793103448275862,
+    "hit2": 0.034482758620689655,
+    "hit4": 0.10344827586206896,
+    "hit8": 0.13793103448275862,
+    "dir_err": 177.65353424979494,
+    "mag_ratio": 1.101474942551018,
+    "swap": 0.0014080138434288607,
+    "true_disp": 12.0,
+    "true_present": 0.725
+   },
+   "KungFuMaster": {
+    "cls": "aligned-then-forgotten",
+    "n": 39,
+    "present": 0.05128205128205128,
+    "hit2": 0.02564102564102564,
+    "hit4": 0.05128205128205128,
+    "hit8": 0.05128205128205128,
+    "dir_err": 130.91317135814364,
+    "mag_ratio": 8.756942380332202,
+    "swap": 0.09342439874518249,
+    "true_disp": 3.8499927768698474,
+    "true_present": 1.0
+   },
+   "MsPacman": {
+    "cls": "never-aligned",
+    "n": 40,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.0,
+    "true_disp": 19.899833268026327,
+    "true_present": 1.0
+   },
+   "Pong": {
+    "cls": "tracked",
+    "n": 31,
+    "present": 0.7741935483870968,
+    "hit2": 0.22580645161290322,
+    "hit4": 0.3225806451612903,
+    "hit8": 0.41935483870967744,
+    "dir_err": 0.0,
+    "mag_ratio": 1.0052631578947369,
+    "swap": 1.1601985232072893,
+    "true_disp": 22.0,
+    "true_present": 0.7948717948717948
+   },
+   "PrivateEye": {
+    "cls": "tracked",
+    "n": 40,
+    "present": 0.7,
+    "hit2": 0.05,
+    "hit4": 0.075,
+    "hit8": 0.175,
+    "dir_err": 39.48059729781185,
+    "mag_ratio": 0.7198471706610442,
+    "swap": 0.7353127340035691,
+    "true_disp": 23.712256560130633,
+    "true_present": 1.0
+   },
+   "Qbert": {
+    "cls": "partial",
+    "n": 37,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.9615148922622379,
+    "true_disp": 35.41141241989843,
+    "true_present": 0.925
+   },
+   "RoadRunner": {
+    "cls": "never-aligned",
+    "n": 19,
+    "present": 0.15789473684210525,
+    "hit2": 0.10526315789473684,
+    "hit4": 0.15789473684210525,
+    "hit8": 0.15789473684210525,
+    "dir_err": 25.45259455787641,
+    "mag_ratio": 0.5124305355680748,
+    "swap": 0.10326296888994536,
+    "true_disp": 11.579240117171267,
+    "true_present": 0.5588235294117647
+   },
+   "Seaquest": {
+    "cls": "aligned-then-forgotten",
+    "n": 20,
+    "present": 0.0,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "dir_err": null,
+    "mag_ratio": null,
+    "swap": 0.00853015083249259,
+    "true_disp": 14.802814021010509,
+    "true_present": 0.7692307692307693
+   },
+   "UpNDown": {
+    "cls": "never-aligned",
+    "n": 20,
+    "present": 0.95,
+    "hit2": 0.3,
+    "hit4": 0.4,
+    "hit8": 0.7,
+    "dir_err": 38.76343168393859,
+    "mag_ratio": 0.3246540587032291,
+    "swap": 0.0,
+    "true_disp": 4.589228247660785,
+    "true_present": 0.9090909090909091
+   }
+  },
+  "by_class": {
+   "tracked": {
+    "n": 6,
+    "hit2": 0.10357142857142856,
+    "hit4": 0.19879032258064516,
+    "hit8": 0.2971774193548387,
+    "present": 0.7124999999999999,
+    "swap": 0.7149536783796574,
+    "dir_err": 20.279743316014514
+   },
+   "aligned-then-forgotten": {
+    "n": 5,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "present": 0.0,
+    "swap": 0.06763669770070868,
+    "dir_err": 67.14758704074654
+   },
+   "never-aligned": {
+    "n": 13,
+    "hit2": 0.029411764705882353,
+    "hit4": 0.10344827586206896,
+    "hit8": 0.13793103448275862,
+    "present": 0.15789473684210525,
+    "swap": 0.0014080138434288607,
+    "dir_err": 78.69136669724772
+   },
+   "partial": {
+    "n": 2,
+    "hit2": 0.0,
+    "hit4": 0.0,
+    "hit8": 0.0,
+    "present": 0.0,
+    "swap": 0.9833006484657169,
+    "dir_err": null
+   }
+  },
+  "tests": {
+   "hit2": {
+    "tracked": 0.10357142857142856,
+    "blind": 0.029411764705882353,
+    "p": 0.18394080295985202
+   },
+   "hit4": {
+    "tracked": 0.19879032258064516,
+    "blind": 0.10344827586206896,
+    "p": 0.27628618569071545
+   },
+   "hit8": {
+    "tracked": 0.2971774193548387,
+    "blind": 0.13793103448275862,
+    "p": 0.26698665066746663
+   },
+   "present": {
+    "tracked": 0.7124999999999999,
+    "blind": 0.15789473684210525,
+    "p": 0.08044597770111495
+   }
+  },
+  "blind_absent": [
+   "Alien",
+   "Amidar",
+   "Asterix",
+   "Boxing",
+   "Hero",
+   "Krull",
+   "MsPacman",
+   "RoadRunner"
+  ],
+  "blind_misplaced": [
+   "BankHeist",
+   "ChopperCommand",
+   "Frostbite"
+  ],
+  "blind_tolerant_hit": [
+   "CrazyClimber",
+   "UpNDown"
+  ],
+  "verdict": "NARROW"
+ },
+ "_pooled": {
+  "tests": {
+   "hit2": {
+    "tracked": 0.1875,
+    "blind": 0.031947261663286,
+    "n_tracked": 24,
+    "n_blind": 28,
+    "p": 0.02999850007499625
+   },
+   "hit4": {
+    "tracked": 0.27852564102564104,
+    "blind": 0.09717868338557994,
+    "n_tracked": 24,
+    "n_blind": 28,
+    "p": 0.10069496525173742
+   },
+   "hit8": {
+    "tracked": 0.3831908831908832,
+    "blind": 0.11442006269592477,
+    "n_tracked": 24,
+    "n_blind": 28,
+    "p": 0.08574571271436428
+   },
+   "present": {
+    "tracked": 0.7339285714285715,
+    "blind": 0.14791288566243194,
+    "n_tracked": 24,
+    "n_blind": 28,
+    "p": 0.02744862756862157
+   }
+  },
+  "blind_absent": [
+   "DIAMOND/Alien",
+   "DIAMOND/Amidar",
+   "DIAMOND/Freeway",
+   "DIAMOND/MsPacman",
+   "IRIS/Alien",
+   "IRIS/Amidar",
+   "IRIS/Jamesbond",
+   "IRIS/Krull",
+   "IRIS/MsPacman",
+   "IRIS/RoadRunner",
+   "STORM/Alien",
+   "STORM/Amidar",
+   "STORM/Asterix",
+   "STORM/Boxing",
+   "STORM/Hero",
+   "STORM/Krull",
+   "STORM/MsPacman",
+   "STORM/RoadRunner"
+  ],
+  "blind_tolerant_hit": [
+   "DIAMOND/BankHeist",
+   "DIAMOND/RoadRunner",
+   "DIAMOND/UpNDown",
+   "IRIS/BankHeist",
+   "IRIS/UpNDown",
+   "STORM/CrazyClimber",
+   "STORM/UpNDown"
+  ],
+  "swap_tracked": 1.0699051011922602,
+  "swap_blind": 0.001071987691722947,
+  "locator_true_present": {
+   "median": 0.975,
+   "min": 0.3235294117647059,
+   "n_cells": 78
+  }
+ }
+}

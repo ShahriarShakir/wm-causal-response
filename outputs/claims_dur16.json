@@ -1,0 +1,90 @@
+{
+ "decorrelation": {
+  "supported": false,
+  "rho": -0.33928571428571425,
+  "p": 0.2174,
+  "n": 15,
+  "detectable": 0.5139129421325134,
+  "gates": [
+   "[PASS] enough units for a correlation: n=15 (need >=10 before a rank correlation is worth quoting)",
+   "[FAIL] test is powered for this effect: |rho|=0.339 vs smallest detectable 0.514 at n=15; a null here is NOT evidence of absence"
+  ]
+ },
+ "compression": {
+  "supported": true,
+  "consistency_range": [
+   0.26214440286124946,
+   0.9769862397216623
+  ],
+  "alignment_range": [
+   -0.00010200486603346884,
+   0.9861775519359085
+  ],
+  "consistency_drop": 0.731680557818365,
+  "alignment_drop": 1.0001034345852158,
+  "n": 15
+ },
+ "inversions": {
+  "supported": true,
+  "n_inversions": 46,
+  "examples": [
+   {
+    "consistency_prefers": "UpNDown",
+    "causality_prefers": "DemonAttack",
+    "c1": 0.9769862397216623,
+    "c2": 0.5860318783563377,
+    "a1": -0.00010200486603346884,
+    "a2": 0.9861775519359085
+   },
+   {
+    "consistency_prefers": "UpNDown",
+    "causality_prefers": "Breakout",
+    "c1": 0.9769862397216623,
+    "c2": 0.8428662254944437,
+    "a1": -0.00010200486603346884,
+    "a2": 0.9725897602948431
+   },
+   {
+    "consistency_prefers": "UpNDown",
+    "causality_prefers": "Pong",
+    "c1": 0.9769862397216623,
+    "c2": 0.8428191724539084,
+    "a1": -0.00010200486603346884,
+    "a2": 0.8747670371466356
+   },
+   {
+    "consistency_prefers": "UpNDown",
+    "causality_prefers": "Asterix",
+    "c1": 0.9769862397216623,
+    "c2": 0.40413421094460106,
+    "a1": -0.00010200486603346884,
+    "a2": 0.8373798803923871
+   },
+   {
+    "consistency_prefers": "UpNDown",
+    "causality_prefers": "Frostbite",
+    "c1": 0.9769862397216623,
+    "c2": 0.942802266917185,
+    "a1": -0.00010200486603346884,
+    "a2": 0.8254726753440004
+   },
+   {
+    "consistency_prefers": "UpNDown",
+    "causality_prefers": "Jamesbond",
+    "c1": 0.9769862397216623,
+    "c2": 0.7084583407475754,
+    "a1": -0.00010200486603346884,
+    "a2": 0.8005921021971981
+   }
+  ]
+ },
+ "_meta": {
+  "duration": 16,
+  "n_games": 26,
+  "n_live": 15,
+  "dataset_gates": [
+   "[PASS] units carry a real intervention: 15/26 above true-divergence 0.1; degenerate: ['Amidar', 'BattleZone', 'CrazyClimber', 'Gopher', 'Hero', 'Kangaroo', 'Krull', 'KungFuMaster', 'MsPacman', 'Qbert', 'Seaquest']",
+   "[PASS] majority of the suite survives: 58% survive \u2014 below 50% means the intervention design, not the models, is limiting what can be measured"
+  ]
+ }
+}

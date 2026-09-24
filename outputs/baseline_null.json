@@ -1,0 +1,188 @@
+{
+ "DIAMOND": {
+  "n": 10,
+  "null_cos_d20_median": 0.49205027520656586,
+  "null_cos_d20_range": [
+   0.33926351368427277,
+   0.531623363494873
+  ],
+  "observed_cos_d20_median": 0.46611690521240234,
+  "noise_over_response_d20_median": 0.19933020323514938,
+  "per_game": {
+   "Alien": {
+    "null": 0.5099611282348633,
+    "observed": 0.45939213037490845,
+    "noise_over_response": 0.7391922771930695
+   },
+   "BankHeist": {
+    "null": 0.33926351368427277,
+    "observed": 0.40593472123146057,
+    "noise_over_response": 0.8296613395214081
+   },
+   "Boxing": {
+    "null": 0.44540610909461975,
+    "observed": 0.4665505737066269,
+    "noise_over_response": 0.8154972791671753
+   },
+   "Breakout": {
+    "null": 0.5215345919132233,
+    "observed": 0.5072745084762573,
+    "noise_over_response": 0.011956850066781044
+   },
+   "Freeway": {
+    "null": 0.510647177696228,
+    "observed": 0.38876891136169434,
+    "noise_over_response": 0.2355462834239006
+   },
+   "Frostbite": {
+    "null": 0.5050743222236633,
+    "observed": 0.6403900980949402,
+    "noise_over_response": 0.16311412304639816
+   },
+   "Gopher": {
+    "null": 0.3880055695772171,
+    "observed": 0.4627411812543869,
+    "noise_over_response": 0.027245158329606056
+   },
+   "MsPacman": {
+    "null": 0.4790262281894684,
+    "observed": 0.4873696118593216,
+    "noise_over_response": 0.37943319976329803
+   },
+   "Pong": {
+    "null": 0.39731554687023163,
+    "observed": 0.4656832367181778,
+    "noise_over_response": 0.005636938847601414
+   },
+   "Seaquest": {
+    "null": 0.531623363494873,
+    "observed": 0.4681680202484131,
+    "noise_over_response": 0.06728814728558064
+   }
+  }
+ },
+ "IRIS": {
+  "n": 10,
+  "null_cos_d20_median": 0.4519578292965889,
+  "null_cos_d20_range": [
+   0.05485963821411133,
+   0.8571329116821289
+  ],
+  "observed_cos_d20_median": 0.4691324532032013,
+  "noise_over_response_d20_median": 0.8588274866342545,
+  "per_game": {
+   "Alien": {
+    "null": 0.43800103664398193,
+    "observed": 0.4646788537502289,
+    "noise_over_response": 1.0190787315368652
+   },
+   "BankHeist": {
+    "null": 0.05485963821411133,
+    "observed": 0.19659936428070068,
+    "noise_over_response": 0.5215281248092651
+   },
+   "Boxing": {
+    "null": 0.41081809997558594,
+    "observed": 0.43931950628757477,
+    "noise_over_response": 0.9741878509521484
+   },
+   "Breakout": {
+    "null": 0.47163036465644836,
+    "observed": 0.4893670976161957,
+    "noise_over_response": 0.28497400879859924
+   },
+   "Freeway": {
+    "null": 0.48827360570430756,
+    "observed": 0.4908030033111572,
+    "noise_over_response": 0.9381013512611389
+   },
+   "Frostbite": {
+    "null": 0.5087730288505554,
+    "observed": 0.3612848222255707,
+    "noise_over_response": 0.7880645394325256
+   },
+   "Gopher": {
+    "null": 0.8571329116821289,
+    "observed": 0.4721529483795166,
+    "noise_over_response": 0.13229607045650482
+   },
+   "MsPacman": {
+    "null": 0.28710663318634033,
+    "observed": 1.0,
+    "noise_over_response": 0.9733157753944397
+   },
+   "Pong": {
+    "null": 0.4186609536409378,
+    "observed": 0.49903643131256104,
+    "noise_over_response": 0.9295904338359833
+   },
+   "Seaquest": {
+    "null": 0.46591462194919586,
+    "observed": 0.466111958026886,
+    "noise_over_response": 0.787322074174881
+   }
+  }
+ },
+ "STORM": {
+  "n": 10,
+  "null_cos_d20_median": 0.4543328434228897,
+  "null_cos_d20_range": [
+   0.35616472363471985,
+   0.7777805924415588
+  ],
+  "observed_cos_d20_median": 0.48103606700897217,
+  "noise_over_response_d20_median": 0.9603656530380249,
+  "per_game": {
+   "Alien": {
+    "null": 0.4487586170434952,
+    "observed": 0.43335920572280884,
+    "noise_over_response": 0.947942703962326
+   },
+   "BankHeist": {
+    "null": 0.7777805924415588,
+    "observed": 0.4834759086370468,
+    "noise_over_response": 1.1379228830337524
+   },
+   "Boxing": {
+    "null": 0.40240228176116943,
+    "observed": 0.4080372750759125,
+    "noise_over_response": 0.9727886021137238
+   },
+   "Breakout": {
+    "null": 0.35616472363471985,
+    "observed": 0.4832474887371063,
+    "noise_over_response": 0.7470559477806091
+   },
+   "Freeway": {
+    "null": 0.4916083961725235,
+    "observed": 0.5033831000328064,
+    "noise_over_response": 0.8573834598064423
+   },
+   "Frostbite": {
+    "null": 0.49948590993881226,
+    "observed": 0.5063026547431946,
+    "noise_over_response": 1.391431987285614
+   },
+   "Gopher": {
+    "null": 0.4540466368198395,
+    "observed": 0.3881005495786667,
+    "noise_over_response": 0.5149394273757935
+   },
+   "MsPacman": {
+    "null": 0.47919929027557373,
+    "observed": 0.5004892349243164,
+    "noise_over_response": 1.0262680649757385
+   },
+   "Pong": {
+    "null": 0.4097879081964493,
+    "observed": 0.42558518052101135,
+    "noise_over_response": 0.9129168093204498
+   },
+   "Seaquest": {
+    "null": 0.45461905002593994,
+    "observed": 0.478824645280838,
+    "noise_over_response": 1.0650877356529236
+   }
+  }
+ }
+}

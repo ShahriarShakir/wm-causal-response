@@ -1,0 +1,44 @@
+#!/bin/bash
+# Locations are read from the environment (see the README); the script stops when one is not set.
+ROOT=${ROOT:?set ROOT to the directory of this package}
+cd ${ROOT}
+qsub scripts/rerun_reg/rr_v5I0.sh
+qsub scripts/rerun_reg/rr_v5I1.sh
+qsub scripts/rerun_reg/rr_v5I2.sh
+qsub scripts/rerun_reg/rr_v5I3.sh
+qsub scripts/rerun_reg/rr_v5I4.sh
+qsub scripts/rerun_reg/rr_v5I5.sh
+qsub scripts/rerun_reg/rr_v5I6.sh
+qsub scripts/rerun_reg/rr_v5I7.sh
+qsub scripts/rerun_reg/rr_v5I8.sh
+qsub scripts/rerun_reg/rr_v5I9.sh
+qsub scripts/rerun_reg/rr_v5I10.sh
+qsub scripts/rerun_reg/rr_v5I11.sh
+qsub scripts/rerun_reg/rr_v5I12.sh
+qsub scripts/rerun_reg/rr_v5I13.sh
+qsub scripts/rerun_reg/rr_v5I14.sh
+qsub scripts/rerun_reg/rr_v8id0.sh
+qsub scripts/rerun_reg/rr_v8id1.sh
+qsub scripts/rerun_reg/rr_v9hi0.sh
+qsub scripts/rerun_reg/rr_v9hi1.sh
+qsub scripts/rerun_reg/rr_v17hs0.sh
+qsub scripts/rerun_reg/rr_v12hc0.sh
+qsub scripts/rerun_reg/rr_v13hf0.sh
+qsub scripts/rerun_reg/rr_v18nli0.sh
+qsub scripts/rerun_reg/rr_v18nls0.sh
+qsub scripts/rerun_reg/rr_v19obi0.sh
+qsub scripts/rerun_reg/rr_v19obs0.sh
+qsub scripts/rerun_reg/rr_v6rp0.sh
+qsub scripts/rerun_reg/rr_v6rp1.sh
+qsub scripts/rerun_reg/rr_v15spi0.sh
+qsub scripts/rerun_reg/rr_v15spi1.sh
+qsub scripts/rerun_reg/rr_v15sps0.sh
+qsub scripts/rerun_reg/rr_v16S0.sh
+qsub scripts/rerun_reg/rr_v16S1.sh
+qsub scripts/rerun_reg/rr_v16S2.sh
+qsub scripts/rerun_reg/rr_v14fsi0.sh
+qsub scripts/rerun_reg/rr_v14fsi1.sh
+qsub scripts/rerun_reg/rr_v14fsi2.sh
+qsub scripts/rerun_reg/rr_v14fss0.sh
+qsub ext/storm_seed2/pbs_sweep_0.sh
+qsub ext/storm_seed2/pbs_sweep_1.sh

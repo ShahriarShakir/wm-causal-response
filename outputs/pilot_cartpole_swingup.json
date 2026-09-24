@@ -1,0 +1,238 @@
+{
+ "experiment": "pilot",
+ "task": "cartpole_swingup",
+ "n_episodes": 30,
+ "context": 10,
+ "horizon": 30,
+ "intervention_step": 4,
+ "rows": [
+  {
+   "delay": 1,
+   "consistency": 0.6350280999620767,
+   "consistency_std": 0.0034379926707686073,
+   "causal_response": 0.00019272905294035378,
+   "causal_response_std": 0.0017577382495385517,
+   "n": 30
+  },
+  {
+   "delay": 2,
+   "consistency": 0.6354019850052299,
+   "consistency_std": 0.0033593118196104796,
+   "causal_response": 0.0003281669462344057,
+   "causal_response_std": 0.0005542284936410009,
+   "n": 30
+  },
+  {
+   "delay": 3,
+   "consistency": 0.6355782279679414,
+   "consistency_std": 0.003326887477796454,
+   "causal_response": 0.00018152836448595506,
+   "causal_response_std": 0.00047618353775396097,
+   "n": 30
+  },
+  {
+   "delay": 4,
+   "consistency": 0.6357705473616705,
+   "consistency_std": 0.00325148967326391,
+   "causal_response": 8.11648427138536e-05,
+   "causal_response_std": 0.00029305100500680705,
+   "n": 30
+  },
+  {
+   "delay": 5,
+   "consistency": 0.6359494534036518,
+   "consistency_std": 0.0033783276880031267,
+   "causal_response": -6.246308475941421e-05,
+   "causal_response_std": 0.000219920213918505,
+   "n": 30
+  },
+  {
+   "delay": 6,
+   "consistency": 0.6360381237741423,
+   "consistency_std": 0.0034041559528757946,
+   "causal_response": -2.6991188898386858e-05,
+   "causal_response_std": 0.00016785804721056402,
+   "n": 30
+  },
+  {
+   "delay": 7,
+   "consistency": 0.6360386034323564,
+   "consistency_std": 0.003410924556965133,
+   "causal_response": -8.756149591342222e-06,
+   "causal_response_std": 0.0001697884920092291,
+   "n": 30
+  },
+  {
+   "delay": 8,
+   "consistency": 0.6360750148648819,
+   "consistency_std": 0.003439174099665979,
+   "causal_response": -5.2260467413035026e-06,
+   "causal_response_std": 0.00010447345065519202,
+   "n": 30
+  },
+  {
+   "delay": 9,
+   "consistency": 0.636081788264426,
+   "consistency_std": 0.0033875354470023055,
+   "causal_response": -1.4730708564113368e-05,
+   "causal_response_std": 8.192703799660108e-05,
+   "n": 30
+  },
+  {
+   "delay": 10,
+   "consistency": 0.6361362800458472,
+   "consistency_std": 0.003414698841169857,
+   "causal_response": -8.513400131743604e-06,
+   "causal_response_std": 5.8580273204424156e-05,
+   "n": 30
+  },
+  {
+   "delay": 11,
+   "consistency": 0.6361609912630315,
+   "consistency_std": 0.0034156816284963407,
+   "causal_response": 6.0820383888621214e-06,
+   "causal_response_std": 7.055890920394657e-05,
+   "n": 30
+  },
+  {
+   "delay": 12,
+   "consistency": 0.6361873238796056,
+   "consistency_std": 0.003370244210426372,
+   "causal_response": -6.790670690487112e-06,
+   "causal_response_std": 4.35261675721114e-05,
+   "n": 30
+  },
+  {
+   "delay": 13,
+   "consistency": 0.6362598387629316,
+   "consistency_std": 0.0032922090310081075,
+   "causal_response": -7.880133650727129e-07,
+   "causal_response_std": 1.5453719278039405e-05,
+   "n": 30
+  },
+  {
+   "delay": 14,
+   "consistency": 0.636342331877406,
+   "consistency_std": 0.0032790794646705254,
+   "causal_response": 3.6662690116828224e-06,
+   "causal_response_std": 1.331407830215846e-05,
+   "n": 30
+  },
+  {
+   "delay": 15,
+   "consistency": 0.6363705801806611,
+   "consistency_std": 0.0032380368064762522,
+   "causal_response": 9.06609811329328e-06,
+   "causal_response_std": 2.496143669405693e-05,
+   "n": 30
+  },
+  {
+   "delay": 16,
+   "consistency": 0.6363634332743582,
+   "consistency_std": 0.0032378058407034815,
+   "causal_response": -8.073885907761106e-07,
+   "causal_response_std": 5.489275727774568e-06,
+   "n": 30
+  },
+  {
+   "delay": 17,
+   "consistency": 0.6364178387132464,
+   "consistency_std": 0.0032346359331304284,
+   "causal_response": 0.0,
+   "causal_response_std": 0.0,
+   "n": 30
+  },
+  {
+   "delay": 18,
+   "consistency": 0.6364714251108459,
+   "consistency_std": 0.0032223645691054617,
+   "causal_response": -1.9022670512130945e-08,
+   "causal_response_std": 1.0244021577964283e-07,
+   "n": 30
+  },
+  {
+   "delay": 19,
+   "consistency": 0.6364810745649435,
+   "consistency_std": 0.003230327153483745,
+   "causal_response": 7.948747131843594e-07,
+   "causal_response_std": 4.280531331521545e-06,
+   "n": 30
+  },
+  {
+   "delay": 20,
+   "consistency": 0.6365100927326813,
+   "consistency_std": 0.003214573730415828,
+   "causal_response": 0.0,
+   "causal_response_std": 0.0,
+   "n": 30
+  },
+  {
+   "delay": 21,
+   "consistency": 0.6364914891184233,
+   "consistency_std": 0.003203134780910123,
+   "causal_response": 0.0,
+   "causal_response_std": 0.0,
+   "n": 30
+  },
+  {
+   "delay": 22,
+   "consistency": 0.6364988790986935,
+   "consistency_std": 0.003197158153598862,
+   "causal_response": 0.0,
+   "causal_response_std": 0.0,
+   "n": 30
+  },
+  {
+   "delay": 23,
+   "consistency": 0.6365057887426505,
+   "consistency_std": 0.0032076289057472417,
+   "causal_response": 0.0,
+   "causal_response_std": 0.0,
+   "n": 30
+  },
+  {
+   "delay": 24,
+   "consistency": 0.6365053753960146,
+   "consistency_std": 0.0032122454481391064,
+   "causal_response": 0.0,
+   "causal_response_std": 0.0,
+   "n": 30
+  },
+  {
+   "delay": 25,
+   "consistency": 0.6364953667209619,
+   "consistency_std": 0.003238421409449346,
+   "causal_response": 0.0,
+   "causal_response_std": 0.0,
+   "n": 30
+  }
+ ],
+ "separation_delays": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25
+ ],
+ "verdict": "SEPARATION FOUND at delays [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25] \u2014 high consistency with low causal response."
+}

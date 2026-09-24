@@ -1,0 +1,26 @@
+{
+ "DIAMOND": {
+  "n": 26,
+  "rho": -0.4208285124213328,
+  "p": 0.0347,
+  "detectable": 0.4096614074981223,
+  "powered": true,
+  "n_well": 13,
+  "rho_well": -0.32479917717646006,
+  "p_well": 0.29,
+  "detectable_well": 0.5527707983925667,
+  "powered_well": false
+ },
+ "IRIS": {
+  "n": 26,
+  "rho": -0.39783188406193287,
+  "p": 0.04505,
+  "detectable": 0.4096614074981223,
+  "powered": false,
+  "n_well": 11,
+  "rho_well": -0.5798118817183882,
+  "p_well": 0.0746,
+  "detectable_well": 0.6020421101605816,
+  "powered_well": false
+ }
+}

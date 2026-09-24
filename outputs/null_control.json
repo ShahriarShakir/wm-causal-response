@@ -1,0 +1,13 @@
+{
+ "experiment": "null_control",
+ "task": "cartpole_swingup",
+ "sim_max_diff": 0.0,
+ "model_max_diff": 0.0,
+ "imagined_shape": [
+  20,
+  64,
+  64,
+  3
+ ],
+ "passed": true
+}

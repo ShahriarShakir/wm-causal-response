@@ -1,0 +1,342 @@
+{
+ "experiment": "object_audit_v23",
+ "arch": "storm",
+ "game": "ALE/DemonAttack-v5",
+ "n_episodes": 6,
+ "delays": [
+  8,
+  20
+ ],
+ "template_threshold": 0.6,
+ "raw": [
+  {
+   "episode": 0,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.2373737373737299,
+      8.5
+     ],
+     "true_disp_norm": 8.50331384174398,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.6111111111111112
+      ]
+     },
+     "template": {
+      "score_a": 0.6921494603157043,
+      "score_b": 0.7917190194129944,
+      "present": true,
+      "template_shape": [
+       [
+        16,
+        7
+       ],
+       [
+        16,
+        12
+       ]
+      ],
+      "model_disp": [
+       57.0,
+       -8.5
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 6.777391526252603,
+      "dir_err_deg": 96.88196116047261,
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      0.0,
+      8.0
+     ],
+     "true_disp_norm": 8.0,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.5817357301712036,
+      "score_b": 0.5462658405303955,
+      "present": false,
+      "template_shape": [
+       [
+        16,
+        7
+       ],
+       [
+        16,
+        7
+       ]
+      ],
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 1,
+   "d0": 1,
+   "delays": {
+    "20": {
+     "true_disp": [
+      -0.5261437908496589,
+      -20.0
+     ],
+     "true_disp_norm": 20.006919485234345,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.5925925925925926,
+       0.38235294117647056
+      ],
+      "model_disp": [
+       1.03125,
+       -18.59375
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9307942556858997,
+      "dir_err_deg": 4.681440166968095
+     },
+     "template": {
+      "score_a": 0.7372468709945679,
+      "score_b": 0.7462145686149597,
+      "present": true,
+      "template_shape": [
+       [
+        16,
+        12
+       ],
+       [
+        16,
+        12
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       -19.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9496714381253206,
+      "dir_err_deg": 1.5069433598984499,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 2,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.288770053475929,
+      12.5
+     ],
+     "true_disp_norm": 12.503335080840811,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.5763341188430786,
+      "score_b": 0.7154597640037537,
+      "present": false,
+      "template_shape": [
+       [
+        16,
+        12
+       ],
+       [
+        16,
+        7
+       ]
+      ],
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      -0.5261437908496589,
+      12.0
+     ],
+     "true_disp_norm": 12.011528932182182,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.39705882352941174
+      ]
+     },
+     "template": {
+      "score_a": 0.7689738869667053,
+      "score_b": 0.7758771777153015,
+      "present": true,
+      "template_shape": [
+       [
+        16,
+        12
+       ],
+       [
+        16,
+        12
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       14.0
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 1.1655468740944508,
+      "dir_err_deg": 2.510543610459192,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 3,
+   "d0": 1,
+   "delays": {}
+  },
+  {
+   "episode": 4,
+   "d0": 1,
+   "delays": {
+    "20": {
+     "true_disp": [
+      0.0,
+      -4.0
+     ],
+     "true_disp_norm": 4.0,
+     "zero_disp_passes": {
+      "2": false,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.1323529411764706,
+       0.1323529411764706
+      ]
+     },
+     "template": {
+      "score_a": 0.7733263969421387,
+      "score_b": 0.7294325828552246,
+      "present": true,
+      "template_shape": [
+       [
+        16,
+        12
+       ],
+       [
+        16,
+        12
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       1.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.25,
+      "dir_err_deg": 180.0,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 5,
+   "d0": 1,
+   "delays": {}
+  }
+ ],
+ "panel_key": {
+  "5cf5acd1ad": {
+   "arch": "storm",
+   "game": "DemonAttack",
+   "episode": 0,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "7bb9ac7ad9": {
+   "arch": "storm",
+   "game": "DemonAttack",
+   "episode": 1,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "d0f9b305a3": {
+   "arch": "storm",
+   "game": "DemonAttack",
+   "episode": 2,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "0a8b2ebd33": {
+   "arch": "storm",
+   "game": "DemonAttack",
+   "episode": 4,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  }
+ }
+}

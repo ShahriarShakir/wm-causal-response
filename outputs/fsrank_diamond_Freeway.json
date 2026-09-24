@@ -1,0 +1,1 @@
+{"experiment": "fixed_scorer_ranking_v14", "arch": "diamond", "game": "ALE/Freeway-v5", "seeds": [42, 7, 128], "n_ctx": 20, "K": 8, "horizon": 40, "warmup": 120, "scorer": {"n_pairs": 8800, "classes": [0, 8787, 13], "held_out_acc": 0.9346590638160706, "majority": 0.9985227272727273, "balanced_acc": 0.9673109650611877, "gate": false}, "results": {}}

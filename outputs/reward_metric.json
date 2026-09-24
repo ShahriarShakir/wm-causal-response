@@ -1,0 +1,121 @@
+{
+ "experiment": "reward_metric",
+ "n_episodes": 10,
+ "delays": [
+  1,
+  5,
+  10,
+  20
+ ],
+ "results": {
+  "cartpole_swingup": {
+   "sustained": {
+    "1": {
+     "alignment": -12.066067722861689,
+     "magnitude": 16.713567489513416,
+     "true_reward_change": 0.0009593236132043383,
+     "n": 10
+    },
+    "5": {
+     "alignment": -3.1448158781309976,
+     "magnitude": 3.7156326164662077,
+     "true_reward_change": 0.013806394043146921,
+     "n": 10
+    },
+    "10": {
+     "alignment": 0.32238910732607107,
+     "magnitude": 0.8253133935389363,
+     "true_reward_change": 0.04459301890318714,
+     "n": 10
+    },
+    "20": {
+     "alignment": -0.1824331624251406,
+     "magnitude": 0.3435828906732469,
+     "true_reward_change": 0.06915195537554805,
+     "n": 10
+    }
+   },
+   "single": {
+    "1": {
+     "alignment": -4.878146941998977,
+     "magnitude": 6.668374554080524,
+     "true_reward_change": 0.001008856310065908,
+     "n": 10
+    },
+    "5": {
+     "alignment": -0.21359066925107978,
+     "magnitude": 0.24943208572969686,
+     "true_reward_change": 0.005932705712673542,
+     "n": 10
+    },
+    "10": {
+     "alignment": 0.007805494151017463,
+     "magnitude": 0.011830837117391631,
+     "true_reward_change": 0.013727878877698418,
+     "n": 10
+    },
+    "20": {
+     "alignment": -6.510467256655838e-06,
+     "magnitude": 4.439715794809499e-05,
+     "true_reward_change": 0.02002100774157984,
+     "n": 10
+    }
+   }
+  },
+  "cheetah_run": {
+   "sustained": {
+    "1": {
+     "alignment": 0.5943507230465493,
+     "magnitude": 0.5943507230465492,
+     "true_reward_change": 0.044067815882871744,
+     "n": 7
+    },
+    "5": {
+     "alignment": 0.6568330155433615,
+     "magnitude": 0.6568330155433615,
+     "true_reward_change": 0.07010817634823342,
+     "n": 9
+    },
+    "10": {
+     "alignment": 0.5078801778604307,
+     "magnitude": 0.7733547632830949,
+     "true_reward_change": 0.0571293970893947,
+     "n": 8
+    },
+    "20": {
+     "alignment": 2.7522727011191357,
+     "magnitude": 19.885463138323605,
+     "true_reward_change": 0.0060484073247099035,
+     "n": 6
+    }
+   },
+   "single": {
+    "1": {
+     "alignment": 1.015455103075201,
+     "magnitude": 1.015455103075201,
+     "true_reward_change": 0.025098009129883636,
+     "n": 6
+    },
+    "5": {
+     "alignment": 0.028717897662508807,
+     "magnitude": 0.028717897662508807,
+     "true_reward_change": 0.02638038718624871,
+     "n": 5
+    },
+    "10": {
+     "alignment": 0.00940527413894564,
+     "magnitude": 0.009594347614928682,
+     "true_reward_change": 0.033940101765235674,
+     "n": 6
+    },
+    "20": {
+     "alignment": -1.7354179821263525e-05,
+     "magnitude": 2.9186902652639108e-05,
+     "true_reward_change": 0.01794004340282237,
+     "n": 6
+    }
+   }
+  }
+ },
+ "positive_control_passes": true
+}

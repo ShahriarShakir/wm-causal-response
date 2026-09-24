@@ -1,0 +1,1668 @@
+{
+ "experiment": "object_audit_v23",
+ "arch": "diamond",
+ "game": "ALE/Seaquest-v5",
+ "n_episodes": 30,
+ "delays": [
+  8,
+  20
+ ],
+ "template_threshold": 0.6,
+ "raw": [
+  {
+   "episode": 0,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -8.0,
+      -8.844444444444449
+     ],
+     "true_disp_norm": 11.925778697043823,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.5222222222222223,
+       0.4
+      ],
+      "model_disp": [
+       -10.570921985815602,
+       -8.758865248226954
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 1.151132408206003,
+      "dir_err_deg": 8.225444570420274
+     },
+     "template": {
+      "score_a": 0.7773197889328003,
+      "score_b": 0.7761678695678711,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       -7.0,
+       -8.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.89135863433133,
+      "dir_err_deg": 0.9441296977720872,
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      -7.394444444444453,
+      -8.222222222222221
+     ],
+     "true_disp_norm": 11.058152961212842,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.5111111111111111,
+       0.075
+      ]
+     },
+     "template": {
+      "score_a": 0.822087824344635,
+      "score_b": 0.752716600894928,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        11,
+        20
+       ]
+      ],
+      "model_disp": [
+       -5.5,
+       -9.0
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9538221791523905,
+      "dir_err_deg": 10.536251094410433,
+      "self_score": 0.9999997019767761
+     }
+    }
+   }
+  },
+  {
+   "episode": 1,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -15.355782312925172,
+      -18.051700680272113
+     ],
+     "true_disp_norm": 23.69945037109684,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.3877551020408163,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.7783292531967163,
+      "score_b": 0.6716512441635132,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        7,
+        20
+       ]
+      ],
+      "model_disp": [
+       -12.5,
+       -52.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 2.2566474879141674,
+      "dir_err_deg": 26.869772489090078,
+      "self_score": 0.9999997615814209
+     }
+    },
+    "20": {
+     "true_disp": [
+      -16.078004535147386,
+      -3.789569160997736
+     ],
+     "true_disp_norm": 16.518567258034366,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.3673469387755102,
+       0.4
+      ],
+      "model_disp": [
+       -16.66666666666667,
+       -9.166666666666664
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 1.1515034397593178,
+      "dir_err_deg": 15.548296161233075
+     },
+     "template": {
+      "score_a": 0.802395224571228,
+      "score_b": 0.771632969379425,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       -16.0,
+       -8.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 1.0829355561268559,
+      "dir_err_deg": 13.30255359533803,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 3,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      10.390151515151516,
+      -5.0909090909090935
+     ],
+     "true_disp_norm": 11.570332920003045,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.125,
+       0.23863636363636365
+      ]
+     },
+     "template": {
+      "score_a": 0.6619468927383423,
+      "score_b": 0.69889897108078,
+      "present": true,
+      "template_shape": [
+       [
+        11,
+        20
+       ],
+       [
+        11,
+        20
+       ]
+      ],
+      "model_disp": [
+       12.0,
+       -11.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 1.4069448743308435,
+      "dir_err_deg": 16.406772146902604,
+      "self_score": 0.9999997019767761
+     }
+    },
+    "20": {
+     "true_disp": [
+      4.0,
+      -8.0
+     ],
+     "true_disp_norm": 8.94427190999916,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.4,
+       0.6
+      ],
+      "model_disp": [
+       5.666666666666671,
+       -10.000000000000014
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 1.2850637684134174,
+      "dir_err_deg": 2.9737310824801697
+     },
+     "template": {
+      "score_a": 0.7656350135803223,
+      "score_b": 0.81549072265625,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       3.0,
+       -8.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9552486587271398,
+      "dir_err_deg": 6.009005957494474,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 4,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -12.078004535147386,
+      -25.25895691609977
+     ],
+     "true_disp_norm": 27.998090971357765,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.29591836734693877,
+       0.32222222222222224
+      ],
+      "model_disp": [
+       -13.0,
+       -20.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.8519766904163446,
+      "dir_err_deg": 7.468270661138914
+     },
+     "template": {
+      "score_a": 0.7660170793533325,
+      "score_b": 0.7836002111434937,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       -12.0,
+       -20.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.8330499248410048,
+      "dir_err_deg": 5.408159637415768,
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      -12.0,
+      -26.04081632653061
+     ],
+     "true_disp_norm": 28.672706795001115,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.2755102040816326,
+       0.42857142857142855
+      ],
+      "model_disp": [
+       -10.61904761904762,
+       -20.91269841269841
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.8180015992183486,
+      "dir_err_deg": 2.1795826919253702
+     },
+     "template": {
+      "score_a": 0.7576098442077637,
+      "score_b": 0.8033605813980103,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       -12.0,
+       -20.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.8134497990070315,
+      "dir_err_deg": 6.2227951873716245,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 5,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -3.981717687074834,
+      -17.451955782312922
+     ],
+     "true_disp_norm": 17.900414418872263,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.5,
+       0.3673469387755102
+      ],
+      "model_disp": [
+       -4.75,
+       -12.083333333333329
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.7253144707402193,
+      "dir_err_deg": 8.607740038168286
+     },
+     "template": {
+      "score_a": 0.7500678300857544,
+      "score_b": 0.7142822742462158,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       -3.0,
+       -12.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.6910072910832785,
+      "dir_err_deg": 1.1840227756087576,
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      -4.0,
+      -13.224489795918373
+     ],
+     "true_disp_norm": 13.816190877457839,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.46938775510204084,
+       0.42857142857142855
+      ],
+      "model_disp": [
+       -4.972049689440993,
+       -11.940993788819867
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9362047105631446,
+      "dir_err_deg": 5.777162624986087
+     },
+     "template": {
+      "score_a": 0.8061107397079468,
+      "score_b": 0.8249397277832031,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       -4.0,
+       -12.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9155280752028042,
+      "dir_err_deg": 1.6060029892825336,
+      "self_score": 0.9999997615814209
+     }
+    }
+   }
+  },
+  {
+   "episode": 8,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      13.752777777777787,
+      18.577777777777783
+     ],
+     "true_disp_norm": 23.11434021912442,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.1875,
+       0.5666666666666667
+      ]
+     },
+     "template": {
+      "score_a": 0.6611251831054688,
+      "score_b": 0.8225463032722473,
+      "present": true,
+      "template_shape": [
+       [
+        11,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       14.5,
+       21.0
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 1.104059214687651,
+      "dir_err_deg": 1.8876916404182622,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 10,
+   "d0": 1,
+   "delays": {}
+  },
+  {
+   "episode": 11,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -24.0,
+      -28.844444444444434
+     ],
+     "true_disp_norm": 37.52335239965429,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.6333333333333333,
+       0.43333333333333335
+      ],
+      "model_disp": [
+       -23.696356275303643,
+       -27.267206477732785
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9627346301219964,
+      "dir_err_deg": 1.229896648952308
+     },
+     "template": {
+      "score_a": 0.8059335947036743,
+      "score_b": 0.8136202096939087,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       -23.0,
+       -27.0
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9452325934039724,
+      "dir_err_deg": 0.6639530288866027,
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      -23.921995464852614,
+      -22.075283446712007
+     ],
+     "true_disp_norm": 32.55119055077873,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.5111111111111111,
+       0.5612244897959183
+      ],
+      "model_disp": [
+       -23.498023715415016,
+       -26.839920948616594
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 1.0958940869243896,
+      "dir_err_deg": 6.097341474005526
+     },
+     "template": {
+      "score_a": 0.8100088834762573,
+      "score_b": 0.8071632385253906,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       -23.0,
+       -28.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 1.1131802324545088,
+      "dir_err_deg": 7.898432054457205,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 12,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      8.0,
+      -40.844444444444434
+     ],
+     "true_disp_norm": 41.62053149558891,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.6555555555555556,
+       0.37777777777777777
+      ],
+      "model_disp": [
+       7.068793619142568,
+       -40.78015952143568
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.994419649740265,
+      "dir_err_deg": 1.2480691896881966
+     },
+     "template": {
+      "score_a": 0.7406938076019287,
+      "score_b": 0.7356957197189331,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       10.0,
+       -39.0
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9673505558827826,
+      "dir_err_deg": 3.2994441203097717,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 13,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      7.921995464852614,
+      -2.116099773242624
+     ],
+     "true_disp_norm": 8.199749410528524,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.5510204081632653,
+       0.26666666666666666
+      ],
+      "model_disp": [
+       5.763888888888886,
+       -6.875
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 1.09412035059562,
+      "dir_err_deg": 35.06857084499058
+     },
+     "template": {
+      "score_a": 0.7549943327903748,
+      "score_b": 0.7617496252059937,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       9.0,
+       -3.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 1.156966207811667,
+      "dir_err_deg": 3.4794444093729227,
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      7.921995464852614,
+      1.9247165532879933
+     ],
+     "true_disp_norm": 8.152456436905762,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.3673469387755102,
+       0.36666666666666664
+      ],
+      "model_disp": [
+       6.227272727272734,
+       -5.833333333333329
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 1.0466396828041025,
+      "dir_err_deg": 56.78510070285234
+     },
+     "template": {
+      "score_a": 0.7430815696716309,
+      "score_b": 0.7813225984573364,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       8.0,
+       -4.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 1.097125998675551,
+      "dir_err_deg": 40.22095693840458,
+      "self_score": 0.9999997615814209
+     }
+    }
+   }
+  },
+  {
+   "episode": 14,
+   "d0": 1,
+   "delays": {}
+  },
+  {
+   "episode": 16,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      12.0,
+      18.571428571428577
+     ],
+     "true_disp_norm": 22.11103704450955,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.5510204081632653,
+       0.21428571428571427
+      ]
+     },
+     "template": {
+      "score_a": 0.8055294156074524,
+      "score_b": 0.8058320879936218,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       13.0,
+       24.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 1.2344372664641696,
+      "dir_err_deg": 4.425750309004191,
+      "self_score": 0.9999997615814209
+     }
+    },
+    "20": {
+     "true_disp": [
+      11.990162434225581,
+      22.56771905742393
+     ],
+     "true_disp_norm": 25.555154835256417,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.6170212765957447,
+       0.5698924731182796
+      ],
+      "model_disp": [
+       10.957384515289519,
+       22.96356538711776
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9956446080653515,
+      "dir_err_deg": 2.4727846103731395
+     },
+     "template": {
+      "score_a": 0.8320679664611816,
+      "score_b": 0.7821192741394043,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        22
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       11.0,
+       25.0
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 1.0687863463779037,
+      "dir_err_deg": 4.2320820151089436,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 18,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -3.4724489795918387,
+      25.648979591836735
+     ],
+     "true_disp_norm": 25.882968454532524,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.3979591836734694,
+       0.3375
+      ],
+      "model_disp": [
+       -2.3076923076923066,
+       25.51282051282051
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9897232593658019,
+      "dir_err_deg": 2.5415591078357864
+     },
+     "template": {
+      "score_a": 0.7336902022361755,
+      "score_b": 0.6908974051475525,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        11,
+        20
+       ]
+      ],
+      "model_disp": [
+       -1.5,
+       23.0
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.8905030033058667,
+      "dir_err_deg": 3.978630085013523,
+      "self_score": 0.9999997019767761
+     }
+    }
+   }
+  },
+  {
+   "episode": 19,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -29.752777777777787,
+      -15.422222222222217
+     ],
+     "true_disp_norm": 33.512277209485966,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.45555555555555555,
+       0.125
+      ]
+     },
+     "template": {
+      "score_a": 0.7469940185546875,
+      "score_b": 0.6701224446296692,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        11,
+        20
+       ]
+      ],
+      "model_disp": [
+       -29.5,
+       -15.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9875354420074473,
+      "dir_err_deg": 0.4475889465755441,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 23,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -8.0,
+      12.122448979591837
+     ],
+     "true_disp_norm": 14.524247631557621,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.12244897959183673,
+       0.41836734693877553
+      ]
+     },
+     "template": {
+      "score_a": 0.7904094457626343,
+      "score_b": 0.7139120697975159,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       -8.0,
+       3.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 0.5882579230302787,
+      "dir_err_deg": 36.021831269239264,
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      -8.0,
+      4.0
+     ],
+     "true_disp_norm": 8.94427190999916,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.45918367346938777,
+       0.37755102040816324
+      ],
+      "model_disp": [
+       -9.75135135135136,
+       3.0
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 1.1406623798121753,
+      "dir_err_deg": 9.464554047363627
+     },
+     "template": {
+      "score_a": 0.7181313633918762,
+      "score_b": 0.7087475657463074,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       -8.0,
+       4.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 1.0,
+      "dir_err_deg": 1.2074182697257333e-06,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 24,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -3.6938775510204067,
+      30.061224489795926
+     ],
+     "true_disp_norm": 30.287323242370544,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.1836734693877551,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.8050968050956726,
+      "score_b": 0.49583700299263,
+      "present": false,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        12,
+        20
+       ]
+      ],
+      "self_score": 0.9999997615814209
+     }
+    },
+    "20": {
+     "true_disp": [
+      -4.0,
+      28.000000000000007
+     ],
+     "true_disp_norm": 28.28427124746191,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.14285714285714285,
+       0.3877551020408163
+      ]
+     },
+     "template": {
+      "score_a": 0.7938060760498047,
+      "score_b": 0.7700432538986206,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       -13.0,
+       7.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 0.5220153254455273,
+      "dir_err_deg": 53.569141879837645,
+      "self_score": 0.9999997615814209
+     }
+    }
+   }
+  },
+  {
+   "episode": 25,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -0.07800453514738592,
+      -5.809977324263031
+     ],
+     "true_disp_norm": 5.8105009436324995,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.4897959183673469,
+       0.4666666666666667
+      ],
+      "model_disp": [
+       -0.2410714285714306,
+       -15.75892857142857
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 2.712463607798478,
+      "dir_err_deg": 0.10720624102675
+     },
+     "template": {
+      "score_a": 0.8068788647651672,
+      "score_b": 0.8216686844825745,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       -15.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 2.5815330116137254,
+      "dir_err_deg": 0.7692047463416674,
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      0.0,
+      0.0
+     ],
+     "true_disp_norm": 0.0,
+     "zero_disp_passes": {
+      "2": true,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.4,
+       0.4
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": null,
+      "dir_err_deg": null
+     },
+     "template": {
+      "score_a": 0.6908759474754333,
+      "score_b": 0.692643404006958,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": null,
+      "dir_err_deg": null,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 28,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -4.0,
+      3.4285714285714306
+     ],
+     "true_disp_norm": 5.26831111845308,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.3877551020408163,
+       0.21428571428571427
+      ]
+     },
+     "template": {
+      "score_a": 0.7796033024787903,
+      "score_b": 0.7532863616943359,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       -3.0,
+       3.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.8053132382897387,
+      "dir_err_deg": 4.398705354995508,
+      "self_score": 1.0
+     }
+    }
+   }
+  },
+  {
+   "episode": 29,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      8.0,
+      -14.163265306122447
+     ],
+     "true_disp_norm": 16.266471164072794,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.6224489795918368,
+       0.24489795918367346
+      ]
+     },
+     "template": {
+      "score_a": 0.7631416916847229,
+      "score_b": 0.810626208782196,
+      "present": true,
+      "template_shape": [
+       [
+        14,
+        20
+       ],
+       [
+        14,
+        20
+       ]
+      ],
+      "model_disp": [
+       8.0,
+       -7.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.6535004246165631,
+      "dir_err_deg": 19.3545109648548,
+      "self_score": 1.0
+     }
+    }
+   }
+  }
+ ],
+ "panel_key": {
+  "4b56b87cf2": {
+   "arch": "diamond",
+   "game": "Seaquest",
+   "episode": 0,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "392d10d3af": {
+   "arch": "diamond",
+   "game": "Seaquest",
+   "episode": 1,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "5313ad20b5": {
+   "arch": "diamond",
+   "game": "Seaquest",
+   "episode": 3,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "0fafdeff0b": {
+   "arch": "diamond",
+   "game": "Seaquest",
+   "episode": 4,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "5781f0aa85": {
+   "arch": "diamond",
+   "game": "Seaquest",
+   "episode": 5,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "0916470dc7": {
+   "arch": "diamond",
+   "game": "Seaquest",
+   "episode": 11,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "39c4033856": {
+   "arch": "diamond",
+   "game": "Seaquest",
+   "episode": 13,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "9f84f709c8": {
+   "arch": "diamond",
+   "game": "Seaquest",
+   "episode": 16,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "a6759a9028": {
+   "arch": "diamond",
+   "game": "Seaquest",
+   "episode": 23,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "b7631b80d2": {
+   "arch": "diamond",
+   "game": "Seaquest",
+   "episode": 24,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "3fdea4e92d": {
+   "arch": "diamond",
+   "game": "Seaquest",
+   "episode": 25,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  }
+ }
+}

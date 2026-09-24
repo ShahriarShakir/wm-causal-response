@@ -1,0 +1,13 @@
+# Object-level readout and its human audit
+
+Question. Are the locator labels on generated frames trustworthy as statements about the models?
+
+Design. For all 78 (architecture, game) cells and up to 30 episodes per cell, both arms are rolled in the real emulator at the native resolution. The actuated object is the set of pixels at which the two true frames first differ. Two locators search for it in the generated frames at delays 8 and 20: a colour locator (dominant colour of the object, lane-restricted) and a template locator (the object's patch cut from the true frame of the same arm and delay, matched by normalised cross-correlation inside the dilated lane, found when the peak is at least 0.60; this threshold was fixed before the runs). For every episode in which the template locator finds the object in both generated arms, the estimated displacement between the arms is compared with the true displacement against the baseline of a zero displacement. The scripts are scripts/v23_object_audit.py (the runs) and audit_eval.py (the evaluation and the tables).
+
+Human audit. Sixty panels were drawn by a seeded stratified rule (up to four per architecture and taxonomy class, plus episode 0 of five games for every architecture; the 63 panels so drawn were capped at the first 60 in hashed-name order). Each panel shows the two true frames, the two generated frames and the true frame at the first difference with the actuated object outlined, with no architecture, game name, class or score; file names are hashes and the key is kept in human_key.json. Three authors annotated the panels independently, each seeing no metric value and no other sheet. The decision rules were fixed before the first labels were read: a panel enters the presence comparison when both arms are labelled yes or no; it enters the displacement comparison when the labels yield a verdict (direction no means no improvement; direction yes with magnitude about right or too little means improvement; other combinations are undecided). The consensus rule, fixed before the second sheet was integrated, is that at least two annotators decided and all who decided agree. One panel, the first in hashed order, was used to explain the questions before labelling and is excluded from every sheet.
+
+Running the evaluation:
+
+    OA_TAG=30 HUMAN_EXCLUDE=08fcf5d307 PAPER_DIR=$PWD/paper python3 ext/object_audit/audit_eval.py --with-human ext/object_audit/human_labels_2026-09-18.csv,ext/object_audit/human_labels_annotator2_2026-09-19.csv,ext/object_audit/human_labels_annotator3_2026-09-22.csv
+
+This writes outputs/object_audit_eval.json and the two human-audit tables.

@@ -1,0 +1,16 @@
+{
+ "video": {
+  "n": 96,
+  "causal_half_holds": 96,
+  "consistency_prefers_blind": 96,
+  "joint_holds": 96,
+  "consistency_gap_d20": 0.035655516390077135
+ },
+ "iris": {
+  "n": 96,
+  "causal_half_holds": 96,
+  "consistency_prefers_blind": 0,
+  "joint_holds": 0,
+  "consistency_gap_d20": 0.01584356693032951
+ }
+}

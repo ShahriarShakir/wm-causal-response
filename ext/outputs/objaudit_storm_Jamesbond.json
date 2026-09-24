@@ -1,0 +1,83 @@
+{
+ "experiment": "object_audit_v23",
+ "arch": "storm",
+ "game": "ALE/Jamesbond-v5",
+ "n_episodes": 6,
+ "delays": [
+  8,
+  20
+ ],
+ "template_threshold": 0.6,
+ "raw": [
+  {
+   "episode": 0,
+   "d0": 1,
+   "delays": {}
+  },
+  {
+   "episode": 1,
+   "d0": 1,
+   "delays": {}
+  },
+  {
+   "episode": 2,
+   "d0": 1,
+   "delays": {
+    "20": {
+     "true_disp": [
+      4.201465201465211,
+      -27.587912087912088
+     ],
+     "true_disp_norm": 27.906006579399513,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": false
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.0,
+       0.0
+      ]
+     },
+     "template": {
+      "score_a": 0.562466561794281,
+      "score_b": 0.7446193695068359,
+      "present": false,
+      "template_shape": [
+       [
+        8,
+        12
+       ],
+       [
+        9,
+        13
+       ]
+      ],
+      "self_score": 0.9999998211860657
+     }
+    }
+   }
+  },
+  {
+   "episode": 3,
+   "d0": 1,
+   "delays": {}
+  },
+  {
+   "episode": 5,
+   "d0": 3,
+   "delays": {}
+  }
+ ],
+ "panel_key": {
+  "731f16280c": {
+   "arch": "storm",
+   "game": "Jamesbond",
+   "episode": 2,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  }
+ }
+}

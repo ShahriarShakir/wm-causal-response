@@ -1,0 +1,7 @@
+# Closed-loop planning
+
+Question. Does a model whose measured response is blind help a planner less than one whose response tracks the world?
+
+Design, fixed before running. Random-shooting model-predictive control inside the emulator. An episode is reset from its seed (the same twenty reset seeds for every seed, condition and architecture); the game's warm-up and the context actions are applied; at each of 30 decision steps, eight random candidate sequences of 12 actions are drawn, each candidate is imagined by the world model from the last real frames with a model seed shared by the eight candidates, scored by the frozen per-game reward scorer on the imagined frames, and the first action of the best-scoring candidate is executed in the emulator. The random policy executes the first action of the first candidate. The emulator-rollout oracle scores each candidate's true future obtained by cloning and restoring the emulator state under the same scorer, candidates and horizon; it is an oracle for the scorer, not for the return. The twelve games are those whose frozen scorer reached a balanced held-out accuracy of at least 0.8; the list was fixed before the runs. Returns are means over 3 seeds and 20 episodes with a percentile bootstrap; a model counts as useful in a game when the bootstrap interval of its difference from the random policy lies entirely above zero.
+
+Scripts. v20_closed_loop.py runs one (architecture, game) cell; closed_loop_eval.py summarises the cells into outputs/closed_loop_eval.json and writes the two closed-loop tables.

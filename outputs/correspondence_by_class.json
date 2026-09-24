@@ -1,0 +1,68 @@
+{
+ "DIAMOND": {
+  "tracked": {
+   "n": 11,
+   "passing": 11,
+   "positive": 11
+  },
+  "aligned-then-forgotten": {
+   "n": 6,
+   "passing": 4,
+   "positive": 6
+  },
+  "never-aligned": {
+   "n": 7,
+   "passing": 2,
+   "positive": 6
+  },
+  "partial": {
+   "n": 2,
+   "passing": 0,
+   "positive": 2
+  }
+ },
+ "IRIS": {
+  "tracked": {
+   "n": 7,
+   "passing": 6,
+   "positive": 7
+  },
+  "aligned-then-forgotten": {
+   "n": 9,
+   "passing": 5,
+   "positive": 9
+  },
+  "never-aligned": {
+   "n": 8,
+   "passing": 2,
+   "positive": 6
+  },
+  "partial": {
+   "n": 2,
+   "passing": 1,
+   "positive": 2
+  }
+ },
+ "STORM": {
+  "tracked": {
+   "n": 6,
+   "passing": 5,
+   "positive": 6
+  },
+  "aligned-then-forgotten": {
+   "n": 5,
+   "passing": 1,
+   "positive": 5
+  },
+  "never-aligned": {
+   "n": 13,
+   "passing": 1,
+   "positive": 11
+  },
+  "partial": {
+   "n": 2,
+   "passing": 2,
+   "positive": 2
+  }
+ }
+}

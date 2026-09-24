@@ -1,0 +1,385 @@
+{
+ "experiment": "object_audit_v23",
+ "arch": "diamond",
+ "game": "ALE/Frostbite-v5",
+ "n_episodes": 6,
+ "delays": [
+  8,
+  20
+ ],
+ "template_threshold": 0.6,
+ "raw": [
+  {
+   "episode": 0,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      0.06725211864953451,
+      0.9338217262573068
+     ],
+     "true_disp_norm": 0.9362402810673269,
+     "zero_disp_passes": {
+      "2": true,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       1.0269106566200215,
+       1.038369304556355
+      ],
+      "model_disp": [
+       -0.26104986419161946,
+       3.5563786366871426
+      ],
+      "hit": {
+       "2": false,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 3.8087943834558287,
+      "dir_err_deg": 8.317393690745483
+     },
+     "template": {
+      "score_a": 0.9703606367111206,
+      "score_b": 0.877693772315979,
+      "present": true,
+      "template_shape": [
+       [
+        35,
+        31
+       ],
+       [
+        35,
+        31
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       11.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 11.749120629011868,
+      "dir_err_deg": 4.119224593300366,
+      "self_score": 0.9999992847442627
+     }
+    },
+    "20": {
+     "true_disp": [
+      -0.24372420167145492,
+      3.120182027523427
+     ],
+     "true_disp_norm": 3.1296864653445065,
+     "zero_disp_passes": {
+      "2": false,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.8004459308807135,
+       1.0878220140515222
+      ],
+      "model_disp": [
+       8.542752712804074,
+       4.331321905424403
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 3.0603852920103685,
+      "dir_err_deg": 67.58063985298116
+     },
+     "template": {
+      "score_a": 0.7530922293663025,
+      "score_b": 0.8704583644866943,
+      "present": true,
+      "template_shape": [
+       [
+        35,
+        31
+       ],
+       [
+        35,
+        31
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       9.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 2.875687420979183,
+      "dir_err_deg": 4.466428647231261,
+      "self_score": 0.9999997019767761
+     }
+    }
+   }
+  },
+  {
+   "episode": 1,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      -0.11898608385433818,
+      2.7878922740905097
+     ],
+     "true_disp_norm": 2.7904302571618853,
+     "zero_disp_passes": {
+      "2": false,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       1.2358845671267251,
+       1.207977207977208
+      ],
+      "model_disp": [
+       3.928330619672437,
+       2.716047313475727
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 1.7115084253789976,
+      "dir_err_deg": 57.78389970606281
+     },
+     "template": {
+      "score_a": 0.9702456593513489,
+      "score_b": 0.8535148501396179,
+      "present": true,
+      "template_shape": [
+       [
+        34,
+        23
+       ],
+       [
+        34,
+        23
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       -3.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 1.0751030212277248,
+      "dir_err_deg": 177.5561230962136,
+      "self_score": 0.9999991059303284
+     }
+    },
+    "20": {
+     "true_disp": [
+      -1.180877356743622,
+      5.468293318922349
+     ],
+     "true_disp_norm": 5.594345641220303,
+     "zero_disp_passes": {
+      "2": false,
+      "4": false,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.888130968622101,
+       1.1066481994459834
+      ],
+      "model_disp": [
+       19.242034493962315,
+       6.938973255740194
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": false
+      },
+      "mag_ratio": 3.656362640326042,
+      "dir_err_deg": 82.35580743324017
+     },
+     "template": {
+      "score_a": 0.9702781438827515,
+      "score_b": 0.8525626063346863,
+      "present": true,
+      "template_shape": [
+       [
+        34,
+        23
+       ],
+       [
+        34,
+        23
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": false,
+       "4": false,
+       "8": true
+      },
+      "mag_ratio": 0.0,
+      "dir_err_deg": null,
+      "self_score": 0.9999995827674866
+     }
+    }
+   }
+  },
+  {
+   "episode": 2,
+   "d0": 1,
+   "delays": {
+    "8": {
+     "true_disp": [
+      1.0194497153700155,
+      -0.39231499051233243
+     ],
+     "true_disp_norm": 1.0923318057937785,
+     "zero_disp_passes": {
+      "2": true,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": false,
+      "count_ratio": [
+       0.2903225806451613,
+       0.14705882352941177
+      ]
+     },
+     "template": {
+      "score_a": 0.7842707633972168,
+      "score_b": 0.7718377709388733,
+      "present": true,
+      "template_shape": [
+       [
+        11,
+        23
+       ],
+       [
+        11,
+        23
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       1.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": 0.9154727480202935,
+      "dir_err_deg": 111.04822986656261,
+      "self_score": 1.0
+     }
+    },
+    "20": {
+     "true_disp": [
+      0.0,
+      0.0
+     ],
+     "true_disp_norm": 0.0,
+     "zero_disp_passes": {
+      "2": true,
+      "4": true,
+      "8": true
+     },
+     "colour": {
+      "present": true,
+      "count_ratio": [
+       0.3614457831325301,
+       0.3614457831325301
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": null,
+      "dir_err_deg": null
+     },
+     "template": {
+      "score_a": 0.8683562874794006,
+      "score_b": 0.6847825050354004,
+      "present": true,
+      "template_shape": [
+       [
+        11,
+        19
+       ],
+       [
+        11,
+        19
+       ]
+      ],
+      "model_disp": [
+       0.0,
+       0.0
+      ],
+      "hit": {
+       "2": true,
+       "4": true,
+       "8": true
+      },
+      "mag_ratio": null,
+      "dir_err_deg": null,
+      "self_score": 1.0
+     }
+    }
+   }
+  }
+ ],
+ "panel_key": {
+  "e47f385e88": {
+   "arch": "diamond",
+   "game": "Frostbite",
+   "episode": 0,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "e8d4bd3b91": {
+   "arch": "diamond",
+   "game": "Frostbite",
+   "episode": 1,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  },
+  "207c4b76f1": {
+   "arch": "diamond",
+   "game": "Frostbite",
+   "episode": 2,
+   "d0": 1,
+   "tiles": "true a | true b | generated a | generated b | true frame at first difference with the actuated object boxed"
+  }
+ }
+}

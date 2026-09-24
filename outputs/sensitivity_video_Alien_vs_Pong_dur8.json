@@ -1,0 +1,9 @@
+{
+ "duration": "8",
+ "n_settings": 96,
+ "n_holds": 96,
+ "n_causal_holds": 96,
+ "n_consistency_inversion_holds": 96,
+ "fraction_holds": 1.0,
+ "breaks": []
+}

@@ -1,0 +1,50 @@
+{
+ "decorrelation": {
+  "supported": false,
+  "rho": 0.5000000000000001,
+  "p": 0.21715,
+  "n": 8,
+  "detectable": 0.7067471436790811,
+  "gates": [
+   "[FAIL] enough units for a correlation: n=8 (need >=10 before a rank correlation is worth quoting)",
+   "[FAIL] test is powered for this effect: |rho|=0.500 vs smallest detectable 0.707 at n=8; a null here is NOT evidence of absence"
+  ]
+ },
+ "compression": {
+  "supported": true,
+  "consistency_range": [
+   0.2651474693489136,
+   0.8424158925356738
+  ],
+  "alignment_range": [
+   0.01775957845473076,
+   1.0493594426590334
+  ],
+  "consistency_drop": 0.6852534814474842,
+  "alignment_drop": 0.9830757910657106,
+  "n": 8
+ },
+ "inversions": {
+  "supported": true,
+  "n_inversions": 1,
+  "examples": [
+   {
+    "consistency_prefers": "Boxing",
+    "causality_prefers": "Asterix",
+    "c1": 0.5468596684277378,
+    "c2": 0.40310868552945384,
+    "a1": 0.01775957845473076,
+    "a2": 0.7785058248958574
+   }
+  ]
+ },
+ "_meta": {
+  "duration": 1,
+  "n_games": 26,
+  "n_live": 8,
+  "dataset_gates": [
+   "[PASS] units carry a real intervention: 8/26 above true-divergence 0.1; degenerate: ['Alien', 'Amidar', 'BankHeist', 'BattleZone', 'ChopperCommand', 'CrazyClimber', 'Freeway', 'Frostbite', 'Gopher', 'Hero', 'Kangaroo', 'Krull', 'KungFuMaster', 'MsPacman', 'Qbert', 'RoadRunner', 'Seaquest', 'UpNDown']",
+   "[FAIL] majority of the suite survives: 31% survive \u2014 below 50% means the intervention design, not the models, is limiting what can be measured"
+  ]
+ }
+}

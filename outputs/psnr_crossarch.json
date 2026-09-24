@@ -1,0 +1,274 @@
+{
+ "DIAMOND": {
+  "n_games": 26,
+  "n_live": 12,
+  "games": {
+   "Alien": {
+    "true_div": 2.527656708444868,
+    "consistency": 0.8758809180731759,
+    "alignment": 0.0015373400243333909,
+    "psnr": 34.35584779339438
+   },
+   "Assault": {
+    "true_div": 8.304405689239502,
+    "consistency": 0.2636347553582135,
+    "alignment": 0.07914659974612404,
+    "psnr": 26.708153636153554
+   },
+   "Asterix": {
+    "true_div": 9.114460604531425,
+    "consistency": 0.4026474842422962,
+    "alignment": 0.8307476550028751,
+    "psnr": 32.873302461620774
+   },
+   "BankHeist": {
+    "true_div": 18.93667755808149,
+    "consistency": 0.9463774971419472,
+    "alignment": 0.00012918000077944753,
+    "psnr": 11.439994457625204
+   },
+   "Boxing": {
+    "true_div": 15.608001845223564,
+    "consistency": 0.544171079647981,
+    "alignment": 0.05461401070490783,
+    "psnr": 22.920762936884405
+   },
+   "Breakout": {
+    "true_div": 4.7006866080420355,
+    "consistency": 0.841753255518757,
+    "alignment": 0.9275265068771283,
+    "psnr": 37.996576303589904
+   },
+   "DemonAttack": {
+    "true_div": 5.496208906173706,
+    "consistency": 0.5874415244873441,
+    "alignment": 0.998265151245524,
+    "psnr": 31.623796113872924
+   },
+   "Freeway": {
+    "true_div": 1.7824432424136571,
+    "consistency": 0.7970296437919053,
+    "alignment": 0.0017688373080056463,
+    "psnr": 38.553139805399745
+   },
+   "Jamesbond": {
+    "true_div": 3.150548424039568,
+    "consistency": 0.7086672852829455,
+    "alignment": 0.7453908847549425,
+    "psnr": 37.64800853139526
+   },
+   "Pong": {
+    "true_div": 3.558471884046282,
+    "consistency": 0.8423744114893422,
+    "alignment": 0.8588293445364332,
+    "psnr": 35.20199070038962
+   },
+   "PrivateEye": {
+    "true_div": 12.197424752371651,
+    "consistency": 0.7384063323114364,
+    "alignment": 0.6324542796850131,
+    "psnr": 30.563858283909887
+   },
+   "RoadRunner": {
+    "true_div": 7.0594262054988315,
+    "consistency": 0.8086802307215697,
+    "alignment": 0.2676507544656773,
+    "psnr": 31.851674331822288
+   }
+  },
+  "dataset_gates": [
+   "[PASS] units carry a real intervention: 12/26 above true-divergence 0.1; degenerate: ['Amidar', 'BattleZone', 'ChopperCommand', 'CrazyClimber', 'Frostbite', 'Gopher', 'Hero', 'Kangaroo', 'Krull', 'KungFuMaster', 'MsPacman', 'Qbert', 'Seaquest', 'UpNDown']",
+   "[FAIL] majority of the suite survives: 46% survive \u2014 below 50% means the intervention design, not the models, is limiting what can be measured"
+  ],
+  "psnr_vs_alignment": {
+   "rho": 0.32867132867132864,
+   "p": 0.2997,
+   "test": "permutation(20000)",
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "supported": false,
+   "gates": [
+    "[PASS] enough units for a correlation: n=12 (need >=10 before a rank correlation is worth quoting)",
+    "[FAIL] test is powered for this effect: |rho|=0.329 vs smallest detectable 0.576 at n=12; a null here is NOT evidence of absence"
+   ]
+  },
+  "psnr_vs_consistency": {
+   "rho": 0.21678321678321683,
+   "p": 0.4982,
+   "test": "permutation(20000)",
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "supported": false,
+   "gates": [
+    "[PASS] enough units for a correlation: n=12 (need >=10 before a rank correlation is worth quoting)",
+    "[FAIL] test is powered for this effect: |rho|=0.217 vs smallest detectable 0.576 at n=12; a null here is NOT evidence of absence"
+   ]
+  },
+  "bankheist_psnr_rank": [
+   12,
+   12
+  ]
+ },
+ "IRIS": {
+  "n_games": 26,
+  "n_live": 12,
+  "games": {
+   "Alien": {
+    "true_div": 2.527656708444868,
+    "consistency": 0.851836039774064,
+    "alignment": 0.025035588169124164,
+    "psnr": 32.888172101471106
+   },
+   "Assault": {
+    "true_div": 8.304405689239502,
+    "consistency": 0.330103518500729,
+    "alignment": 0.031318433005679006,
+    "psnr": 24.159996068822434
+   },
+   "Asterix": {
+    "true_div": 9.114460604531425,
+    "consistency": 0.44554772995935765,
+    "alignment": 0.04390924517636975,
+    "psnr": 26.96612510651428
+   },
+   "BankHeist": {
+    "true_div": 18.93667755808149,
+    "consistency": 0.5106570999846985,
+    "alignment": 0.0009862558873861215,
+    "psnr": 15.268256461174788
+   },
+   "Boxing": {
+    "true_div": 15.608001845223564,
+    "consistency": 0.5486104979050479,
+    "alignment": 0.03670880715720814,
+    "psnr": 22.843222099352854
+   },
+   "Breakout": {
+    "true_div": 4.7006866080420355,
+    "consistency": 0.8361653529382569,
+    "alignment": 0.6812376066838274,
+    "psnr": 36.160012234888725
+   },
+   "DemonAttack": {
+    "true_div": 5.496208906173706,
+    "consistency": 0.6717900601268344,
+    "alignment": 0.38392624768470507,
+    "psnr": 31.231786916806158
+   },
+   "Freeway": {
+    "true_div": 1.7824432424136571,
+    "consistency": 0.7927944232002238,
+    "alignment": 0.1483043824884097,
+    "psnr": 33.315546619722014
+   },
+   "Jamesbond": {
+    "true_div": 3.150548424039568,
+    "consistency": 0.7393622538190916,
+    "alignment": 0.19007227669451984,
+    "psnr": 33.9693494976158
+   },
+   "Pong": {
+    "true_div": 3.558471884046282,
+    "consistency": 0.8666354707140957,
+    "alignment": 0.31498629632234304,
+    "psnr": 34.44876446459411
+   },
+   "PrivateEye": {
+    "true_div": 12.197424752371651,
+    "consistency": 0.7297489432169597,
+    "alignment": 0.1272157250329081,
+    "psnr": 25.952968531619593
+   },
+   "RoadRunner": {
+    "true_div": 7.0594262054988315,
+    "consistency": 0.8414147752411623,
+    "alignment": 0.2348207720857637,
+    "psnr": 28.041910127179182
+   }
+  },
+  "dataset_gates": [
+   "[PASS] units carry a real intervention: 12/26 above true-divergence 0.1; degenerate: ['Amidar', 'BattleZone', 'ChopperCommand', 'CrazyClimber', 'Frostbite', 'Gopher', 'Hero', 'Kangaroo', 'Krull', 'KungFuMaster', 'MsPacman', 'Qbert', 'Seaquest', 'UpNDown']",
+   "[FAIL] majority of the suite survives: 46% survive \u2014 below 50% means the intervention design, not the models, is limiting what can be measured"
+  ],
+  "psnr_vs_alignment": {
+   "rho": 0.7272727272727274,
+   "p": 0.00805,
+   "test": "permutation(20000)",
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "supported": true,
+   "gates": [
+    "[PASS] enough units for a correlation: n=12 (need >=10 before a rank correlation is worth quoting)",
+    "[PASS] test is powered for this effect: |rho|=0.727 vs smallest detectable 0.576 at n=12; a null here is NOT evidence of absence"
+   ]
+  },
+  "psnr_vs_consistency": {
+   "rho": 0.7412587412587414,
+   "p": 0.00815,
+   "test": "permutation(20000)",
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "supported": true,
+   "gates": [
+    "[PASS] enough units for a correlation: n=12 (need >=10 before a rank correlation is worth quoting)",
+    "[PASS] test is powered for this effect: |rho|=0.741 vs smallest detectable 0.576 at n=12; a null here is NOT evidence of absence"
+   ]
+  },
+  "bankheist_psnr_rank": [
+   12,
+   12
+  ]
+ },
+ "cross": {
+  "games": [
+   "Alien",
+   "Assault",
+   "Asterix",
+   "BankHeist",
+   "Boxing",
+   "Breakout",
+   "DemonAttack",
+   "Freeway",
+   "Jamesbond",
+   "Pong",
+   "PrivateEye",
+   "RoadRunner"
+  ],
+  "alignment": {
+   "rho": 0.8321678321678322,
+   "p": 0.0014,
+   "test": "permutation(20000)",
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "supported": true,
+   "gates": [
+    "[PASS] enough units for a correlation: n=12 (need >=10 before a rank correlation is worth quoting)",
+    "[PASS] test is powered for this effect: |rho|=0.832 vs smallest detectable 0.576 at n=12; a null here is NOT evidence of absence"
+   ]
+  },
+  "consistency": {
+   "rho": 0.6643356643356644,
+   "p": 0.02,
+   "test": "permutation(20000)",
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "supported": true,
+   "gates": [
+    "[PASS] enough units for a correlation: n=12 (need >=10 before a rank correlation is worth quoting)",
+    "[PASS] test is powered for this effect: |rho|=0.664 vs smallest detectable 0.576 at n=12; a null here is NOT evidence of absence"
+   ]
+  },
+  "psnr": {
+   "rho": 0.9230769230769231,
+   "p": 5e-05,
+   "test": "permutation(20000)",
+   "n": 12,
+   "detectable": 0.5759589998928968,
+   "supported": true,
+   "gates": [
+    "[PASS] enough units for a correlation: n=12 (need >=10 before a rank correlation is worth quoting)",
+    "[PASS] test is powered for this effect: |rho|=0.923 vs smallest detectable 0.576 at n=12; a null here is NOT evidence of absence"
+   ]
+  }
+ }
+}

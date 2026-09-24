@@ -1,0 +1,26 @@
+{
+ "DIAMOND_core_26_games": {
+  "gpu_hours": 4.8,
+  "n_jobs": 26
+ },
+ "IRIS_core_sensitivity_sustained_60_tasks": {
+  "gpu_hours": 49.5,
+  "n_jobs": 15
+ },
+ "STORM_core_sustained_36_tasks": {
+  "gpu_hours": 5.4,
+  "n_jobs": 3
+ },
+ "STORM_training_26_games_seed1": {
+  "gpu_hours": 162.1,
+  "n_jobs": 26
+ },
+ "IRIS_planning_15_games": {
+  "gpu_hours": 13.4,
+  "n_jobs": 3
+ },
+ "closed_loop_diamond_12_games": {
+  "gpu_hours": 20.3,
+  "n_jobs": 12
+ }
+}

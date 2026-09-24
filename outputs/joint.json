@@ -1,0 +1,219 @@
+{
+ "experiment": "joint_same_rollouts",
+ "n_episodes": 30,
+ "delays": [
+  1,
+  2,
+  3,
+  5,
+  8,
+  12,
+  16,
+  20,
+  24
+ ],
+ "min_true_change": 0.25,
+ "results": {
+  "cartpole_swingup": {
+   "1": {
+    "consistency": 0.6432325665258353,
+    "consistency_std": 0.003058096678964311,
+    "causal_magnitude": 3.2944109996106614,
+    "n_cons": 30,
+    "n_causal": 11
+   },
+   "2": {
+    "consistency": 0.6433263671673911,
+    "consistency_std": 0.002933472430374326,
+    "causal_magnitude": 2.0478404747735937,
+    "n_cons": 30,
+    "n_causal": 16
+   },
+   "3": {
+    "consistency": 0.6434302728461349,
+    "consistency_std": 0.0030176798925508745,
+    "causal_magnitude": 0.874006446226393,
+    "n_cons": 30,
+    "n_causal": 20
+   },
+   "5": {
+    "consistency": 0.643736374787951,
+    "consistency_std": 0.0027710920801280654,
+    "causal_magnitude": 0.1442593237409006,
+    "n_cons": 30,
+    "n_causal": 23
+   },
+   "8": {
+    "consistency": 0.6439189993767613,
+    "consistency_std": 0.00273953821203289,
+    "causal_magnitude": 0.02280682680318722,
+    "n_cons": 30,
+    "n_causal": 27
+   },
+   "12": {
+    "consistency": 0.6441869848552031,
+    "consistency_std": 0.0028738440894811104,
+    "causal_magnitude": 0.003382871940737917,
+    "n_cons": 30,
+    "n_causal": 30
+   },
+   "16": {
+    "consistency": 0.6442319660076009,
+    "consistency_std": 0.0030255081427639865,
+    "causal_magnitude": 0.0004330121044407881,
+    "n_cons": 30,
+    "n_causal": 30
+   },
+   "20": {
+    "consistency": 0.6442674082098334,
+    "consistency_std": 0.0029282895191589655,
+    "causal_magnitude": 5.470807454319583e-05,
+    "n_cons": 30,
+    "n_causal": 30
+   },
+   "24": {
+    "consistency": 0.644292565732998,
+    "consistency_std": 0.0027947355797724146,
+    "causal_magnitude": 1.4122940914450181e-05,
+    "n_cons": 30,
+    "n_causal": 29
+   }
+  },
+  "cheetah_run": {
+   "1": {
+    "consistency": 0.5732861051333443,
+    "consistency_std": 0.02314415815057294,
+    "causal_magnitude": 0.49479658303694235,
+    "n_cons": 30,
+    "n_causal": 13
+   },
+   "2": {
+    "consistency": 0.5744939037686506,
+    "consistency_std": 0.024949145098912995,
+    "causal_magnitude": 0.15890504353336624,
+    "n_cons": 30,
+    "n_causal": 12
+   },
+   "3": {
+    "consistency": 0.5783966020450015,
+    "consistency_std": 0.024323650881251213,
+    "causal_magnitude": 0.5534642420999701,
+    "n_cons": 30,
+    "n_causal": 13
+   },
+   "5": {
+    "consistency": 0.583126150006067,
+    "consistency_std": 0.02280068115461436,
+    "causal_magnitude": 0.04979957329068526,
+    "n_cons": 30,
+    "n_causal": 10
+   },
+   "8": {
+    "consistency": 0.5870704943260833,
+    "consistency_std": 0.022819435254847004,
+    "causal_magnitude": 0.005918489471714825,
+    "n_cons": 30,
+    "n_causal": 12
+   },
+   "12": {
+    "consistency": 0.5878535028264167,
+    "consistency_std": 0.022297665424238316,
+    "causal_magnitude": 0.0005669246863007425,
+    "n_cons": 30,
+    "n_causal": 18
+   },
+   "16": {
+    "consistency": 0.5891964473846502,
+    "consistency_std": 0.022161726695631313,
+    "causal_magnitude": 0.00014852823248886205,
+    "n_cons": 30,
+    "n_causal": 13
+   },
+   "20": {
+    "consistency": 0.5904850554934591,
+    "consistency_std": 0.022405189954124015,
+    "causal_magnitude": 6.996917478524692e-06,
+    "n_cons": 30,
+    "n_causal": 9
+   },
+   "24": {
+    "consistency": 0.5916470731425674,
+    "consistency_std": 0.02273284258208039,
+    "causal_magnitude": 2.1128767971075047e-06,
+    "n_cons": 30,
+    "n_causal": 9
+   }
+  },
+  "walker_walk": {
+   "1": {
+    "consistency": 0.3750635064098114,
+    "consistency_std": 0.024374461620122783,
+    "causal_magnitude": 0.2594118426310801,
+    "n_cons": 30,
+    "n_causal": 28
+   },
+   "2": {
+    "consistency": 0.3752739759927351,
+    "consistency_std": 0.02458733215717871,
+    "causal_magnitude": 0.12577823317449502,
+    "n_cons": 30,
+    "n_causal": 26
+   },
+   "3": {
+    "consistency": 0.37532607178899563,
+    "consistency_std": 0.024675492666892253,
+    "causal_magnitude": 0.06163124952075217,
+    "n_cons": 30,
+    "n_causal": 22
+   },
+   "5": {
+    "consistency": 0.3754394414509553,
+    "consistency_std": 0.024786948096602715,
+    "causal_magnitude": 0.022276184525462414,
+    "n_cons": 30,
+    "n_causal": 23
+   },
+   "8": {
+    "consistency": 0.37566696746448636,
+    "consistency_std": 0.024792983812491003,
+    "causal_magnitude": 0.0030450253237567456,
+    "n_cons": 30,
+    "n_causal": 24
+   },
+   "12": {
+    "consistency": 0.37563139600914236,
+    "consistency_std": 0.024975294486376635,
+    "causal_magnitude": 0.00015744431301988938,
+    "n_cons": 30,
+    "n_causal": 22
+   },
+   "16": {
+    "consistency": 0.3758144303278222,
+    "consistency_std": 0.024966808262685797,
+    "causal_magnitude": 2.551531899481491e-05,
+    "n_cons": 30,
+    "n_causal": 21
+   },
+   "20": {
+    "consistency": 0.3762108111841699,
+    "consistency_std": 0.025281990074428475,
+    "causal_magnitude": 2.365865081126607e-06,
+    "n_cons": 30,
+    "n_causal": 23
+   },
+   "24": {
+    "consistency": 0.3764551867277912,
+    "consistency_std": 0.025225784525390475,
+    "causal_magnitude": 8.161879527695392e-07,
+    "n_cons": 30,
+    "n_causal": 19
+   }
+  }
+ },
+ "verdicts": {
+  "cartpole_swingup": "SEPARATION",
+  "cheetah_run": "SEPARATION",
+  "walker_walk": "SEPARATION"
+ },
+ "n_separation": 3
+}

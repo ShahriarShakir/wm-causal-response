@@ -1,0 +1,1 @@
+{"experiment": "fixed_scorer_ranking_v14", "arch": "diamond", "game": "ALE/RoadRunner-v5", "seeds": [42, 7, 128], "n_ctx": 20, "K": 8, "horizon": 40, "warmup": 30, "scorer": {"n_pairs": 38400, "classes": [0, 38360, 40], "held_out_acc": 1.0, "majority": 0.9989583333333333, "balanced_acc": 1.0, "gate": false}, "results": {}}

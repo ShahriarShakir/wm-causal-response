@@ -1,0 +1,155 @@
+{
+ "n_landed": 6,
+ "games": {
+  "Alien": {
+   "valid_early_delays": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "8"
+   ],
+   "hidden_median": 0.2500540394737293,
+   "pixel_median": 0.05738688108748807,
+   "hidden_ci": {
+    "median": 0.2500540394737293,
+    "lo": 0.2292368844028994,
+    "hi": 0.26964529044815144,
+    "n": 420
+   },
+   "n_pairs": 420,
+   "paired_mean_diff": 0.1339492271171609,
+   "p_raw": 4.999750012499375e-05,
+   "pixel_blind": false,
+   "cls": "decoding failure",
+   "p_holm": 0.0002999850007499625,
+   "holm_pass": true
+  },
+  "BankHeist": {
+   "valid_early_delays": [
+    "2",
+    "3",
+    "5",
+    "8"
+   ],
+   "hidden_median": 0.27058968209785994,
+   "pixel_median": 0.0002289773299220517,
+   "hidden_ci": {
+    "median": 0.27058968209785994,
+    "lo": 0.24998882140327944,
+    "hi": 0.2918988622855927,
+    "n": 420
+   },
+   "n_pairs": 365,
+   "paired_mean_diff": 0.18652279026808544,
+   "p_raw": 4.999750012499375e-05,
+   "pixel_blind": true,
+   "cls": "decoding failure",
+   "p_holm": 0.00024998750062496874,
+   "holm_pass": true
+  },
+  "Boxing": {
+   "valid_early_delays": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "8"
+   ],
+   "hidden_median": 0.429914984460331,
+   "pixel_median": 0.3099435739637862,
+   "hidden_ci": {
+    "median": 0.429914984460331,
+    "lo": 0.40282293680042675,
+    "hi": 0.4467006513268908,
+    "n": 420
+   },
+   "n_pairs": 420,
+   "paired_mean_diff": 0.1028893621023251,
+   "p_raw": 4.999750012499375e-05,
+   "pixel_blind": false,
+   "cls": "tracked",
+   "p_holm": 0.000199990000499975,
+   "holm_pass": true
+  },
+  "Breakout": {
+   "valid_early_delays": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "8"
+   ],
+   "hidden_median": 0.8261946519003592,
+   "pixel_median": 0.851762825333922,
+   "hidden_ci": {
+    "median": 0.8261946519003592,
+    "lo": 0.7782210581891099,
+    "hi": 0.8569127606363085,
+    "n": 420
+   },
+   "n_pairs": 405,
+   "paired_mean_diff": 0.11845040114207535,
+   "p_raw": 4.999750012499375e-05,
+   "pixel_blind": false,
+   "cls": "tracked",
+   "p_holm": 0.00014999250037498125,
+   "holm_pass": true
+  },
+  "Freeway": {
+   "valid_early_delays": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "8"
+   ],
+   "hidden_median": 0.6755864048176692,
+   "pixel_median": 0.46787631114820166,
+   "hidden_ci": {
+    "median": 0.6755864048176692,
+    "lo": 0.6438740650231389,
+    "hi": 0.70650388546633,
+    "n": 420
+   },
+   "n_pairs": 420,
+   "paired_mean_diff": 0.20944675083434203,
+   "p_raw": 4.999750012499375e-05,
+   "pixel_blind": false,
+   "cls": "tracked",
+   "p_holm": 9.99950002499875e-05,
+   "holm_pass": true
+  },
+  "Pong": {
+   "valid_early_delays": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "8"
+   ],
+   "hidden_median": 0.44360233942022415,
+   "pixel_median": 0.4524712279549507,
+   "hidden_ci": {
+    "median": 0.44360233942022415,
+    "lo": 0.3817652490890564,
+    "hi": 0.4930092612196729,
+    "n": 420
+   },
+   "n_pairs": 416,
+   "paired_mean_diff": 0.033625347966226286,
+   "p_raw": 4.999750012499375e-05,
+   "pixel_blind": false,
+   "cls": "tracked",
+   "p_holm": 4.999750012499375e-05,
+   "holm_pass": true
+  }
+ },
+ "pixel_blind_games": [
+  "BankHeist"
+ ],
+ "replicating_games": [
+  "BankHeist"
+ ],
+ "decision": "PARTIAL"
+}
