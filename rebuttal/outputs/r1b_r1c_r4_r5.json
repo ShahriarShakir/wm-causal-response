@@ -1,0 +1,265 @@
+{
+ "rules": "rebuttal/README.md R1b, R1c, R4, R5",
+ "R1b": {
+  "table": {
+   "aligned_useful": 10,
+   "aligned_not": 6,
+   "not_aligned_useful": 2,
+   "not_aligned_not": 6
+  },
+  "fisher_p": 0.1930273253466146,
+  "reading": "counts only",
+  "not_aligned_but_useful": [
+   "DIAMOND/Qbert",
+   "STORM/CrazyClimber"
+  ],
+  "aligned_not_useful": [
+   "DIAMOND/Boxing",
+   "DIAMOND/Seaquest",
+   "IRIS/Asterix",
+   "IRIS/Boxing",
+   "IRIS/Frostbite",
+   "IRIS/Seaquest"
+  ]
+ },
+ "R1c": {
+  "n": 20,
+  "n_games": 8,
+  "per_arch": {
+   "DIAMOND": {
+    "n": 4,
+    "rho_dpsnr": 0.6000000000000001
+   },
+   "IRIS": {
+    "n": 8,
+    "rho_dpsnr": 0.6190476190476191
+   },
+   "STORM": {
+    "n": 8,
+    "rho_dpsnr": 0.6190476190476191
+   }
+  },
+  "pooled_dpsnr": {
+   "rho": 0.5669172932330826,
+   "p_perm": 0.0731926807319268,
+   "ci": [
+    -0.039298596304193315,
+    0.796615409953884
+   ]
+  },
+  "pooled_A_h": {
+   "rho": 0.5473684210526315,
+   "p_perm": 0.097990200979902,
+   "ci": [
+    -0.07502206531332745,
+    0.7824601366742596
+   ]
+  },
+  "pooled_A_20": {
+   "rho": 0.6375939849624059,
+   "p_perm": 0.040995900409959006,
+   "ci": [
+    -0.06655131617864536,
+    0.8368225018883411
+   ]
+  },
+  "pooled_psnr_20": {
+   "rho": 0.7203007518796991,
+   "p_perm": 0.0187981201879812,
+   "ci": [
+    0.20392568907152092,
+    0.9060052219321147
+   ]
+  }
+ },
+ "R5": {
+  "n": 28,
+  "n_reaching_T_any_delay": 0,
+  "reaching": [],
+  "median_max": 0.018390164873520593,
+  "cells": {
+   "STORM/Asterix": {
+    "max_any_delay": 0.1817646430020518,
+    "T": 0.18806267357346898,
+    "argmax": "3"
+   },
+   "STORM/Alien": {
+    "max_any_delay": 0.11073937493891524,
+    "T": 0.18806267357346898,
+    "argmax": "1"
+   },
+   "STORM/Amidar": {
+    "max_any_delay": 1.0963172456363887e-08,
+    "T": 0.18806267357346898,
+    "argmax": "5"
+   },
+   "DIAMOND/MsPacman": {
+    "max_any_delay": 0.00018796699478298902,
+    "T": 0.4,
+    "argmax": "3"
+   },
+   "DIAMOND/RoadRunner": {
+    "max_any_delay": 0.04272288521353551,
+    "T": 0.4,
+    "argmax": "2"
+   },
+   "IRIS/Krull": {
+    "max_any_delay": 0.006312429409539355,
+    "T": 0.10834848900084314,
+    "argmax": "8"
+   },
+   "IRIS/RoadRunner": {
+    "max_any_delay": 0.02388698176735402,
+    "T": 0.10834848900084314,
+    "argmax": "8"
+   },
+   "IRIS/MsPacman": {
+    "max_any_delay": 0.0,
+    "T": 0.10834848900084314,
+    "argmax": "8"
+   },
+   "STORM/BankHeist": {
+    "max_any_delay": 0.002289693881466062,
+    "T": 0.18806267357346898,
+    "argmax": "1"
+   },
+   "STORM/MsPacman": {
+    "max_any_delay": 9.94328223411111e-09,
+    "T": 0.18806267357346898,
+    "argmax": "1"
+   },
+   "DIAMOND/BankHeist": {
+    "max_any_delay": 0.008416865105129949,
+    "T": 0.4,
+    "argmax": "2"
+   },
+   "STORM/Frostbite": {
+    "max_any_delay": 0.039305744186408795,
+    "T": 0.18806267357346898,
+    "argmax": "3"
+   },
+   "STORM/Krull": {
+    "max_any_delay": 0.0008750901573829733,
+    "T": 0.18806267357346898,
+    "argmax": "3"
+   },
+   "DIAMOND/Freeway": {
+    "max_any_delay": 0.16639963541083716,
+    "T": 0.4,
+    "argmax": "3"
+   },
+   "STORM/RoadRunner": {
+    "max_any_delay": 0.011916266033780945,
+    "T": 0.18806267357346898,
+    "argmax": "2"
+   },
+   "IRIS/BankHeist": {
+    "max_any_delay": 0.009926741880753482,
+    "T": 0.10834848900084314,
+    "argmax": "5"
+   },
+   "STORM/Hero": {
+    "max_any_delay": 0.17220268468300515,
+    "T": 0.18806267357346898,
+    "argmax": "8"
+   },
+   "IRIS/Jamesbond": {
+    "max_any_delay": 0.0876285221564749,
+    "T": 0.10834848900084314,
+    "argmax": "3"
+   },
+   "DIAMOND/Alien": {
+    "max_any_delay": 0.1798202946470733,
+    "T": 0.4,
+    "argmax": "1"
+   },
+   "IRIS/Alien": {
+    "max_any_delay": 0.07136158024305193,
+    "T": 0.10834848900084314,
+    "argmax": "1"
+   },
+   "STORM/Boxing": {
+    "max_any_delay": 0.11819891394662975,
+    "T": 0.18806267357346898,
+    "argmax": "2"
+   },
+   "STORM/UpNDown": {
+    "max_any_delay": 0.0055541136692699245,
+    "T": 0.18806267357346898,
+    "argmax": "8"
+   },
+   "DIAMOND/Amidar": {
+    "max_any_delay": 5.706676453126628e-05,
+    "T": 0.4,
+    "argmax": "20"
+   },
+   "DIAMOND/UpNDown": {
+    "max_any_delay": 0.06300916583159216,
+    "T": 0.4,
+    "argmax": "1"
+   },
+   "IRIS/UpNDown": {
+    "max_any_delay": 0.01289334797968717,
+    "T": 0.10834848900084314,
+    "argmax": "20"
+   },
+   "STORM/ChopperCommand": {
+    "max_any_delay": 0.1218041908633252,
+    "T": 0.18806267357346898,
+    "argmax": "8"
+   },
+   "STORM/CrazyClimber": {
+    "max_any_delay": 0.13232468687244012,
+    "T": 0.18806267357346898,
+    "argmax": "5"
+   },
+   "IRIS/Amidar": {
+    "max_any_delay": 0.0,
+    "T": 0.10834848900084314,
+    "argmax": "8"
+   }
+  }
+ },
+ "R4": {
+  "iris/Asterix": {
+   "n": 30,
+   "median_A": 0.07533729600354105,
+   "median_R": 0.852945918984564,
+   "median_off_support": 0.7341830198569337,
+   "example": {
+    "episode": 10,
+    "A": 0.08049544575318165,
+    "R": 0.8411000417619942,
+    "off_support": 0.6415235386754617,
+    "figure": "rebuttal/figs/example_iris_Asterix_ep10.png"
+   },
+   "paper_dpsnr": {
+    "median": 0.25861911833756146,
+    "lo": 0.10747559716579672,
+    "hi": 0.3723112817768879,
+    "n": 420
+   },
+   "paper_A20": 0.04419048966856905
+  },
+  "storm/Boxing": {
+   "n": 30,
+   "median_A": -0.0017888086478888752,
+   "median_R": 0.7536570318006441,
+   "median_off_support": 0.6221954941061765,
+   "example": {
+    "episode": 10,
+    "A": -0.015298782881821751,
+    "R": 0.8993292444426,
+    "off_support": 0.6263879476788629,
+    "figure": "rebuttal/figs/example_storm_Boxing_ep10.png"
+   },
+   "paper_dpsnr": {
+    "median": 0.17540242157376795,
+    "lo": 0.06160025002694054,
+    "hi": 0.29205524373980557,
+    "n": 412
+   },
+   "paper_A20": 0.015308937303559388
+  }
+ }
+}

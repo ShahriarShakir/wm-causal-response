@@ -1,0 +1,636 @@
+{
+ "note": "post hoc; the R6 result is r6_visited.json",
+ "zero_floor_cells": [
+  "DIAMOND/Frostbite",
+  "DIAMOND/Qbert",
+  "DIAMOND/Seaquest",
+  "IRIS/Frostbite",
+  "IRIS/Qbert",
+  "STORM/Frostbite",
+  "STORM/Qbert"
+ ],
+ "cpu_vs_gpu": {
+  "cells": [
+   {
+    "cell": "DIAMOND/Alien",
+    "cpu_mean": 21.0,
+    "gpu_seed42_mean": 22.0,
+    "gpu_all_mean": 18.333333333333332,
+    "gain": 0.10112359550561796,
+    "gain_cpu": 0.2808988764044944
+   },
+   {
+    "cell": "DIAMOND/Asterix",
+    "cpu_mean": 130.0,
+    "gpu_seed42_mean": 150.0,
+    "gpu_all_mean": 134.16666666666666,
+    "gain": 1.035714285714285,
+    "gain_cpu": 0.8571428571428568
+   },
+   {
+    "cell": "DIAMOND/Boxing",
+    "cpu_mean": -0.2,
+    "gpu_seed42_mean": 0.5,
+    "gpu_all_mean": 0.03333333333333333,
+    "gain": 0.08108108108108109,
+    "gain_cpu": -0.2972972972972973
+   },
+   {
+    "cell": "DIAMOND/Breakout",
+    "cpu_mean": 0.1,
+    "gpu_seed42_mean": 0.1,
+    "gpu_all_mean": 0.15,
+    "gain": 1.0,
+    "gain_cpu": 0.6666666666666667
+   },
+   {
+    "cell": "DIAMOND/CrazyClimber",
+    "cpu_mean": 170.0,
+    "gpu_seed42_mean": 180.0,
+    "gpu_all_mean": 171.66666666666666,
+    "gain": 1.103448275862069,
+    "gain_cpu": 1.0689655172413794
+   },
+   {
+    "cell": "DIAMOND/Frostbite",
+    "cpu_mean": 12.0,
+    "gpu_seed42_mean": 12.0,
+    "gpu_all_mean": 13.666666666666666,
+    "gain": 0.6363636363636362,
+    "gain_cpu": 0.45454545454545453
+   },
+   {
+    "cell": "DIAMOND/Qbert",
+    "cpu_mean": 37.5,
+    "gpu_seed42_mean": 42.5,
+    "gpu_all_mean": 34.583333333333336,
+    "gain": 0.5769230769230771,
+    "gain_cpu": 0.7115384615384616
+   },
+   {
+    "cell": "DIAMOND/Seaquest",
+    "cpu_mean": 8.0,
+    "gpu_seed42_mean": 4.0,
+    "gpu_all_mean": 7.333333333333333,
+    "gain": 0.12499999999999996,
+    "gain_cpu": 0.18749999999999997
+   },
+   {
+    "cell": "IRIS/Alien",
+    "cpu_mean": 18.0,
+    "gpu_seed42_mean": 15.0,
+    "gpu_all_mean": 15.666666666666666,
+    "gain": -0.07865168539325837,
+    "gain_cpu": 0.0786516853932585
+   },
+   {
+    "cell": "IRIS/Asterix",
+    "cpu_mean": 125.0,
+    "gpu_seed42_mean": 115.0,
+    "gpu_all_mean": 111.66666666666667,
+    "gain": 0.0714285714285716,
+    "gain_cpu": 0.6428571428571426
+   },
+   {
+    "cell": "IRIS/Boxing",
+    "cpu_mean": -0.1,
+    "gpu_seed42_mean": 0.3,
+    "gpu_all_mean": -0.05,
+    "gain": -0.054054054054054064,
+    "gain_cpu": -0.13513513513513514
+   },
+   {
+    "cell": "IRIS/Breakout",
+    "cpu_mean": 0.2,
+    "gpu_seed42_mean": 0.2,
+    "gpu_all_mean": 0.16666666666666666,
+    "gain": 1.1111111111111112,
+    "gain_cpu": 1.3333333333333335
+   },
+   {
+    "cell": "IRIS/CrazyClimber",
+    "cpu_mean": 160.0,
+    "gpu_seed42_mean": 110.0,
+    "gpu_all_mean": 180.0,
+    "gain": 1.2758620689655176,
+    "gain_cpu": 0.8620689655172415
+   },
+   {
+    "cell": "IRIS/Frostbite",
+    "cpu_mean": 9.0,
+    "gpu_seed42_mean": 9.0,
+    "gpu_all_mean": 11.5,
+    "gain": 0.39999999999999997,
+    "gain_cpu": 0.1272727272727273
+   },
+   {
+    "cell": "IRIS/Qbert",
+    "cpu_mean": 32.5,
+    "gpu_seed42_mean": 32.5,
+    "gpu_all_mean": 39.166666666666664,
+    "gain": 0.7884615384615383,
+    "gain_cpu": 0.4807692307692308
+   },
+   {
+    "cell": "IRIS/Seaquest",
+    "cpu_mean": 6.0,
+    "gpu_seed42_mean": 6.0,
+    "gpu_all_mean": 7.0,
+    "gain": 0.09374999999999999,
+    "gain_cpu": 0.0
+   },
+   {
+    "cell": "STORM/Alien",
+    "cpu_mean": 16.0,
+    "gpu_seed42_mean": 13.0,
+    "gpu_all_mean": 17.0,
+    "gain": 0.011235955056179853,
+    "gain_cpu": -0.056179775280898785
+   },
+   {
+    "cell": "STORM/Asterix",
+    "cpu_mean": 140.0,
+    "gpu_seed42_mean": 130.0,
+    "gpu_all_mean": 120.0,
+    "gain": 0.4285714285714284,
+    "gain_cpu": 1.2857142857142851
+   },
+   {
+    "cell": "STORM/Boxing",
+    "cpu_mean": -0.1,
+    "gpu_seed42_mean": 0.0,
+    "gpu_all_mean": 0.1,
+    "gain": 0.18918918918918917,
+    "gain_cpu": -0.13513513513513514
+   },
+   {
+    "cell": "STORM/Breakout",
+    "cpu_mean": 0.2,
+    "gpu_seed42_mean": 0.2,
+    "gpu_all_mean": 0.3,
+    "gain": 2.0,
+    "gain_cpu": 1.3333333333333335
+   },
+   {
+    "cell": "STORM/CrazyClimber",
+    "cpu_mean": 170.0,
+    "gpu_seed42_mean": 150.0,
+    "gpu_all_mean": 161.66666666666666,
+    "gain": 0.896551724137931,
+    "gain_cpu": 1.0689655172413794
+   },
+   {
+    "cell": "STORM/Frostbite",
+    "cpu_mean": 10.0,
+    "gpu_seed42_mean": 7.0,
+    "gpu_all_mean": 9.0,
+    "gain": 0.1272727272727273,
+    "gain_cpu": 0.23636363636363636
+   },
+   {
+    "cell": "STORM/Qbert",
+    "cpu_mean": 45.0,
+    "gpu_seed42_mean": 52.5,
+    "gpu_all_mean": 58.75,
+    "gain": 1.6923076923076925,
+    "gain_cpu": 1.0576923076923077
+   },
+   {
+    "cell": "STORM/Seaquest",
+    "cpu_mean": 4.0,
+    "gpu_seed42_mean": 8.0,
+    "gpu_all_mean": 10.0,
+    "gain": 0.37499999999999994,
+    "gain_cpu": -0.18749999999999997
+   }
+  ],
+  "rho_gain_cpu_vs_gain": 0.7900806555165257,
+  "rho_cpu_mean_vs_gpu_all_mean": 0.9858605536346076
+ },
+ "S1_without_zero_floor": {
+  "A_vis": {
+   "n": 17,
+   "rho": 0.5539215686274511,
+   "p_perm": 0.08509149085091491,
+   "ci": [
+    -0.03111111111111111,
+    0.8176100628930817
+   ]
+  },
+  "psnr_vis": {
+   "n": 17,
+   "rho": 0.7941176470588236,
+   "p_perm": 0.023297670232976703,
+   "ci": [
+    0.39203354297693915,
+    0.9130434782608698
+   ]
+  }
+ },
+ "S2_positive_floor": {
+  "A_vis": {
+   "n": 24,
+   "rho": 0.35478260869565215,
+   "p_perm": 0.1411858814118588,
+   "ci": [
+    -0.1753028051373071,
+    0.6979484941073768
+   ]
+  },
+  "diff_vs_psnr": -0.3426086956521739,
+  "cells": {
+   "DIAMOND/Frostbite": {
+    "A_vis": 0.6084485729967444,
+    "floor": 0.9473632574081421,
+    "n": {
+     "1": 49,
+     "2": 50,
+     "3": 47,
+     "5": 50,
+     "8": 49,
+     "12": 48
+    }
+   },
+   "DIAMOND/Qbert": {
+    "A_vis": 0.5858574285357783,
+    "floor": 1.4170761108398438,
+    "n": {
+     "1": 5,
+     "2": 21,
+     "3": 29,
+     "5": 42,
+     "8": 60,
+     "12": 59
+    }
+   },
+   "DIAMOND/Seaquest": {
+    "A_vis": 1.019764654608892,
+    "floor": 1.9246724843978882,
+    "n": {
+     "1": 44,
+     "2": 45,
+     "3": 44,
+     "5": 45,
+     "8": 45,
+     "12": 45
+    }
+   },
+   "IRIS/Frostbite": {
+    "A_vis": 0.11297402684441844,
+    "floor": 0.9432880878448486,
+    "n": {
+     "1": 49,
+     "2": 50,
+     "3": 46,
+     "5": 49,
+     "8": 49,
+     "12": 49
+    }
+   },
+   "IRIS/Qbert": {
+    "A_vis": 0.5441499842958413,
+    "floor": 1.4147146344184875,
+    "n": {
+     "1": 4,
+     "2": 18,
+     "3": 27,
+     "5": 35,
+     "8": 48,
+     "12": 46
+    }
+   },
+   "STORM/Frostbite": {
+    "A_vis": 0.01508367498261705,
+    "floor": 0.9050416350364685,
+    "n": {
+     "1": 41,
+     "2": 41,
+     "3": 39,
+     "5": 43,
+     "8": 42,
+     "12": 43
+    }
+   },
+   "STORM/Qbert": {
+    "A_vis": 0.04534894238315257,
+    "floor": 1.6411436796188354,
+    "n": {
+     "1": 5,
+     "2": 11,
+     "3": 20,
+     "5": 32,
+     "8": 53,
+     "12": 53
+    }
+   }
+  }
+ },
+ "S3_cpu_gain": {
+  "A_vis": {
+   "n": 24,
+   "rho": 0.17402657610496158,
+   "p_perm": 0.511948805119488,
+   "ci": [
+    -0.28980863079754493,
+    0.5539310250631801
+   ]
+  },
+  "psnr_vis": {
+   "n": 24,
+   "rho": 0.5851643621529334,
+   "p_perm": 0.035396460353964605,
+   "ci": [
+    0.13435106471929495,
+    0.8252861495894458
+   ]
+  },
+  "rank_vis": {
+   "n": 21,
+   "rho": 0.4895302080323243,
+   "p_perm": 0.17748225177482252,
+   "ci": [
+    -0.14044360095971284,
+    0.8799928234758987
+   ]
+  }
+ },
+ "D1_delta_psnr": {
+  "dpsnr_vis": {
+   "n": 24,
+   "rho": 0.29565217391304344,
+   "p_perm": 0.32736726327367266,
+   "ci": [
+    -0.33304157549234137,
+    0.6875492341356675
+   ]
+  },
+  "A_vis": {
+   "n": 24,
+   "rho": 0.3356521739130434,
+   "p_perm": 0.16128387161283872,
+   "ci": [
+    -0.17644336558142554,
+    0.6933216168717046
+   ]
+  },
+  "psnr_vis": {
+   "n": 24,
+   "rho": 0.697391304347826,
+   "p_perm": 0.004999500049995001,
+   "ci": [
+    0.38310151019293703,
+    0.8207424009029997
+   ]
+  },
+  "cells": {
+   "DIAMOND/Alien": 0.04843381736821151,
+   "DIAMOND/Asterix": 4.680244889774213,
+   "DIAMOND/Boxing": 1.0018124216305164,
+   "DIAMOND/Breakout": 2.875168788713206,
+   "DIAMOND/CrazyClimber": 1.0212408529365156,
+   "DIAMOND/Frostbite": 0.0626255985575342,
+   "DIAMOND/Qbert": 0.2954490504974716,
+   "DIAMOND/Seaquest": 0.28006869057512745,
+   "IRIS/Alien": 0.06336875608665722,
+   "IRIS/Asterix": 0.28490735395540884,
+   "IRIS/Boxing": 0.6534460909392124,
+   "IRIS/Breakout": 2.3515648171366363,
+   "IRIS/CrazyClimber": 0.337606172809742,
+   "IRIS/Frostbite": 0.0,
+   "IRIS/Qbert": 0.010743933080521018,
+   "IRIS/Seaquest": 0.060589283577519616,
+   "STORM/Alien": 0.12895759127388948,
+   "STORM/Asterix": 0.4476604830815063,
+   "STORM/Boxing": 0.29697692175243606,
+   "STORM/Breakout": 2.5653205685570524,
+   "STORM/CrazyClimber": 0.11964927922805302,
+   "STORM/Frostbite": 2.6854946118722484e-08,
+   "STORM/Qbert": 0.011696253593475703,
+   "STORM/Seaquest": 0.45725396931524936
+  }
+ },
+ "D2_ranking": {
+  "DIAMOND/Alien": {
+   "n_informative": 266,
+   "mean_rho_model": 0.12934534095100797,
+   "mean_rho_true_frames": 0.5360267429461593,
+   "top1_chance": 0.23966165413533835,
+   "top1_model": 0.2857142857142857,
+   "top1_true_frames": 0.6466165413533834,
+   "frac_constant_model": 0.0
+  },
+  "DIAMOND/Asterix": {
+   "n_informative": 254,
+   "mean_rho_model": 0.13896283613688415,
+   "mean_rho_true_frames": 0.41694419946602906,
+   "top1_chance": 0.28198818897637795,
+   "top1_model": 0.4251968503937008,
+   "top1_true_frames": 0.515748031496063,
+   "frac_constant_model": 0.0
+  },
+  "DIAMOND/Boxing": {
+   "n_informative": 175,
+   "mean_rho_model": 5.3610154809441264e-05,
+   "mean_rho_true_frames": 0.24449173409419364,
+   "top1_chance": 0.3335714285714286,
+   "top1_model": 0.24571428571428572,
+   "top1_true_frames": 0.44,
+   "frac_constant_model": 0.0
+  },
+  "DIAMOND/Breakout": {
+   "n_informative": 0
+  },
+  "DIAMOND/CrazyClimber": {
+   "n_informative": 166,
+   "mean_rho_model": 0.49654985875376917,
+   "mean_rho_true_frames": 0.6877998580610025,
+   "top1_chance": 0.4088855421686747,
+   "top1_model": 0.7951807228915663,
+   "top1_true_frames": 1.0,
+   "frac_constant_model": 0.0
+  },
+  "DIAMOND/Frostbite": {
+   "n_informative": 81,
+   "mean_rho_model": 0.4808414636998565,
+   "mean_rho_true_frames": 0.7613802847998133,
+   "top1_chance": 0.48302469135802467,
+   "top1_model": 0.7283950617283951,
+   "top1_true_frames": 0.9753086419753086,
+   "frac_constant_model": 0.0
+  },
+  "DIAMOND/Qbert": {
+   "n_informative": 176,
+   "mean_rho_model": 0.11849900621540006,
+   "mean_rho_true_frames": 0.1880608473955353,
+   "top1_chance": 0.5220170454545454,
+   "top1_model": 0.5,
+   "top1_true_frames": 0.6193181818181818,
+   "frac_constant_model": 0.005681818181818182
+  },
+  "DIAMOND/Seaquest": {
+   "n_informative": 86,
+   "mean_rho_model": 0.012608261747684348,
+   "mean_rho_true_frames": 0.7157850104432117,
+   "top1_chance": 0.28488372093023256,
+   "top1_model": 0.32558139534883723,
+   "top1_true_frames": 1.0,
+   "frac_constant_model": 0.0
+  },
+  "IRIS/Alien": {
+   "n_informative": 275,
+   "mean_rho_model": 0.0751007764145841,
+   "mean_rho_true_frames": 0.5193235161564312,
+   "top1_chance": 0.24272727272727274,
+   "top1_model": 0.27636363636363637,
+   "top1_true_frames": 0.6072727272727273,
+   "frac_constant_model": 0.0
+  },
+  "IRIS/Asterix": {
+   "n_informative": 247,
+   "mean_rho_model": 0.015877495576759614,
+   "mean_rho_true_frames": 0.3908651331441314,
+   "top1_chance": 0.27530364372469635,
+   "top1_model": 0.24696356275303644,
+   "top1_true_frames": 0.4777327935222672,
+   "frac_constant_model": 0.0
+  },
+  "IRIS/Boxing": {
+   "n_informative": 190,
+   "mean_rho_model": 0.028016245351034478,
+   "mean_rho_true_frames": 0.24894222116432324,
+   "top1_chance": 0.36447368421052634,
+   "top1_model": 0.34210526315789475,
+   "top1_true_frames": 0.531578947368421,
+   "frac_constant_model": 0.0
+  },
+  "IRIS/Breakout": {
+   "n_informative": 0
+  },
+  "IRIS/CrazyClimber": {
+   "n_informative": 165,
+   "mean_rho_model": 0.573048595721298,
+   "mean_rho_true_frames": 0.686919925282275,
+   "top1_chance": 0.4090909090909091,
+   "top1_model": 0.9151515151515152,
+   "top1_true_frames": 1.0,
+   "frac_constant_model": 0.0
+  },
+  "IRIS/Frostbite": {
+   "n_informative": 59,
+   "mean_rho_model": 0.23585038509618714,
+   "mean_rho_true_frames": 0.795875466687985,
+   "top1_chance": 0.4470338983050847,
+   "top1_model": 0.5254237288135594,
+   "top1_true_frames": 1.0,
+   "frac_constant_model": 0.0
+  },
+  "IRIS/Qbert": {
+   "n_informative": 131,
+   "mean_rho_model": 0.10791695460555537,
+   "mean_rho_true_frames": 0.18835969587511806,
+   "top1_chance": 0.5438931297709924,
+   "top1_model": 0.5572519083969466,
+   "top1_true_frames": 0.6717557251908397,
+   "frac_constant_model": 0.0
+  },
+  "IRIS/Seaquest": {
+   "n_informative": 93,
+   "mean_rho_model": 0.09631198130606586,
+   "mean_rho_true_frames": 0.7278415138924748,
+   "top1_chance": 0.2916666666666667,
+   "top1_model": 0.41935483870967744,
+   "top1_true_frames": 1.0,
+   "frac_constant_model": 0.0
+  },
+  "STORM/Alien": {
+   "n_informative": 269,
+   "mean_rho_model": -0.0067715165160545515,
+   "mean_rho_true_frames": 0.5039747274334174,
+   "top1_chance": 0.24210037174721188,
+   "top1_model": 0.2379182156133829,
+   "top1_true_frames": 0.6022304832713755,
+   "frac_constant_model": 0.0
+  },
+  "STORM/Asterix": {
+   "n_informative": 212,
+   "mean_rho_model": -0.028130973812642613,
+   "mean_rho_true_frames": 0.33052509307556716,
+   "top1_chance": 0.2694575471698113,
+   "top1_model": 0.23113207547169812,
+   "top1_true_frames": 0.5047169811320755,
+   "frac_constant_model": 0.0
+  },
+  "STORM/Boxing": {
+   "n_informative": 163,
+   "mean_rho_model": 0.001859515120962678,
+   "mean_rho_true_frames": 0.1934675630784783,
+   "top1_chance": 0.34049079754601225,
+   "top1_model": 0.37423312883435583,
+   "top1_true_frames": 0.4233128834355828,
+   "frac_constant_model": 0.0
+  },
+  "STORM/Breakout": {
+   "n_informative": 0
+  },
+  "STORM/CrazyClimber": {
+   "n_informative": 185,
+   "mean_rho_model": 0.46961477986911937,
+   "mean_rho_true_frames": 0.6878040083336012,
+   "top1_chance": 0.3452702702702703,
+   "top1_model": 0.7135135135135136,
+   "top1_true_frames": 1.0,
+   "frac_constant_model": 0.0
+  },
+  "STORM/Frostbite": {
+   "n_informative": 52,
+   "mean_rho_model": 0.18112198941916124,
+   "mean_rho_true_frames": 0.7505281189190433,
+   "top1_chance": 0.5168269230769231,
+   "top1_model": 0.6538461538461539,
+   "top1_true_frames": 1.0,
+   "frac_constant_model": 0.0
+  },
+  "STORM/Qbert": {
+   "n_informative": 140,
+   "mean_rho_model": 0.09510429964896078,
+   "mean_rho_true_frames": 0.07418948906446461,
+   "top1_chance": 0.5178571428571429,
+   "top1_model": 0.5428571428571428,
+   "top1_true_frames": 0.4857142857142857,
+   "frac_constant_model": 0.014285714285714285
+  },
+  "STORM/Seaquest": {
+   "n_informative": 144,
+   "mean_rho_model": 0.12116039872540732,
+   "mean_rho_true_frames": 0.7552500853296426,
+   "top1_chance": 0.3706597222222222,
+   "top1_model": 0.4166666666666667,
+   "top1_true_frames": 0.9930555555555556,
+   "frac_constant_model": 0.0
+  }
+ },
+ "D3_planning_risk": {
+  "table": {
+   "aligned": [
+    9,
+    6
+   ],
+   "not_aligned": [
+    3,
+    6
+   ]
+  },
+  "fisher_p": 0.40032305828509895,
+  "not_aligned_cells": [
+   "DIAMOND/Alien",
+   "DIAMOND/CrazyClimber",
+   "IRIS/Alien",
+   "STORM/Alien",
+   "STORM/Asterix",
+   "STORM/Boxing",
+   "STORM/CrazyClimber",
+   "STORM/Frostbite",
+   "STORM/Qbert"
+  ]
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "note": "post hoc extension of R4 to every Delta-PSNR-dissent cell",
+ "cells": {
+  "iris/Asterix": {
+   "n": 30,
+   "median_A": 0.07533729600354105,
+   "median_R": 0.852945918984564,
+   "median_off_support": 0.7341830198569337,
+   "example": {
+    "episode": 10,
+    "A": 0.08049544575318165,
+    "R": 0.8411000417619942,
+    "off_support": 0.6415235386754617,
+    "figure": "rebuttal/figs/dissent_iris_Asterix_ep10.png"
+   },
+   "paper_dpsnr": {
+    "median": 0.25861911833756146,
+    "lo": 0.10747559716579672,
+    "hi": 0.3723112817768879,
+    "n": 420
+   },
+   "paper_A20": 0.04419048966856905
+  },
+  "iris/Jamesbond": {
+   "n": 8,
+   "median_A": -9.263361301393221e-05,
+   "median_R": 1.1899269253924611,
+   "median_off_support": 0.9999861038015242,
+   "example": {
+    "episode": 16,
+    "A": 0.0,
+    "R": 1.1231734284938133,
+    "off_support": 1.0,
+    "figure": "rebuttal/figs/dissent_iris_Jamesbond_ep16.png"
+   },
+   "paper_dpsnr": {
+    "median": 0.020369567807467348,
+    "lo": 0.005694350483885557,
+    "hi": 0.041686578771379074,
+    "n": 278
+   },
+   "paper_A20": 0.0005017816372933896
+  },
+  "storm/Boxing": {
+   "n": 30,
+   "median_A": -0.0017888086478888752,
+   "median_R": 0.7536570318006441,
+   "median_off_support": 0.6221954941061765,
+   "example": {
+    "episode": 10,
+    "A": -0.015298782881821751,
+    "R": 0.8993292444426,
+    "off_support": 0.6263879476788629,
+    "figure": "rebuttal/figs/dissent_storm_Boxing_ep10.png"
+   },
+   "paper_dpsnr": {
+    "median": 0.17540242157376795,
+    "lo": 0.06160025002694054,
+    "hi": 0.29205524373980557,
+    "n": 412
+   },
+   "paper_A20": 0.015308937303559388
+  },
+  "storm/ChopperCommand": {
+   "n": 25,
+   "median_A": 0.03709038834133603,
+   "median_R": 0.7434586944021052,
+   "median_off_support": 0.4023676754937927,
+   "example": {
+    "episode": 4,
+    "A": 0.03709038834133603,
+    "R": 0.9442301064469186,
+    "off_support": 0.7607892540509897,
+    "figure": "rebuttal/figs/dissent_storm_ChopperCommand_ep4.png"
+   },
+   "paper_dpsnr": {
+    "median": 0.34993891730051274,
+    "lo": 0.1035948334347836,
+    "hi": 0.6395769206385751,
+    "n": 373
+   },
+   "paper_A20": 0.01778274956363707
+  },
+  "storm/CrazyClimber": {
+   "n": 17,
+   "median_A": 0.012609555034446017,
+   "median_R": 0.7977591218577048,
+   "median_off_support": 0.036402571944717466,
+   "example": {
+    "episode": 7,
+    "A": 0.012609555034446017,
+    "R": 0.12322530262067596,
+    "off_support": 0.012033077325885844,
+    "figure": "rebuttal/figs/dissent_storm_CrazyClimber_ep7.png"
+   },
+   "paper_dpsnr": {
+    "median": 1.2479571971368841e-06,
+    "lo": 3.690778706655351e-07,
+    "hi": 0.16263411931025118,
+    "n": 266
+   },
+   "paper_A20": 0.0034358570199094526
+  },
+  "storm/Hero": {
+   "n": 26,
+   "median_A": 0.004139704567306239,
+   "median_R": 0.6669251247614676,
+   "median_off_support": 0.5709164410374231,
+   "example": {
+    "episode": 8,
+    "A": 0.003023676705816753,
+    "R": 0.6446589304980549,
+    "off_support": 0.7052406712016078,
+    "figure": "rebuttal/figs/dissent_storm_Hero_ep8.png"
+   },
+   "paper_dpsnr": {
+    "median": 0.33017726636473554,
+    "lo": 0.10283838756540575,
+    "hi": 0.713426994078997,
+    "n": 391
+   },
+   "paper_A20": 0.031847379898851225
+  },
+  "storm/Jamesbond": {
+   "n": 9,
+   "median_A": 0.05820276200903495,
+   "median_R": 0.8180765889815419,
+   "median_off_support": 0.5817534076827757,
+   "example": {
+    "episode": 25,
+    "A": 0.05820276200903495,
+    "R": 0.5449717204071913,
+    "off_support": 0.5817534076827757,
+    "figure": "rebuttal/figs/dissent_storm_Jamesbond_ep25.png"
+   },
+   "paper_dpsnr": {
+    "median": 0.20126113997013917,
+    "lo": 0.0945983586993151,
+    "hi": 0.492583733567713,
+    "n": 275
+   },
+   "paper_A20": 0.03854473601487322
+  },
+  "storm/KungFuMaster": {
+   "n": 27,
+   "median_A": -0.011499240616185723,
+   "median_R": 0.9912739349019787,
+   "median_off_support": 0.7772098174194246,
+   "example": {
+    "episode": 3,
+    "A": -0.003447927199191102,
+    "R": 0.7831588056476787,
+    "off_support": 0.06600493578045173,
+    "figure": "rebuttal/figs/dissent_storm_KungFuMaster_ep3.png"
+   },
+   "paper_dpsnr": {
+    "median": 0.18948610396089194,
+    "lo": 0.02526096170261738,
+    "hi": 0.31242148779536905,
+    "n": 349
+   },
+   "paper_A20": 0.031012981770305488
+  }
+ },
+ "summary": {
+  "n_cells": 8,
+  "median_R_range": [
+   0.6669251247614676,
+   1.1899269253924611
+  ],
+  "median_off_range": [
+   0.036402571944717466,
+   0.9999861038015242
+  ],
+  "median_A_range": [
+   -0.011499240616185723,
+   0.07533729600354105
+  ]
+ }
+}

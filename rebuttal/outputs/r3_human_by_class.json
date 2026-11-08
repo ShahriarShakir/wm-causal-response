@@ -1,0 +1,114 @@
+{
+ "rule": "rebuttal/README.md R3 (post hoc)",
+ "labels": {
+  "annotator 1": {
+   "counts": {
+    "tracked": [
+     12,
+     13
+    ],
+    "aligned-then-forgotten": [
+     6,
+     9
+    ],
+    "never-aligned": [
+     1,
+     10
+    ],
+    "partial": [
+     4,
+     9
+    ]
+   },
+   "diff_tracked_minus_never": 0.8230769230769232,
+   "diff_ci": [
+    0.4279464285714286,
+    1.0
+   ],
+   "fisher_p": 0.00011450388351720971,
+   "n_games": 10
+  },
+  "annotator 2": {
+   "counts": {
+    "tracked": [
+     11,
+     15
+    ],
+    "aligned-then-forgotten": [
+     8,
+     13
+    ],
+    "never-aligned": [
+     5,
+     16
+    ],
+    "partial": [
+     8,
+     10
+    ]
+   },
+   "diff_tracked_minus_never": 0.4208333333333333,
+   "diff_ci": [
+    0.0555416666666667,
+    0.7857725155279505
+   ],
+   "fisher_p": 0.031952388265403246,
+   "n_games": 13
+  },
+  "annotator 3": {
+   "counts": {
+    "tracked": [
+     11,
+     15
+    ],
+    "aligned-then-forgotten": [
+     7,
+     11
+    ],
+    "never-aligned": [
+     4,
+     18
+    ],
+    "partial": [
+     4,
+     10
+    ]
+   },
+   "diff_tracked_minus_never": 0.5111111111111111,
+   "diff_ci": [
+    0.0951984126984127,
+    0.8636363636363636
+   ],
+   "fisher_p": 0.005313433729191895,
+   "n_games": 13
+  },
+  "consensus": {
+   "counts": {
+    "tracked": [
+     9,
+     11
+    ],
+    "aligned-then-forgotten": [
+     6,
+     9
+    ],
+    "never-aligned": [
+     2,
+     13
+    ],
+    "partial": [
+     3,
+     5
+    ]
+   },
+   "diff_tracked_minus_never": 0.6643356643356644,
+   "diff_ci": [
+    0.2619047619047619,
+    0.9230769230769231
+   ],
+   "fisher_p": 0.0030679319782833045,
+   "n_games": 13
+  }
+ },
+ "reading": "supports a difference"
+}

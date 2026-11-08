@@ -43,3 +43,7 @@ A sweep script drives one game and one intervention through a harness and writes
 ## Paths
 
 Paths from the cluster where the experiments ran are replaced by placeholders such as `<ROOT>` (this folder), `<SCRATCH>` and `<STORM_SRC>`. The job scripts read these locations from environment variables and stop with a message when one is unset. Their scheduler headers keep the placeholders and need editing for another cluster.
+
+## Analyses added during the discussion
+
+`rebuttal/` holds the analyses run to answer the reviews: their rules, written before they were run, with the scripts and the outputs. `ext/visited/` holds the experiment that reruns each model's closed-loop planner and measures the response at the states it visits, and `ext/goal/` the goal-reaching experiment. `rebuttal/README.md` describes them and how to rerun them.

@@ -1,0 +1,635 @@
+{
+ "note": "post hoc comparison of the GPU replication with the CPU run; the R6 tests on the GPU run come once all 24 cells are complete",
+ "n_cells": 24,
+ "cells": [
+  {
+   "arch": "DIAMOND",
+   "game": "Alien",
+   "T": 0.4,
+   "gpu": {
+    "A_vis": 0.09001657801637719,
+    "psnr_vis": 32.09811538567624,
+    "rank_vis": 0.10954021248181961,
+    "mean_return": 22.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.07183198530593825,
+    "psnr_vis": 31.928050089108055,
+    "rank_vis": 0.16752196016165616,
+    "mean_return": 21.0,
+    "n_episodes": 10,
+    "determinism_match": 3,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "DIAMOND",
+   "game": "Asterix",
+   "T": 0.4,
+   "gpu": {
+    "A_vis": 0.9415435839247199,
+    "psnr_vis": 34.54505218746138,
+    "rank_vis": 0.1700460603795407,
+    "mean_return": 150.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.9184250089527913,
+    "psnr_vis": 34.57621011637263,
+    "rank_vis": 0.20805296941296744,
+    "mean_return": 130.0,
+    "n_episodes": 10,
+    "determinism_match": 4,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "DIAMOND",
+   "game": "Boxing",
+   "T": 0.4,
+   "gpu": {
+    "A_vis": 0.4556717128436114,
+    "psnr_vis": 24.39897240072824,
+    "rank_vis": 0.07662141663581955,
+    "mean_return": 0.5,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.40810183725813776,
+    "psnr_vis": 24.44256635020136,
+    "rank_vis": 0.0,
+    "mean_return": -0.2,
+    "n_episodes": 10,
+    "determinism_match": 2,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "DIAMOND",
+   "game": "Breakout",
+   "T": 0.4,
+   "gpu": {
+    "A_vis": 0.9527828954364859,
+    "psnr_vis": 43.18982017559008,
+    "rank_vis": null,
+    "mean_return": 0.1,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.9237781504387567,
+    "psnr_vis": 43.1201525021082,
+    "rank_vis": null,
+    "mean_return": 0.1,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "DIAMOND",
+   "game": "CrazyClimber",
+   "T": 0.4,
+   "gpu": {
+    "A_vis": 0.3779342662109315,
+    "psnr_vis": 40.471567281389774,
+    "rank_vis": 0.5773502691896257,
+    "mean_return": 180.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.32364314667710803,
+    "psnr_vis": 40.69190316391074,
+    "rank_vis": 0.5773502691896257,
+    "mean_return": 170.0,
+    "n_episodes": 10,
+    "determinism_match": 7,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "DIAMOND",
+   "game": "Frostbite",
+   "T": 0.4,
+   "gpu": {
+    "A_vis": 0.6180839874949066,
+    "psnr_vis": 43.47772546254251,
+    "rank_vis": 0.6197797868009122,
+    "mean_return": 12.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.6152244214737917,
+    "psnr_vis": 43.6422053573493,
+    "rank_vis": 0.5455447255899809,
+    "mean_return": 12.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "DIAMOND",
+   "game": "Qbert",
+   "T": 0.4,
+   "gpu": {
+    "A_vis": 0.5936449577277597,
+    "psnr_vis": 36.35561563456607,
+    "rank_vis": 0.25197631533948484,
+    "mean_return": 42.5,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.59210800103366,
+    "psnr_vis": 36.966343931494386,
+    "rank_vis": 0.24970607249609078,
+    "mean_return": 37.5,
+    "n_episodes": 10,
+    "determinism_match": 8,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "DIAMOND",
+   "game": "Seaquest",
+   "T": 0.4,
+   "gpu": {
+    "A_vis": 1.021122698695853,
+    "psnr_vis": 38.022474032068494,
+    "rank_vis": -0.08247860988423225,
+    "mean_return": 4.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 1.019764654608892,
+    "psnr_vis": 38.054444963871624,
+    "rank_vis": 0.0,
+    "mean_return": 8.0,
+    "n_episodes": 10,
+    "determinism_match": 8,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "IRIS",
+   "game": "Alien",
+   "T": 0.10834848900084314,
+   "gpu": {
+    "A_vis": 0.015543334260222483,
+    "psnr_vis": 30.270548159032188,
+    "rank_vis": 0.05634361698190111,
+    "mean_return": 15.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.04356244272255594,
+    "psnr_vis": 30.4573502042134,
+    "rank_vis": 0.08247860988423225,
+    "mean_return": 18.0,
+    "n_episodes": 10,
+    "determinism_match": 4,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "IRIS",
+   "game": "Asterix",
+   "T": 0.10834848900084314,
+   "gpu": {
+    "A_vis": 0.17969484703092994,
+    "psnr_vis": 27.763067566308433,
+    "rank_vis": 0.0,
+    "mean_return": 115.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.1662585332470262,
+    "psnr_vis": 27.698711294944008,
+    "rank_vis": 0.0,
+    "mean_return": 125.0,
+    "n_episodes": 10,
+    "determinism_match": 2,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "IRIS",
+   "game": "Boxing",
+   "T": 0.10834848900084314,
+   "gpu": {
+    "A_vis": 0.26799304204653135,
+    "psnr_vis": 23.86299759736687,
+    "rank_vis": 0.06941111343306668,
+    "mean_return": 0.3,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.23801489202546366,
+    "psnr_vis": 23.842126583570348,
+    "rank_vis": 0.047733328401849344,
+    "mean_return": -0.1,
+    "n_episodes": 10,
+    "determinism_match": 3,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "IRIS",
+   "game": "Breakout",
+   "T": 0.10834848900084314,
+   "gpu": {
+    "A_vis": 0.8835864071526073,
+    "psnr_vis": 38.100424570815655,
+    "rank_vis": null,
+    "mean_return": 0.2,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.8716714936825875,
+    "psnr_vis": 37.99546721670888,
+    "rank_vis": null,
+    "mean_return": 0.2,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "IRIS",
+   "game": "CrazyClimber",
+   "T": 0.10834848900084314,
+   "gpu": {
+    "A_vis": 0.25202518310940014,
+    "psnr_vis": 36.53577972767116,
+    "rank_vis": 0.5773502691896257,
+    "mean_return": 110.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.26327065378163106,
+    "psnr_vis": 36.67161162195769,
+    "rank_vis": 0.5773502691896257,
+    "mean_return": 160.0,
+    "n_episodes": 10,
+    "determinism_match": 7,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "IRIS",
+   "game": "Frostbite",
+   "T": 0.10834848900084314,
+   "gpu": {
+    "A_vis": 0.06542152284562837,
+    "psnr_vis": 34.6093070144103,
+    "rank_vis": 0.25197631533948484,
+    "mean_return": 9.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.10917287053478138,
+    "psnr_vis": 34.568514925584644,
+    "rank_vis": 0.25197631533948484,
+    "mean_return": 9.0,
+    "n_episodes": 10,
+    "determinism_match": 8,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": false
+  },
+  {
+   "arch": "IRIS",
+   "game": "Qbert",
+   "T": 0.10834848900084314,
+   "gpu": {
+    "A_vis": 0.5363388063797103,
+    "psnr_vis": 31.221080995474484,
+    "rank_vis": 0.36907230406091285,
+    "mean_return": 32.5,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.5441499842958413,
+    "psnr_vis": 30.823108577724412,
+    "rank_vis": 0.16903085094570333,
+    "mean_return": 32.5,
+    "n_episodes": 10,
+    "determinism_match": 8,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "IRIS",
+   "game": "Seaquest",
+   "T": 0.10834848900084314,
+   "gpu": {
+    "A_vis": 0.4763438501167753,
+    "psnr_vis": 31.596253403277966,
+    "rank_vis": 0.09128709291752769,
+    "mean_return": 6.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.4458185788742886,
+    "psnr_vis": 31.527745457450266,
+    "rank_vis": 0.12598815766974242,
+    "mean_return": 6.0,
+    "n_episodes": 10,
+    "determinism_match": 6,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "STORM",
+   "game": "Alien",
+   "T": 0.18806267357346898,
+   "gpu": {
+    "A_vis": 0.05186944125484586,
+    "psnr_vis": 31.8859568747384,
+    "rank_vis": 0.07715167498104596,
+    "mean_return": 13.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.05851025396546253,
+    "psnr_vis": 31.849177819087966,
+    "rank_vis": 0.0,
+    "mean_return": 16.0,
+    "n_episodes": 10,
+    "determinism_match": 2,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "STORM",
+   "game": "Asterix",
+   "T": 0.18806267357346898,
+   "gpu": {
+    "A_vis": 0.07919006389785598,
+    "psnr_vis": 28.556936351360957,
+    "rank_vis": 0.05634361698190111,
+    "mean_return": 130.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.08659675992764176,
+    "psnr_vis": 28.130549517933076,
+    "rank_vis": 0.0,
+    "mean_return": 140.0,
+    "n_episodes": 10,
+    "determinism_match": 2,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "STORM",
+   "game": "Boxing",
+   "T": 0.18806267357346898,
+   "gpu": {
+    "A_vis": 0.07952302330441569,
+    "psnr_vis": 24.281863309161754,
+    "rank_vis": 0.0,
+    "mean_return": 0.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.08733192338613881,
+    "psnr_vis": 23.943357983647857,
+    "rank_vis": -0.012770236105969923,
+    "mean_return": -0.1,
+    "n_episodes": 10,
+    "determinism_match": 2,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "STORM",
+   "game": "Breakout",
+   "T": 0.18806267357346898,
+   "gpu": {
+    "A_vis": 0.6937313873321598,
+    "psnr_vis": 42.79678332705313,
+    "rank_vis": null,
+    "mean_return": 0.2,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.6798785792882106,
+    "psnr_vis": 41.37444425700448,
+    "rank_vis": null,
+    "mean_return": 0.2,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "STORM",
+   "game": "CrazyClimber",
+   "T": 0.18806267357346898,
+   "gpu": {
+    "A_vis": 0.046100998013630774,
+    "psnr_vis": 34.764987736277796,
+    "rank_vis": 0.5773502691896257,
+    "mean_return": 150.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.05146227497801354,
+    "psnr_vis": 35.82674528628873,
+    "rank_vis": 0.5773502691896257,
+    "mean_return": 170.0,
+    "n_episodes": 10,
+    "determinism_match": 4,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "STORM",
+   "game": "Frostbite",
+   "T": 0.18806267357346898,
+   "gpu": {
+    "A_vis": 0.005751739988515944,
+    "psnr_vis": 32.33056973730929,
+    "rank_vis": 0.24970607249609078,
+    "mean_return": 7.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.016457381464701184,
+    "psnr_vis": 32.00225686420239,
+    "rank_vis": 0.24970607249609078,
+    "mean_return": 10.0,
+    "n_episodes": 10,
+    "determinism_match": 6,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "STORM",
+   "game": "Qbert",
+   "T": 0.18806267357346898,
+   "gpu": {
+    "A_vis": 0.07982822022146903,
+    "psnr_vis": 33.66682313316141,
+    "rank_vis": 0.16903085094570333,
+    "mean_return": 52.5,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.03568098164265738,
+    "psnr_vis": 35.30880902403107,
+    "rank_vis": 0.1175485513938693,
+    "mean_return": 45.0,
+    "n_episodes": 10,
+    "determinism_match": 5,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  },
+  {
+   "arch": "STORM",
+   "game": "Seaquest",
+   "T": 0.18806267357346898,
+   "gpu": {
+    "A_vis": 0.26339154458020336,
+    "psnr_vis": 31.964243409745368,
+    "rank_vis": 0.12598815766974242,
+    "mean_return": 8.0,
+    "n_episodes": 10,
+    "determinism_match": 10,
+    "complete": true,
+    "device": "Tesla V100-SXM2-32GB"
+   },
+   "cpu": {
+    "A_vis": 0.2962813955142023,
+    "psnr_vis": 31.904752152462766,
+    "rank_vis": 0.12598815766974242,
+    "mean_return": 4.0,
+    "n_episodes": 10,
+    "determinism_match": 8,
+    "complete": true,
+    "device": "cpu"
+   },
+   "same_side": true
+  }
+ ],
+ "episodes": 240,
+ "episodes_with_stored_return": 240,
+ "same_side_of_T": 23,
+ "cells_with_A_vis": 24,
+ "max_abs_A_vis_difference": 0.054291119533823484
+}

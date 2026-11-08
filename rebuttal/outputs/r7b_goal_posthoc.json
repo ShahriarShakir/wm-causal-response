@@ -1,0 +1,35 @@
+{
+ "note": "post hoc, descriptive",
+ "by_class": {
+  "never-aligned": {
+   "n": 28,
+   "median_G": 0.10785714285714287
+  },
+  "aligned-then-forgotten": {
+   "n": 20,
+   "median_G": 0.3238095238095238
+  },
+  "tracked": {
+   "n": 24,
+   "median_G": 0.6247619047619049
+  },
+  "partial": {
+   "n": 6,
+   "median_G": 0.5966141885325559
+  }
+ },
+ "dissent_cells": {
+  "IRIS/Asterix": 0.2914285714285715,
+  "IRIS/Jamesbond": 0.18658008658008665,
+  "STORM/Boxing": 0.22285714285714292,
+  "STORM/ChopperCommand": 0.2380952380952381,
+  "STORM/CrazyClimber": 0.27466666666666667,
+  "STORM/Hero": 0.2914285714285715,
+  "STORM/Jamesbond": 0.4294784580498866,
+  "STORM/KungFuMaster": 0.36
+ },
+ "dissent_measurable_range": [
+  0.18658008658008665,
+  0.4294784580498866
+ ]
+}
